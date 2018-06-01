@@ -1,0 +1,3400 @@
+### run 1
+==38605== NVPROF is profiling process 38605, command: ./tmm1
+==38605== ### begin intervals
+[ 0,0:
+    13737.404297
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+Profiling application: ./tmm1
+==38605== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.41%  12.417us         2  6.2080us  4.9920us  7.4250us  [CUDA memcpy DtoH]
+ 15.38%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 15.20%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38605== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.85%  842.81ms         2  421.40ms  167.07us  842.64ms  cudaMalloc
+  0.07%  559.46us        95  5.8890us     252ns  212.54us  cuDeviceGetAttribute
+  0.03%  292.49us         2  146.25us  126.45us  166.05us  cudaFree
+  0.02%  144.71us         1  144.71us  144.71us  144.71us  cuDeviceTotalMem
+  0.01%  90.830us         2  45.415us  42.505us  48.325us  cudaMemcpy
+  0.01%  62.086us         2  31.043us  16.012us  46.074us  cudaLaunch
+  0.01%  57.250us         1  57.250us  57.250us  57.250us  cuDeviceGetName
+  0.00%  12.512us        20     625ns     239ns  6.3710us  cudaSetupArgument
+  0.00%  4.7700us         3  1.5900us     346ns  3.7340us  cuDeviceGetCount
+  0.00%  1.9830us         2     991ns     609ns  1.3740us  cudaConfigureCall
+  0.00%  1.4260us         3     475ns     322ns     641ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 2
+==38618== NVPROF is profiling process 38618, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13688.122070
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38618== Profiling application: ./tmm1
+==38618== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.47%  12.449us         2  6.2240us  4.9930us  7.4560us  [CUDA memcpy DtoH]
+ 15.36%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 15.18%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38618== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.85%  810.58ms         2  405.29ms  167.57us  810.42ms  cudaMalloc
+  0.07%  541.30us        95  5.6970us     311ns  207.75us  cuDeviceGetAttribute
+  0.04%  300.67us         2  150.34us  130.32us  170.36us  cudaFree
+  0.02%  149.87us         1  149.87us  149.87us  149.87us  cuDeviceTotalMem
+  0.01%  96.697us         2  48.348us  47.875us  48.822us  cudaMemcpy
+  0.01%  61.745us         2  30.872us  16.096us  45.649us  cudaLaunch
+  0.01%  57.606us         1  57.606us  57.606us  57.606us  cuDeviceGetName
+  0.00%  12.640us        20     632ns     235ns  6.6870us  cudaSetupArgument
+  0.00%  5.1320us         3  1.7100us     344ns  3.9280us  cuDeviceGetCount
+  0.00%  3.4260us         3  1.1420us     405ns  2.5740us  cuDeviceGet
+  0.00%  2.0500us         2  1.0250us     636ns  1.4140us  cudaConfigureCall
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 3
+==38630== NVPROF is profiling process 38630, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13532.262695
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38630== Profiling application: ./tmm1
+==38630== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.78%  12.416us         2  6.2080us  4.9920us  7.4240us  [CUDA memcpy DtoH]
+ 15.29%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.93%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38630== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.82%  702.08ms         2  351.04ms  166.94us  701.91ms  cudaMalloc
+  0.09%  631.63us        95  6.6480us     310ns  230.82us  cuDeviceGetAttribute
+  0.04%  301.70us         2  150.85us  131.24us  170.47us  cudaFree
+  0.02%  142.85us         1  142.85us  142.85us  142.85us  cuDeviceTotalMem
+  0.01%  93.825us         2  46.912us  44.634us  49.191us  cudaMemcpy
+  0.01%  62.676us         2  31.338us  16.000us  46.676us  cudaLaunch
+  0.01%  44.183us         1  44.183us  44.183us  44.183us  cuDeviceGetName
+  0.00%  12.470us        20     623ns     234ns  6.7340us  cudaSetupArgument
+  0.00%  5.6280us         3  1.8760us     437ns  4.3150us  cuDeviceGetCount
+  0.00%  2.0080us         2  1.0040us     609ns  1.3990us  cudaConfigureCall
+  0.00%  1.5140us         3     504ns     407ns     604ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 4
+==38643== NVPROF is profiling process 38643, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13510.718750
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38643== Profiling application: ./tmm1
+==38643== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 80.41%  22.464us         2  11.232us  8.3520us  14.112us  [CUDA memcpy DtoH]
+  9.85%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+  9.74%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38643== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.83%  662.21ms         2  331.11ms  171.26us  662.04ms  cudaMalloc
+  0.07%  454.61us        95  4.7850us     249ns  176.63us  cuDeviceGetAttribute
+  0.05%  305.56us         2  152.78us  131.15us  174.41us  cudaFree
+  0.02%  118.86us         1  118.86us  118.86us  118.86us  cuDeviceTotalMem
+  0.02%  107.83us         2  53.912us  53.402us  54.423us  cudaMemcpy
+  0.01%  72.311us         2  36.155us  16.185us  56.126us  cudaLaunch
+  0.01%  49.099us         1  49.099us  49.099us  49.099us  cuDeviceGetName
+  0.00%  12.401us        20     620ns     237ns  6.6230us  cudaSetupArgument
+  0.00%  4.3440us         3  1.4480us     354ns  3.3190us  cuDeviceGetCount
+  0.00%  1.9220us         2     961ns     608ns  1.3140us  cudaConfigureCall
+  0.00%  1.4270us         3     475ns     337ns     688ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 5
+==38655== NVPROF is profiling process 38655, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13761.871094
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38655== Profiling application: ./tmm1
+==38655== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.95%  12.512us         2  6.2560us  5.0880us  7.4240us  [CUDA memcpy DtoH]
+ 15.38%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.67%  2.6240us         1  2.6240us  2.6240us  2.6240us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38655== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.87%  845.63ms         2  422.82ms  169.97us  845.46ms  cudaMalloc
+  0.05%  450.67us        95  4.7430us     259ns  171.34us  cuDeviceGetAttribute
+  0.04%  301.95us         2  150.98us  132.24us  169.71us  cudaFree
+  0.01%  119.55us         1  119.55us  119.55us  119.55us  cuDeviceTotalMem
+  0.01%  93.007us         2  46.503us  45.249us  47.758us  cudaMemcpy
+  0.01%  72.578us         2  36.289us  24.346us  48.232us  cudaLaunch
+  0.01%  49.788us         1  49.788us  49.788us  49.788us  cuDeviceGetName
+  0.00%  12.292us        20     614ns     237ns  6.4420us  cudaSetupArgument
+  0.00%  5.1430us         3  1.7140us     379ns  4.0730us  cuDeviceGetCount
+  0.00%  2.0090us         2  1.0040us     606ns  1.4030us  cudaConfigureCall
+  0.00%  1.7460us         3     582ns     346ns     761ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 6
+==38667== NVPROF is profiling process 38667, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13382.751953
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38667== Profiling application: ./tmm1
+==38667== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.71%  12.448us         2  6.2240us  5.0240us  7.4240us  [CUDA memcpy DtoH]
+ 15.59%  2.7840us         1  2.7840us  2.7840us  2.7840us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.70%  2.6240us         1  2.6240us  2.6240us  2.6240us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38667== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  785.89ms         2  392.95ms  174.54us  785.72ms  cudaMalloc
+  0.06%  451.09us        95  4.7480us     254ns  170.35us  cuDeviceGetAttribute
+  0.04%  298.71us         2  149.35us  132.20us  166.51us  cudaFree
+  0.02%  118.10us         1  118.10us  118.10us  118.10us  cuDeviceTotalMem
+  0.01%  88.950us         2  44.475us  41.229us  47.721us  cudaMemcpy
+  0.01%  61.802us         2  30.901us  16.681us  45.121us  cudaLaunch
+  0.01%  48.888us         1  48.888us  48.888us  48.888us  cuDeviceGetName
+  0.00%  12.193us        20     609ns     236ns  6.3590us  cudaSetupArgument
+  0.00%  5.3410us         3  1.7800us     435ns  4.2720us  cuDeviceGetCount
+  0.00%  2.1360us         2  1.0680us     612ns  1.5240us  cudaConfigureCall
+  0.00%  1.4840us         3     494ns     311ns     639ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 7
+==38679== NVPROF is profiling process 38679, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13687.723633
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38679== Profiling application: ./tmm1
+==38679== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 74.32%  15.936us         2  7.9680us  7.5840us  8.3520us  [CUDA memcpy DtoH]
+ 13.14%  2.8170us         1  2.8170us  2.8170us  2.8170us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 12.54%  2.6880us         1  2.6880us  2.6880us  2.6880us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38679== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.82%  682.73ms         2  341.36ms  175.19us  682.55ms  cudaMalloc
+  0.08%  548.47us        95  5.7730us     322ns  202.53us  cuDeviceGetAttribute
+  0.04%  301.13us         2  150.56us  130.10us  171.03us  cudaFree
+  0.02%  143.15us         1  143.15us  143.15us  143.15us  cuDeviceTotalMem
+  0.01%  98.935us         2  49.467us  44.660us  54.275us  cudaMemcpy
+  0.01%  63.036us         2  31.518us  16.368us  46.668us  cudaLaunch
+  0.01%  47.280us         1  47.280us  47.280us  47.280us  cuDeviceGetName
+  0.00%  12.545us        20     627ns     239ns  6.4780us  cudaSetupArgument
+  0.00%  5.5380us         3  1.8460us     451ns  4.2240us  cuDeviceGetCount
+  0.00%  2.2050us         2  1.1020us     629ns  1.5760us  cudaConfigureCall
+  0.00%  1.7430us         3     581ns     446ns     713ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 8
+==38691== NVPROF is profiling process 38691, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13408.432617
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38691== Profiling application: ./tmm1
+==38691== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.53%  12.416us         2  6.2080us  4.9920us  7.4240us  [CUDA memcpy DtoH]
+ 15.59%  2.7840us         1  2.7840us  2.7840us  2.7840us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.87%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38691== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.85%  793.05ms         2  396.53ms  167.47us  792.88ms  cudaMalloc
+  0.07%  529.78us        95  5.5760us     311ns  210.07us  cuDeviceGetAttribute
+  0.04%  308.38us         2  154.19us  130.23us  178.15us  cudaFree
+  0.02%  146.27us         1  146.27us  146.27us  146.27us  cuDeviceTotalMem
+  0.01%  88.028us         2  44.014us  40.845us  47.183us  cudaMemcpy
+  0.01%  63.040us         2  31.520us  16.212us  46.828us  cudaLaunch
+  0.01%  62.718us         1  62.718us  62.718us  62.718us  cuDeviceGetName
+  0.00%  12.542us        20     627ns     235ns  6.5920us  cudaSetupArgument
+  0.00%  5.6930us         3  1.8970us     430ns  4.4430us  cuDeviceGetCount
+  0.00%  2.1520us         2  1.0760us     600ns  1.5520us  cudaConfigureCall
+  0.00%  1.5540us         3     518ns     422ns     644ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 9
+==38704== NVPROF is profiling process 38704, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13204.770508
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38704== Profiling application: ./tmm1
+==38704== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.65%  12.416us         2  6.2080us  4.9920us  7.4240us  [CUDA memcpy DtoH]
+ 15.62%  2.7850us         1  2.7850us  2.7850us  2.7850us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.73%  2.6250us         1  2.6250us  2.6250us  2.6250us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38704== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  820.21ms         2  410.10ms  172.75us  820.03ms  cudaMalloc
+  0.06%  510.99us        95  5.3780us     249ns  207.36us  cuDeviceGetAttribute
+  0.04%  301.16us         2  150.58us  132.93us  168.23us  cudaFree
+  0.02%  123.49us         1  123.49us  123.49us  123.49us  cuDeviceTotalMem
+  0.01%  97.394us         2  48.697us  46.371us  51.023us  cudaMemcpy
+  0.01%  61.335us         2  30.667us  15.939us  45.396us  cudaLaunch
+  0.01%  53.313us         1  53.313us  53.313us  53.313us  cuDeviceGetName
+  0.00%  11.907us        20     595ns     235ns  6.2280us  cudaSetupArgument
+  0.00%  5.0220us         3  1.6740us     351ns  3.9430us  cuDeviceGetCount
+  0.00%  1.9390us         2     969ns     595ns  1.3440us  cudaConfigureCall
+  0.00%  1.4640us         3     488ns     321ns     679ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 10
+==38716== NVPROF is profiling process 38716, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13959.746094
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38716== Profiling application: ./tmm1
+==38716== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 70.09%  12.448us         2  6.2240us  4.9920us  7.4560us  [CUDA memcpy DtoH]
+ 15.32%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.59%  2.5920us         1  2.5920us  2.5920us  2.5920us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38716== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.83%  689.49ms         2  344.75ms  167.10us  689.33ms  cudaMalloc
+  0.07%  502.13us        95  5.2850us     312ns  188.94us  cuDeviceGetAttribute
+  0.04%  303.33us         2  151.67us  131.05us  172.29us  cudaFree
+  0.02%  141.87us         1  141.87us  141.87us  141.87us  cuDeviceTotalMem
+  0.01%  91.754us         2  45.877us  43.606us  48.148us  cudaMemcpy
+  0.01%  70.529us         1  70.529us  70.529us  70.529us  cuDeviceGetName
+  0.01%  62.825us         2  31.412us  16.099us  46.726us  cudaLaunch
+  0.00%  12.132us        20     606ns     242ns  6.3800us  cudaSetupArgument
+  0.00%  4.5770us         3  1.5250us     357ns  3.6060us  cuDeviceGetCount
+  0.00%  2.0770us         2  1.0380us     643ns  1.4340us  cudaConfigureCall
+  0.00%  1.4880us         3     496ns     332ns     751ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 11
+==38728== NVPROF is profiling process 38728, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13362.800781
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38728== Profiling application: ./tmm1
+==38728== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.78%  12.416us         2  6.2080us  4.9920us  7.4240us  [CUDA memcpy DtoH]
+ 15.29%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.93%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38728== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.87%  847.58ms         2  423.79ms  166.73us  847.41ms  cudaMalloc
+  0.06%  467.33us        95  4.9190us     250ns  178.79us  cuDeviceGetAttribute
+  0.04%  299.90us         2  149.95us  130.33us  169.57us  cudaFree
+  0.01%  119.76us         1  119.76us  119.76us  119.76us  cuDeviceTotalMem
+  0.01%  86.940us         2  43.470us  40.070us  46.870us  cudaMemcpy
+  0.01%  64.160us         2  32.080us  16.155us  48.005us  cudaLaunch
+  0.01%  48.958us         1  48.958us  48.958us  48.958us  cuDeviceGetName
+  0.00%  12.916us        20     645ns     233ns  7.1490us  cudaSetupArgument
+  0.00%  4.9720us         3  1.6570us     369ns  3.9500us  cuDeviceGetCount
+  0.00%  2.1420us         2  1.0710us     581ns  1.5610us  cudaConfigureCall
+  0.00%  1.3520us         3     450ns     304ns     618ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 12
+==38740== NVPROF is profiling process 38740, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13262.210938
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38740== Profiling application: ./tmm1
+==38740== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 70.73%  12.448us         2  6.2240us  4.9920us  7.4560us  [CUDA memcpy DtoH]
+ 14.91%  2.6240us         1  2.6240us  2.6240us  2.6240us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+ 14.36%  2.5280us         1  2.5280us  2.5280us  2.5280us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+
+==38740== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  805.15ms         2  402.57ms  167.36us  804.98ms  cudaMalloc
+  0.06%  494.63us        95  5.2060us     260ns  196.77us  cuDeviceGetAttribute
+  0.04%  296.08us         2  148.04us  129.98us  166.10us  cudaFree
+  0.02%  141.47us         1  141.47us  141.47us  141.47us  cuDeviceTotalMem
+  0.01%  90.874us         2  45.437us  43.263us  47.611us  cudaMemcpy
+  0.01%  62.731us         2  31.365us  16.017us  46.714us  cudaLaunch
+  0.01%  53.444us         1  53.444us  53.444us  53.444us  cuDeviceGetName
+  0.00%  12.040us        20     602ns     233ns  6.2940us  cudaSetupArgument
+  0.00%  5.2400us         3  1.7460us     497ns  3.9180us  cuDeviceGetCount
+  0.00%  2.1140us         2  1.0570us     617ns  1.4970us  cudaConfigureCall
+  0.00%  1.8250us         3     608ns     437ns     829ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 13
+==38752== NVPROF is profiling process 38752, command: ./tmm1
+==38752== Profiling application: ./tmm1
+### begin intervals
+[ 0,0:
+    14104.207031
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38752== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.86%  12.608us         2  6.3040us  4.9920us  7.6160us  [CUDA memcpy DtoH]
+ 15.43%  2.7840us         1  2.7840us  2.7840us  2.7840us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.72%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38752== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.84%  804.06ms         2  402.03ms  191.27us  803.87ms  cudaMalloc
+  0.07%  524.61us        95  5.5220us     307ns  215.97us  cuDeviceGetAttribute
+  0.04%  354.17us         2  177.09us  165.86us  188.31us  cudaFree
+  0.02%  175.78us         1  175.78us  175.78us  175.78us  cuDeviceTotalMem
+  0.01%  100.89us         2  50.443us  46.868us  54.018us  cudaMemcpy
+  0.01%  72.120us         2  36.060us  19.858us  52.262us  cudaLaunch
+  0.01%  45.155us         1  45.155us  45.155us  45.155us  cuDeviceGetName
+  0.00%  14.808us        20     740ns     288ns  7.9740us  cudaSetupArgument
+  0.00%  5.5400us         3  1.8460us     411ns  4.3720us  cuDeviceGetCount
+  0.00%  2.3770us         2  1.1880us     746ns  1.6310us  cudaConfigureCall
+  0.00%  1.7090us         3     569ns     419ns     797ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 14
+==38764== NVPROF is profiling process 38764, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13745.120117
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38764== Profiling application: ./tmm1
+==38764== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 74.59%  15.872us         2  7.9360us  7.4240us  8.4480us  [CUDA memcpy DtoH]
+ 12.93%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 12.48%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38764== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.85%  756.19ms         2  378.10ms  166.48us  756.03ms  cudaMalloc
+  0.06%  473.19us        95  4.9800us     248ns  178.11us  cuDeviceGetAttribute
+  0.04%  298.12us         2  149.06us  130.52us  167.60us  cudaFree
+  0.02%  121.08us         1  121.08us  121.08us  121.08us  cuDeviceTotalMem
+  0.01%  98.391us         2  49.195us  43.823us  54.568us  cudaMemcpy
+  0.01%  63.733us         2  31.866us  15.965us  47.768us  cudaLaunch
+  0.01%  48.784us         1  48.784us  48.784us  48.784us  cuDeviceGetName
+  0.00%  11.782us        20     589ns     233ns  6.1860us  cudaSetupArgument
+  0.00%  4.3050us         3  1.4350us     330ns  3.4020us  cuDeviceGetCount
+  0.00%  1.8760us         2     938ns     603ns  1.2730us  cudaConfigureCall
+  0.00%  1.4260us         3     475ns     345ns     671ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 15
+==38776== NVPROF is profiling process 38776, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13328.332031
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38776== Profiling application: ./tmm1
+==38776== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.53%  12.416us         2  6.2080us  4.9920us  7.4240us  [CUDA memcpy DtoH]
+ 15.77%  2.8160us         1  2.8160us  2.8160us  2.8160us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.70%  2.6240us         1  2.6240us  2.6240us  2.6240us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38776== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  811.83ms         2  405.92ms  176.23us  811.66ms  cudaMalloc
+  0.06%  475.75us        95  5.0070us     253ns  190.49us  cuDeviceGetAttribute
+  0.04%  306.49us         2  153.25us  136.69us  169.80us  cudaFree
+  0.01%  119.15us         1  119.15us  119.15us  119.15us  cuDeviceTotalMem
+  0.01%  86.924us         2  43.462us  40.979us  45.945us  cudaMemcpy
+  0.01%  63.157us         2  31.578us  15.653us  47.504us  cudaLaunch
+  0.01%  48.467us         1  48.467us  48.467us  48.467us  cuDeviceGetName
+  0.00%  12.181us        20     609ns     235ns  6.3490us  cudaSetupArgument
+  0.00%  4.5830us         3  1.5270us     428ns  3.4800us  cuDeviceGetCount
+  0.00%  2.2180us         2  1.1090us     600ns  1.6180us  cudaConfigureCall
+  0.00%  1.4750us         3     491ns     350ns     704ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 16
+==38788== NVPROF is profiling process 38788, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13200.751953
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38788== Profiling application: ./tmm1
+==38788== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.98%  12.609us         2  6.3040us  4.9610us  7.6480us  [CUDA memcpy DtoH]
+ 15.27%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.74%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38788== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.82%  691.08ms         2  345.54ms  168.44us  690.91ms  cudaMalloc
+  0.08%  555.23us        95  5.8440us     322ns  204.60us  cuDeviceGetAttribute
+  0.04%  294.42us         2  147.21us  126.96us  167.47us  cudaFree
+  0.02%  170.37us         1  170.37us  170.37us  170.37us  cuDeviceTotalMem
+  0.01%  90.226us         2  45.113us  44.371us  45.855us  cudaMemcpy
+  0.01%  62.213us         2  31.106us  16.134us  46.079us  cudaLaunch
+  0.01%  59.291us         1  59.291us  59.291us  59.291us  cuDeviceGetName
+  0.00%  11.997us        20     599ns     232ns  6.1750us  cudaSetupArgument
+  0.00%  5.5660us         3  1.8550us     491ns  4.3320us  cuDeviceGetCount
+  0.00%  1.9740us         2     987ns     616ns  1.3580us  cudaConfigureCall
+  0.00%  1.8400us         3     613ns     397ns     845ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 17
+==38888== NVPROF is profiling process 38888, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13747.864258
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38888== Profiling application: ./tmm1
+==38888== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 74.70%  15.969us         2  7.9840us  7.5840us  8.3850us  [CUDA memcpy DtoH]
+ 12.87%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 12.42%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38888== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.84%  672.08ms         2  336.04ms  166.53us  671.91ms  cudaMalloc
+  0.07%  449.18us        95  4.7280us     258ns  170.91us  cuDeviceGetAttribute
+  0.05%  310.29us         2  155.14us  139.80us  170.49us  cudaFree
+  0.02%  119.71us         1  119.71us  119.71us  119.71us  cuDeviceTotalMem
+  0.01%  96.162us         2  48.081us  42.722us  53.440us  cudaMemcpy
+  0.01%  62.720us         2  31.360us  16.101us  46.619us  cudaLaunch
+  0.01%  48.668us         1  48.668us  48.668us  48.668us  cuDeviceGetName
+  0.00%  12.254us        20     612ns     240ns  6.3100us  cudaSetupArgument
+  0.00%  4.8520us         3  1.6170us     366ns  3.8200us  cuDeviceGetCount
+  0.00%  2.1770us         2  1.0880us     608ns  1.5690us  cudaConfigureCall
+  0.00%  1.4170us         3     472ns     314ns     696ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 18
+==38903== NVPROF is profiling process 38903, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13751.699219
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38903== Profiling application: ./tmm1
+==38903== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 74.55%  15.840us         2  7.9200us  7.4560us  8.3840us  [CUDA memcpy DtoH]
+ 12.95%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 12.50%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38903== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.83%  691.16ms         2  345.58ms  173.76us  690.98ms  cudaMalloc
+  0.08%  530.07us        95  5.5790us     307ns  204.08us  cuDeviceGetAttribute
+  0.04%  304.26us         2  152.13us  134.11us  170.15us  cudaFree
+  0.02%  143.09us         1  143.09us  143.09us  143.09us  cuDeviceTotalMem
+  0.01%  94.451us         2  47.225us  40.502us  53.949us  cudaMemcpy
+  0.01%  63.754us         2  31.877us  16.140us  47.614us  cudaLaunch
+  0.01%  46.838us         1  46.838us  46.838us  46.838us  cuDeviceGetName
+  0.00%  12.672us        20     633ns     233ns  6.4760us  cudaSetupArgument
+  0.00%  5.5650us         3  1.8550us     478ns  4.2300us  cuDeviceGetCount
+  0.00%  2.0130us         2  1.0060us     626ns  1.3870us  cudaConfigureCall
+  0.00%  1.7690us         3     589ns     395ns     691ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 19
+==38915== NVPROF is profiling process 38915, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13502.896484
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38915== Profiling application: ./tmm1
+==38915== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 80.55%  22.656us         2  11.328us  8.3840us  14.272us  [CUDA memcpy DtoH]
+  9.90%  2.7840us         1  2.7840us  2.7840us  2.7840us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+  9.56%  2.6880us         1  2.6880us  2.6880us  2.6880us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38915== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.83%  670.82ms         2  335.41ms  180.59us  670.64ms  cudaMalloc
+  0.07%  457.42us        95  4.8140us     254ns  173.35us  cuDeviceGetAttribute
+  0.05%  315.16us         2  157.58us  141.60us  173.56us  cudaFree
+  0.02%  118.78us         1  118.78us  118.78us  118.78us  cuDeviceTotalMem
+  0.02%  109.37us         2  54.685us  51.422us  57.949us  cudaMemcpy
+  0.01%  80.612us         2  40.306us  16.512us  64.100us  cudaLaunch
+  0.01%  48.788us         1  48.788us  48.788us  48.788us  cuDeviceGetName
+  0.00%  13.726us        20     686ns     240ns  7.2580us  cudaSetupArgument
+  0.00%  8.8360us         3  2.9450us     444ns  4.3020us  cuDeviceGetCount
+  0.00%  2.4850us         2  1.2420us     622ns  1.8630us  cudaConfigureCall
+  0.00%  1.5770us         3     525ns     326ns     752ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 20
+==38927== NVPROF is profiling process 38927, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13708.758789
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38927== Profiling application: ./tmm1
+==38927== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 74.58%  15.776us         2  7.8880us  7.4560us  8.3200us  [CUDA memcpy DtoH]
+ 12.86%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 12.56%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38927== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.83%  672.28ms         2  336.14ms  174.68us  672.10ms  cudaMalloc
+  0.08%  505.59us        95  5.3210us     255ns  187.45us  cuDeviceGetAttribute
+  0.04%  300.01us         2  150.01us  130.68us  169.33us  cudaFree
+  0.02%  126.85us         1  126.85us  126.85us  126.85us  cuDeviceTotalMem
+  0.02%  101.85us         2  50.922us  47.428us  54.417us  cudaMemcpy
+  0.01%  62.284us         2  31.142us  16.105us  46.179us  cudaLaunch
+  0.01%  54.881us         1  54.881us  54.881us  54.881us  cuDeviceGetName
+  0.00%  12.224us        20     611ns     236ns  6.5810us  cudaSetupArgument
+  0.00%  5.9740us         3  1.9910us     447ns  4.8900us  cuDeviceGetCount
+  0.00%  2.1930us         2  1.0960us     627ns  1.5660us  cudaConfigureCall
+  0.00%  1.4100us         3     470ns     336ns     599ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 21
+==38939== NVPROF is profiling process 38939, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13488.173828
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38939== Profiling application: ./tmm1
+==38939== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 71.08%  13.216us         2  6.6080us  5.6640us  7.5520us  [CUDA memcpy DtoH]
+ 14.80%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.11%  2.6240us         1  2.6240us  2.6240us  2.6240us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38939== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.82%  646.71ms         2  323.35ms  167.38us  646.54ms  cudaMalloc
+  0.08%  511.51us        95  5.3840us     253ns  202.93us  cuDeviceGetAttribute
+  0.05%  310.39us         2  155.19us  138.30us  172.09us  cudaFree
+  0.02%  123.86us         1  123.86us  123.86us  123.86us  cuDeviceTotalMem
+  0.01%  89.877us         2  44.938us  41.138us  48.739us  cudaMemcpy
+  0.01%  61.447us         2  30.723us  16.363us  45.084us  cudaLaunch
+  0.01%  46.511us         1  46.511us  46.511us  46.511us  cuDeviceGetName
+  0.00%  12.551us        20     627ns     235ns  6.4030us  cudaSetupArgument
+  0.00%  5.7470us         3  1.9150us     480ns  4.6470us  cuDeviceGetCount
+  0.00%  1.9660us         2     983ns     611ns  1.3550us  cudaConfigureCall
+  0.00%  1.7070us         3     569ns     321ns     733ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 22
+==38951== NVPROF is profiling process 38951, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13661.298828
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38951== Profiling application: ./tmm1
+==38951== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.29%  12.417us         2  6.2080us  4.9930us  7.4240us  [CUDA memcpy DtoH]
+ 15.89%  2.8480us         1  2.8480us  2.8480us  2.8480us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.82%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38951== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.83%  723.22ms         2  361.61ms  174.78us  723.05ms  cudaMalloc
+  0.08%  579.52us        95  6.1000us     310ns  223.43us  cuDeviceGetAttribute
+  0.04%  301.54us         2  150.77us  131.89us  169.65us  cudaFree
+  0.02%  150.71us         1  150.71us  150.71us  150.71us  cuDeviceTotalMem
+  0.01%  92.060us         2  46.030us  44.862us  47.198us  cudaMemcpy
+  0.01%  65.023us         2  32.511us  16.092us  48.931us  cudaLaunch
+  0.01%  52.184us         1  52.184us  52.184us  52.184us  cuDeviceGetName
+  0.00%  12.882us        20     644ns     237ns  6.2370us  cudaSetupArgument
+  0.00%  6.1500us         3  2.0500us     419ns  4.9470us  cuDeviceGetCount
+  0.00%  1.9970us         2     998ns     608ns  1.3890us  cudaConfigureCall
+  0.00%  1.9280us         3     642ns     430ns     773ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 23
+==38963== NVPROF is profiling process 38963, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13649.277344
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38963== Profiling application: ./tmm1
+==38963== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 70.69%  13.121us         2  6.5600us  5.6970us  7.4240us  [CUDA memcpy DtoH]
+ 14.83%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.48%  2.6880us         1  2.6880us  2.6880us  2.6880us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38963== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.85%  760.96ms         2  380.48ms  167.40us  760.80ms  cudaMalloc
+  0.06%  467.81us        95  4.9240us     253ns  185.32us  cuDeviceGetAttribute
+  0.04%  299.37us         2  149.68us  130.86us  168.51us  cudaFree
+  0.02%  119.62us         1  119.62us  119.62us  119.62us  cuDeviceTotalMem
+  0.01%  92.748us         2  46.374us  44.178us  48.570us  cudaMemcpy
+  0.01%  63.386us         2  31.693us  16.058us  47.328us  cudaLaunch
+  0.01%  48.281us         1  48.281us  48.281us  48.281us  cuDeviceGetName
+  0.00%  12.159us        20     607ns     236ns  6.2020us  cudaSetupArgument
+  0.00%  5.2760us         3  1.7580us     338ns  4.3010us  cuDeviceGetCount
+  0.00%  2.3940us         2  1.1970us     951ns  1.4430us  cudaConfigureCall
+  0.00%  1.4600us         3     486ns     343ns     711ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 24
+==38975== NVPROF is profiling process 38975, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13538.075195
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38975== Profiling application: ./tmm1
+==38975== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 80.87%  22.720us         2  11.360us  8.5760us  14.144us  [CUDA memcpy DtoH]
+  9.68%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+  9.45%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38975== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.83%  684.80ms         2  342.40ms  189.40us  684.61ms  cudaMalloc
+  0.07%  472.63us        95  4.9750us     249ns  183.82us  cuDeviceGetAttribute
+  0.05%  317.11us         2  158.55us  137.11us  180.00us  cudaFree
+  0.02%  120.15us         1  120.15us  120.15us  120.15us  cuDeviceTotalMem
+  0.02%  108.77us         2  54.382us  51.848us  56.917us  cudaMemcpy
+  0.01%  82.577us         2  41.288us  16.867us  65.710us  cudaLaunch
+  0.01%  41.939us         1  41.939us  41.939us  41.939us  cuDeviceGetName
+  0.00%  13.252us        20     662ns     233ns  7.2810us  cudaSetupArgument
+  0.00%  5.4160us         3  1.8050us     432ns  4.2880us  cuDeviceGetCount
+  0.00%  2.6450us         2  1.3220us     611ns  2.0340us  cudaConfigureCall
+  0.00%  1.7850us         3     595ns     370ns     730ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 25
+==38987== NVPROF is profiling process 38987, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13680.046875
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38987== Profiling application: ./tmm1
+==38987== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 74.47%  15.776us         2  7.8880us  7.4240us  8.3520us  [CUDA memcpy DtoH]
+ 12.99%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 12.54%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38987== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.84%  739.53ms         2  369.76ms  167.70us  739.36ms  cudaMalloc
+  0.07%  497.90us        95  5.2410us     254ns  186.44us  cuDeviceGetAttribute
+  0.04%  300.31us         2  150.15us  131.26us  169.04us  cudaFree
+  0.02%  124.32us         1  124.32us  124.32us  124.32us  cuDeviceTotalMem
+  0.01%  97.485us         2  48.742us  43.574us  53.911us  cudaMemcpy
+  0.01%  64.926us         2  32.463us  16.153us  48.773us  cudaLaunch
+  0.01%  54.535us         1  54.535us  54.535us  54.535us  cuDeviceGetName
+  0.00%  12.416us        20     620ns     236ns  6.6090us  cudaSetupArgument
+  0.00%  5.5320us         3  1.8440us     358ns  4.5100us  cuDeviceGetCount
+  0.00%  2.1350us         2  1.0670us     639ns  1.4960us  cudaConfigureCall
+  0.00%  1.3990us         3     466ns     329ns     647ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 26
+==38999== NVPROF is profiling process 38999, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13773.098633
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==38999== Profiling application: ./tmm1
+==38999== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.54%  12.417us         2  6.2080us  4.9930us  7.4240us  [CUDA memcpy DtoH]
+ 15.59%  2.7840us         1  2.7840us  2.7840us  2.7840us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.87%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==38999== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  857.29ms         2  428.64ms  167.33us  857.12ms  cudaMalloc
+  0.06%  529.86us        95  5.5770us     314ns  201.83us  cuDeviceGetAttribute
+  0.04%  301.91us         2  150.95us  131.07us  170.83us  cudaFree
+  0.02%  136.06us         1  136.06us  136.06us  136.06us  cuDeviceTotalMem
+  0.01%  91.785us         2  45.892us  43.568us  48.217us  cudaMemcpy
+  0.01%  64.755us         1  64.755us  64.755us  64.755us  cuDeviceGetName
+  0.01%  61.473us         2  30.736us  16.084us  45.389us  cudaLaunch
+  0.00%  13.111us        20     655ns     235ns  6.8520us  cudaSetupArgument
+  0.00%  5.4190us         3  1.8060us     405ns  4.3880us  cuDeviceGetCount
+  0.00%  2.3000us         2  1.1500us     640ns  1.6600us  cudaConfigureCall
+  0.00%  1.7760us         3     592ns     337ns     742ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 27
+==39011== NVPROF is profiling process 39011, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13804.410156
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39011== Profiling application: ./tmm1
+==39011== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.60%  12.384us         2  6.1920us  4.9600us  7.4240us  [CUDA memcpy DtoH]
+ 15.47%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.93%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39011== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.85%  801.92ms         2  400.96ms  167.31us  801.76ms  cudaMalloc
+  0.06%  501.03us        95  5.2730us     253ns  192.85us  cuDeviceGetAttribute
+  0.04%  314.60us         2  157.30us  130.73us  183.88us  cudaFree
+  0.02%  148.91us         1  148.91us  148.91us  148.91us  cuDeviceTotalMem
+  0.01%  103.68us         2  51.841us  40.638us  63.045us  cudaMemcpy
+  0.01%  70.673us         2  35.336us  16.541us  54.132us  cudaLaunch
+  0.01%  53.313us         1  53.313us  53.313us  53.313us  cuDeviceGetName
+  0.00%  13.908us        20     695ns     236ns  7.5790us  cudaSetupArgument
+  0.00%  5.7500us         3  1.9160us     446ns  4.5730us  cuDeviceGetCount
+  0.00%  2.1200us         2  1.0600us     634ns  1.4860us  cudaConfigureCall
+  0.00%  1.6720us         3     557ns     418ns     749ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 28
+==39023== NVPROF is profiling process 39023, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13715.812500
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39023== Profiling application: ./tmm1
+==39023== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.64%  12.481us         2  6.2400us  5.0240us  7.4570us  [CUDA memcpy DtoH]
+ 15.53%  2.7840us         1  2.7840us  2.7840us  2.7840us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.82%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39023== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.87%  830.83ms         2  415.42ms  167.99us  830.66ms  cudaMalloc
+  0.06%  480.54us        95  5.0580us     258ns  182.49us  cuDeviceGetAttribute
+  0.04%  299.45us         2  149.72us  137.43us  162.01us  cudaFree
+  0.01%  120.39us         1  120.39us  120.39us  120.39us  cuDeviceTotalMem
+  0.01%  91.298us         2  45.649us  43.582us  47.716us  cudaMemcpy
+  0.01%  61.577us         2  30.788us  15.937us  45.640us  cudaLaunch
+  0.01%  42.413us         1  42.413us  42.413us  42.413us  cuDeviceGetName
+  0.00%  12.922us        20     646ns     235ns  6.8550us  cudaSetupArgument
+  0.00%  5.1150us         3  1.7050us     474ns  3.9500us  cuDeviceGetCount
+  0.00%  2.0110us         2  1.0050us     620ns  1.3910us  cudaConfigureCall
+  0.00%  1.8940us         3     631ns     357ns     830ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 29
+==39035== NVPROF is profiling process 39035, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13214.181641
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39035== Profiling application: ./tmm1
+==39035== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 70.16%  12.640us         2  6.3200us  5.2160us  7.4240us  [CUDA memcpy DtoH]
+ 15.28%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.56%  2.6240us         1  2.6240us  2.6240us  2.6240us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39035== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  831.13ms         2  415.56ms  175.96us  830.95ms  cudaMalloc
+  0.06%  479.14us        95  5.0430us     253ns  179.22us  cuDeviceGetAttribute
+  0.04%  302.31us         2  151.16us  131.29us  171.03us  cudaFree
+  0.01%  118.58us         1  118.58us  118.58us  118.58us  cuDeviceTotalMem
+  0.01%  95.231us         2  47.615us  47.369us  47.862us  cudaMemcpy
+  0.01%  62.412us         2  31.206us  15.743us  46.669us  cudaLaunch
+  0.01%  48.745us         1  48.745us  48.745us  48.745us  cuDeviceGetName
+  0.00%  12.530us        20     626ns     237ns  6.1350us  cudaSetupArgument
+  0.00%  4.8160us         3  1.6050us     338ns  3.8470us  cuDeviceGetCount
+  0.00%  1.9660us         2     983ns     609ns  1.3570us  cudaConfigureCall
+  0.00%  1.5100us         3     503ns     334ns     708ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 30
+==39047== NVPROF is profiling process 39047, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13683.166992
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39047== Profiling application: ./tmm1
+==39047== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.86%  12.385us         2  6.1920us  4.9930us  7.3920us  [CUDA memcpy DtoH]
+ 15.34%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.80%  2.6240us         1  2.6240us  2.6240us  2.6240us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39047== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.85%  762.48ms         2  381.24ms  173.96us  762.31ms  cudaMalloc
+  0.07%  509.48us        95  5.3620us     252ns  210.62us  cuDeviceGetAttribute
+  0.04%  308.13us         2  154.07us  131.14us  176.99us  cudaFree
+  0.02%  120.01us         1  120.01us  120.01us  120.01us  cuDeviceTotalMem
+  0.01%  91.747us         2  45.873us  44.206us  47.541us  cudaMemcpy
+  0.01%  63.177us         2  31.588us  16.808us  46.369us  cudaLaunch
+  0.01%  41.909us         1  41.909us  41.909us  41.909us  cuDeviceGetName
+  0.00%  12.498us        20     624ns     239ns  6.2580us  cudaSetupArgument
+  0.00%  5.2790us         3  1.7590us     414ns  4.2270us  cuDeviceGetCount
+  0.00%  1.9290us         2     964ns     606ns  1.3230us  cudaConfigureCall
+  0.00%  1.6310us         3     543ns     351ns     714ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 31
+==39059== NVPROF is profiling process 39059, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13706.490234
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39059== Profiling application: ./tmm1
+==39059== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.34%  12.448us         2  6.2240us  5.0240us  7.4240us  [CUDA memcpy DtoH]
+ 15.69%  2.8160us         1  2.8160us  2.8160us  2.8160us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.97%  2.6880us         1  2.6880us  2.6880us  2.6880us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39059== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.85%  764.24ms         2  382.12ms  172.36us  764.06ms  cudaMalloc
+  0.06%  452.72us        95  4.7650us     254ns  172.22us  cuDeviceGetAttribute
+  0.04%  320.20us         2  160.10us  138.05us  182.15us  cudaFree
+  0.02%  119.65us         1  119.65us  119.65us  119.65us  cuDeviceTotalMem
+  0.01%  88.319us         2  44.159us  41.218us  47.101us  cudaMemcpy
+  0.01%  63.906us         2  31.953us  16.256us  47.650us  cudaLaunch
+  0.01%  49.839us         1  49.839us  49.839us  49.839us  cuDeviceGetName
+  0.00%  12.138us        20     606ns     236ns  6.2460us  cudaSetupArgument
+  0.00%  4.6310us         3  1.5430us     350ns  3.6230us  cuDeviceGetCount
+  0.00%  2.1230us         2  1.0610us     633ns  1.4900us  cudaConfigureCall
+  0.00%  1.5130us         3     504ns     321ns     795ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 32
+==39071== NVPROF is profiling process 39071, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13719.684570
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39071== Profiling application: ./tmm1
+==39071== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 75.19%  15.808us         2  7.9040us  7.4240us  8.3840us  [CUDA memcpy DtoH]
+ 12.79%  2.6880us         1  2.6880us  2.6880us  2.6880us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+ 12.02%  2.5280us         1  2.5280us  2.5280us  2.5280us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+
+==39071== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.83%  693.89ms         2  346.94ms  181.19us  693.70ms  cudaMalloc
+  0.07%  482.74us        95  5.0810us     252ns  174.82us  cuDeviceGetAttribute
+  0.05%  329.54us         2  164.77us  140.42us  189.12us  cudaFree
+  0.02%  118.68us         1  118.68us  118.68us  118.68us  cuDeviceTotalMem
+  0.01%  100.33us         2  50.165us  44.243us  56.088us  cudaMemcpy
+  0.01%  83.383us         2  41.691us  16.844us  66.539us  cudaLaunch
+  0.01%  49.165us         1  49.165us  49.165us  49.165us  cuDeviceGetName
+  0.00%  13.644us        20     682ns     237ns  7.2530us  cudaSetupArgument
+  0.00%  5.5210us         3  1.8400us     442ns  4.3230us  cuDeviceGetCount
+  0.00%  2.7370us         2  1.3680us     616ns  2.1210us  cudaConfigureCall
+  0.00%  1.6400us         3     546ns     393ns     689ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 33
+==39083== NVPROF is profiling process 39083, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13841.518555
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39083== Profiling application: ./tmm1
+==39083== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 74.36%  15.776us         2  7.8880us  7.4240us  8.3520us  [CUDA memcpy DtoH]
+ 12.97%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 12.67%  2.6880us         1  2.6880us  2.6880us  2.6880us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39083== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.80%  630.38ms         2  315.19ms  167.94us  630.21ms  cudaMalloc
+  0.09%  565.16us        95  5.9490us     315ns  216.93us  cuDeviceGetAttribute
+  0.05%  299.34us         2  149.67us  127.07us  172.27us  cudaFree
+  0.02%  143.42us         1  143.42us  143.42us  143.42us  cuDeviceTotalMem
+  0.02%  95.325us         2  47.662us  41.618us  53.707us  cudaMemcpy
+  0.01%  63.498us         2  31.749us  16.464us  47.034us  cudaLaunch
+  0.01%  51.208us         1  51.208us  51.208us  51.208us  cuDeviceGetName
+  0.00%  12.554us        20     627ns     234ns  6.3770us  cudaSetupArgument
+  0.00%  5.3540us         3  1.7840us     449ns  4.1020us  cuDeviceGetCount
+  0.00%  2.0580us         2  1.0290us     608ns  1.4500us  cudaConfigureCall
+  0.00%  1.7210us         3     573ns     437ns     707ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 34
+==39095== NVPROF is profiling process 39095, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13662.092773
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39095== Profiling application: ./tmm1
+==39095== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 80.84%  22.688us         2  11.344us  8.4480us  14.240us  [CUDA memcpy DtoH]
+  9.69%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+  9.46%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39095== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.82%  660.29ms         2  330.15ms  180.77us  660.11ms  cudaMalloc
+  0.07%  483.42us        95  5.0880us     255ns  184.69us  cuDeviceGetAttribute
+  0.05%  321.27us         2  160.63us  140.03us  181.24us  cudaFree
+  0.02%  141.91us         1  141.91us  141.91us  141.91us  cuDeviceTotalMem
+  0.02%  109.94us         2  54.967us  51.548us  58.387us  cudaMemcpy
+  0.01%  81.892us         2  40.946us  16.697us  65.195us  cudaLaunch
+  0.01%  57.770us         1  57.770us  57.770us  57.770us  cuDeviceGetName
+  0.00%  13.821us        20     691ns     234ns  7.3440us  cudaSetupArgument
+  0.00%  8.7230us         3  2.9070us     424ns  7.5280us  cuDeviceGetCount
+  0.00%  2.7050us         2  1.3520us     634ns  2.0710us  cudaConfigureCall
+  0.00%  1.7450us         3     581ns     417ns     862ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 35
+==39107== NVPROF is profiling process 39107, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13650.985352
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39107== Profiling application: ./tmm1
+==39107== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.40%  12.480us         2  6.2400us  5.0880us  7.3920us  [CUDA memcpy DtoH]
+ 15.66%  2.8160us         1  2.8160us  2.8160us  2.8160us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.95%  2.6880us         1  2.6880us  2.6880us  2.6880us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39107== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  817.54ms         2  408.77ms  174.76us  817.37ms  cudaMalloc
+  0.06%  478.15us        95  5.0330us     252ns  190.71us  cuDeviceGetAttribute
+  0.04%  299.56us         2  149.78us  131.06us  168.50us  cudaFree
+  0.02%  123.38us         1  123.38us  123.38us  123.38us  cuDeviceTotalMem
+  0.01%  88.957us         2  44.478us  41.234us  47.723us  cudaMemcpy
+  0.01%  62.219us         2  31.109us  16.770us  45.449us  cudaLaunch
+  0.01%  50.542us         1  50.542us  50.542us  50.542us  cuDeviceGetName
+  0.00%  12.297us        20     614ns     238ns  6.4440us  cudaSetupArgument
+  0.00%  4.8710us         3  1.6230us     357ns  3.9070us  cuDeviceGetCount
+  0.00%  2.3010us         2  1.1500us     587ns  1.7140us  cudaConfigureCall
+  0.00%  1.3650us         3     455ns     331ns     621ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 36
+==39119== NVPROF is profiling process 39119, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13206.414062
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39119== Profiling application: ./tmm1
+==39119== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 70.09%  12.673us         2  6.3360us  5.0240us  7.6490us  [CUDA memcpy DtoH]
+ 15.22%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.69%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39119== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  826.61ms         2  413.30ms  173.16us  826.44ms  cudaMalloc
+  0.06%  487.50us        95  5.1310us     254ns  190.14us  cuDeviceGetAttribute
+  0.04%  299.25us         2  149.62us  130.51us  168.74us  cudaFree
+  0.01%  119.63us         1  119.63us  119.63us  119.63us  cuDeviceTotalMem
+  0.01%  94.356us         2  47.178us  43.491us  50.865us  cudaMemcpy
+  0.01%  62.038us         2  31.019us  16.088us  45.950us  cudaLaunch
+  0.01%  49.457us         1  49.457us  49.457us  49.457us  cuDeviceGetName
+  0.00%  12.199us        20     609ns     232ns  6.4290us  cudaSetupArgument
+  0.00%  5.6930us         3  1.8970us     474ns  4.6210us  cuDeviceGetCount
+  0.00%  2.0050us         2  1.0020us     618ns  1.3870us  cudaConfigureCall
+  0.00%  1.7190us         3     573ns     321ns     887ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 37
+==39131== NVPROF is profiling process 39131, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13758.892578
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39131== Profiling application: ./tmm1
+==39131== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.41%  12.416us         2  6.2080us  4.9920us  7.4240us  [CUDA memcpy DtoH]
+ 15.74%  2.8160us         1  2.8160us  2.8160us  2.8160us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.85%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39131== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  798.29ms         2  399.14ms  173.50us  798.12ms  cudaMalloc
+  0.06%  480.45us        95  5.0570us     263ns  186.21us  cuDeviceGetAttribute
+  0.04%  316.33us         2  158.17us  138.04us  178.29us  cudaFree
+  0.02%  121.02us         1  121.02us  121.02us  121.02us  cuDeviceTotalMem
+  0.01%  88.977us         2  44.488us  42.162us  46.815us  cudaMemcpy
+  0.01%  61.358us         2  30.679us  16.058us  45.300us  cudaLaunch
+  0.01%  42.891us         1  42.891us  42.891us  42.891us  cuDeviceGetName
+  0.00%  13.291us        20     664ns     235ns  6.9250us  cudaSetupArgument
+  0.00%  5.8550us         3  1.9510us     459ns  4.5920us  cuDeviceGetCount
+  0.00%  2.1040us         2  1.0520us     597ns  1.5070us  cudaConfigureCall
+  0.00%  1.6790us         3     559ns     353ns     684ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 38
+==39146== NVPROF is profiling process 39146, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13665.804688
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39146== Profiling application: ./tmm1
+==39146== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.53%  12.416us         2  6.2080us  4.9920us  7.4240us  [CUDA memcpy DtoH]
+ 15.59%  2.7840us         1  2.7840us  2.7840us  2.7840us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.87%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39146== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.85%  808.93ms         2  404.47ms  179.33us  808.75ms  cudaMalloc
+  0.07%  540.55us        95  5.6900us     253ns  173.16us  cuDeviceGetAttribute
+  0.04%  329.27us         2  164.63us  148.80us  180.47us  cudaFree
+  0.01%  118.31us         1  118.31us  118.31us  118.31us  cuDeviceTotalMem
+  0.01%  98.344us         2  49.172us  43.326us  55.018us  cudaMemcpy
+  0.01%  85.052us         2  42.526us  16.426us  68.626us  cudaLaunch
+  0.01%  42.977us         1  42.977us  42.977us  42.977us  cuDeviceGetName
+  0.00%  14.054us        20     702ns     234ns  7.3890us  cudaSetupArgument
+  0.00%  4.9300us         3  1.6430us     369ns  3.9440us  cuDeviceGetCount
+  0.00%  2.8010us         2  1.4000us     601ns  2.2000us  cudaConfigureCall
+  0.00%  1.4060us         3     468ns     322ns     592ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 39
+==39158== NVPROF is profiling process 39158, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13202.627930
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39158== Profiling application: ./tmm1
+==39158== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 70.11%  12.608us         2  6.3040us  4.9920us  7.6160us  [CUDA memcpy DtoH]
+ 15.48%  2.7840us         1  2.7840us  2.7840us  2.7840us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.41%  2.5920us         1  2.5920us  2.5920us  2.5920us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39158== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.84%  683.11ms         2  341.55ms  176.19us  682.93ms  cudaMalloc
+  0.07%  454.21us        95  4.7810us     257ns  172.22us  cuDeviceGetAttribute
+  0.04%  302.59us         2  151.29us  131.14us  171.45us  cudaFree
+  0.02%  119.76us         1  119.76us  119.76us  119.76us  cuDeviceTotalMem
+  0.01%  91.809us         2  45.904us  43.907us  47.902us  cudaMemcpy
+  0.01%  62.761us         2  31.380us  16.183us  46.578us  cudaLaunch
+  0.01%  49.859us         1  49.859us  49.859us  49.859us  cuDeviceGetName
+  0.00%  12.511us        20     625ns     238ns  6.4990us  cudaSetupArgument
+  0.00%  4.8310us         3  1.6100us     349ns  3.7910us  cuDeviceGetCount
+  0.00%  1.9200us         2     960ns     624ns  1.2960us  cudaConfigureCall
+  0.00%  1.5880us         3     529ns     329ns     800ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 40
+==39170== NVPROF is profiling process 39170, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13647.173828
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39170== Profiling application: ./tmm1
+==39170== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 80.73%  22.784us         2  11.392us  8.4800us  14.304us  [CUDA memcpy DtoH]
+  9.86%  2.7840us         1  2.7840us  2.7840us  2.7840us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+  9.41%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39170== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.83%  665.02ms         2  332.51ms  166.75us  664.86ms  cudaMalloc
+  0.07%  477.87us        95  5.0300us     253ns  191.81us  cuDeviceGetAttribute
+  0.05%  303.07us         2  151.53us  130.60us  172.46us  cudaFree
+  0.02%  118.67us         1  118.67us  118.67us  118.67us  cuDeviceTotalMem
+  0.02%  110.61us         2  55.305us  54.972us  55.639us  cudaMemcpy
+  0.01%  66.229us         2  33.114us  16.009us  50.220us  cudaLaunch
+  0.01%  49.052us         1  49.052us  49.052us  49.052us  cuDeviceGetName
+  0.00%  12.198us        20     609ns     234ns  6.4240us  cudaSetupArgument
+  0.00%  4.7870us         3  1.5950us     338ns  3.8040us  cuDeviceGetCount
+  0.00%  1.9320us         2     966ns     669ns  1.2630us  cudaConfigureCall
+  0.00%  1.5330us         3     511ns     331ns     800ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 41
+==39182== NVPROF is profiling process 39182, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13317.331055
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39182== Profiling application: ./tmm1
+==39182== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 75.14%  16.640us         2  8.3200us  5.2160us  11.424us  [CUDA memcpy DtoH]
+ 12.57%  2.7840us         1  2.7840us  2.7840us  2.7840us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 12.28%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39182== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  803.72ms         2  401.86ms  167.55us  803.55ms  cudaMalloc
+  0.06%  499.79us        95  5.2600us     247ns  194.63us  cuDeviceGetAttribute
+  0.04%  305.58us         2  152.79us  136.69us  168.89us  cudaFree
+  0.02%  121.24us         1  121.24us  121.24us  121.24us  cuDeviceTotalMem
+  0.01%  95.167us         2  47.583us  46.916us  48.251us  cudaMemcpy
+  0.01%  69.676us         2  34.838us  23.509us  46.167us  cudaLaunch
+  0.01%  50.038us         1  50.038us  50.038us  50.038us  cuDeviceGetName
+  0.00%  12.143us        20     607ns     236ns  6.3630us  cudaSetupArgument
+  0.00%  5.0930us         3  1.6970us     420ns  4.0640us  cuDeviceGetCount
+  0.00%  1.9410us         2     970ns     631ns  1.3100us  cudaConfigureCall
+  0.00%  1.5280us         3     509ns     331ns     665ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 42
+==39194== NVPROF is profiling process 39194, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13688.098633
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39194== Profiling application: ./tmm1
+==39194== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 81.37%  23.488us         2  11.744us  8.4160us  15.072us  [CUDA memcpy DtoH]
+  9.42%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+  9.20%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39194== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.81%  681.67ms         2  340.83ms  179.97us  681.49ms  cudaMalloc
+  0.09%  589.14us        95  6.2010us     312ns  211.65us  cuDeviceGetAttribute
+  0.05%  321.59us         2  160.79us  141.74us  179.85us  cudaFree
+  0.02%  150.30us         1  150.30us  150.30us  150.30us  cuDeviceTotalMem
+  0.02%  108.77us         2  54.384us  50.887us  57.881us  cudaMemcpy
+  0.01%  90.051us         2  45.025us  16.627us  73.424us  cudaLaunch
+  0.01%  43.124us         1  43.124us  43.124us  43.124us  cuDeviceGetName
+  0.00%  14.022us        20     701ns     236ns  7.4300us  cudaSetupArgument
+  0.00%  4.7320us         3  1.5770us     389ns  3.6860us  cuDeviceGetCount
+  0.00%  2.6400us         2  1.3200us     614ns  2.0260us  cudaConfigureCall
+  0.00%  1.3540us         3     451ns     342ns     594ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 43
+==39206== NVPROF is profiling process 39206, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13724.920898
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39206== Profiling application: ./tmm1
+==39206== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.53%  12.416us         2  6.2080us  4.9920us  7.4240us  [CUDA memcpy DtoH]
+ 15.59%  2.7840us         1  2.7840us  2.7840us  2.7840us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.87%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39206== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.85%  817.71ms         2  408.86ms  175.69us  817.54ms  cudaMalloc
+  0.06%  518.07us        95  5.4530us     311ns  194.28us  cuDeviceGetAttribute
+  0.04%  302.28us         2  151.14us  130.82us  171.46us  cudaFree
+  0.02%  144.46us         1  144.46us  144.46us  144.46us  cuDeviceTotalMem
+  0.01%  91.201us         2  45.600us  42.479us  48.722us  cudaMemcpy
+  0.01%  61.557us         2  30.778us  16.481us  45.076us  cudaLaunch
+  0.01%  59.290us         1  59.290us  59.290us  59.290us  cuDeviceGetName
+  0.00%  12.669us        20     633ns     239ns  6.2540us  cudaSetupArgument
+  0.00%  5.1570us         3  1.7190us     350ns  4.0380us  cuDeviceGetCount
+  0.00%  1.9570us         2     978ns     640ns  1.3170us  cudaConfigureCall
+  0.00%  1.6100us         3     536ns     435ns     727ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 44
+==39218== NVPROF is profiling process 39218, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13200.536133
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39218== Profiling application: ./tmm1
+==39218== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.16%  12.416us         2  6.2080us  4.9920us  7.4240us  [CUDA memcpy DtoH]
+ 15.86%  2.8480us         1  2.8480us  2.8480us  2.8480us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.97%  2.6880us         1  2.6880us  2.6880us  2.6880us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39218== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.85%  739.79ms         2  369.89ms  170.72us  739.62ms  cudaMalloc
+  0.06%  453.39us        95  4.7720us     250ns  172.99us  cuDeviceGetAttribute
+  0.04%  302.27us         2  151.14us  130.72us  171.55us  cudaFree
+  0.02%  120.14us         1  120.14us  120.14us  120.14us  cuDeviceTotalMem
+  0.01%  88.510us         2  44.255us  40.826us  47.684us  cudaMemcpy
+  0.01%  66.119us         1  66.119us  66.119us  66.119us  cuDeviceGetName
+  0.01%  62.787us         2  31.393us  15.981us  46.806us  cudaLaunch
+  0.00%  12.258us        20     612ns     235ns  6.3660us  cudaSetupArgument
+  0.00%  5.7290us         3  1.9090us     420ns  4.6400us  cuDeviceGetCount
+  0.00%  2.1460us         2  1.0730us     611ns  1.5350us  cudaConfigureCall
+  0.00%  1.6360us         3     545ns     358ns     670ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 45
+==39230== NVPROF is profiling process 39230, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13742.935547
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39230== Profiling application: ./tmm1
+==39230== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.54%  12.417us         2  6.2080us  4.9930us  7.4240us  [CUDA memcpy DtoH]
+ 15.41%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 15.05%  2.6880us         1  2.6880us  2.6880us  2.6880us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39230== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.83%  690.37ms         2  345.18ms  166.91us  690.20ms  cudaMalloc
+  0.08%  538.51us        95  5.6680us     255ns  209.87us  cuDeviceGetAttribute
+  0.04%  303.74us         2  151.87us  131.29us  172.45us  cudaFree
+  0.02%  143.37us         1  143.37us  143.37us  143.37us  cuDeviceTotalMem
+  0.01%  92.247us         2  46.123us  44.411us  47.836us  cudaMemcpy
+  0.01%  62.044us         2  31.022us  15.984us  46.060us  cudaLaunch
+  0.01%  47.092us         1  47.092us  47.092us  47.092us  cuDeviceGetName
+  0.00%  12.612us        20     630ns     237ns  6.1620us  cudaSetupArgument
+  0.00%  5.4470us         3  1.8150us     488ns  4.1610us  cuDeviceGetCount
+  0.00%  2.2660us         2  1.1330us     603ns  1.6630us  cudaConfigureCall
+  0.00%  1.8480us         3     616ns     408ns     724ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 46
+==39242== NVPROF is profiling process 39242, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13717.636719
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39242== Profiling application: ./tmm1
+==39242== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 70.49%  12.384us         2  6.1920us  4.9600us  7.4240us  [CUDA memcpy DtoH]
+ 15.48%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.03%  2.4640us         1  2.4640us  2.4640us  2.4640us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39242== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.85%  835.06ms         2  417.53ms  167.46us  834.89ms  cudaMalloc
+  0.07%  551.03us        95  5.8000us     309ns  210.38us  cuDeviceGetAttribute
+  0.04%  308.75us         2  154.37us  130.86us  177.89us  cudaFree
+  0.02%  146.93us         1  146.93us  146.93us  146.93us  cuDeviceTotalMem
+  0.01%  91.455us         2  45.727us  42.572us  48.883us  cudaMemcpy
+  0.01%  75.585us         1  75.585us  75.585us  75.585us  cuDeviceGetName
+  0.01%  63.420us         2  31.710us  15.974us  47.446us  cudaLaunch
+  0.00%  13.504us        20     675ns     239ns  6.6860us  cudaSetupArgument
+  0.00%  5.4840us         3  1.8280us     354ns  4.3660us  cuDeviceGetCount
+  0.00%  2.2690us         2  1.1340us     655ns  1.6140us  cudaConfigureCall
+  0.00%  1.7210us         3     573ns     431ns     648ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 47
+==39254== NVPROF is profiling process 39254, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13788.651367
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39254== Profiling application: ./tmm1
+==39254== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 70.32%  12.736us         2  6.3680us  4.9920us  7.7440us  [CUDA memcpy DtoH]
+ 15.19%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.49%  2.6240us         1  2.6240us  2.6240us  2.6240us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39254== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  807.16ms         2  403.58ms  167.17us  807.00ms  cudaMalloc
+  0.06%  454.63us        95  4.7850us     255ns  171.23us  cuDeviceGetAttribute
+  0.04%  311.96us         2  155.98us  131.91us  180.05us  cudaFree
+  0.01%  118.81us         1  118.81us  118.81us  118.81us  cuDeviceTotalMem
+  0.01%  89.851us         2  44.925us  41.377us  48.474us  cudaMemcpy
+  0.01%  62.693us         2  31.346us  16.762us  45.931us  cudaLaunch
+  0.01%  48.564us         1  48.564us  48.564us  48.564us  cuDeviceGetName
+  0.00%  12.191us        20     609ns     238ns  6.3850us  cudaSetupArgument
+  0.00%  4.7070us         3  1.5690us     377ns  3.6920us  cuDeviceGetCount
+  0.00%  1.9920us         2     996ns     707ns  1.2850us  cudaConfigureCall
+  0.00%  1.3640us         3     454ns     312ns     614ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 48
+==39266== NVPROF is profiling process 39266, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13952.125977
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39266== Profiling application: ./tmm1
+==39266== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.53%  12.416us         2  6.2080us  4.9920us  7.4240us  [CUDA memcpy DtoH]
+ 15.59%  2.7840us         1  2.7840us  2.7840us  2.7840us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.87%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39266== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.85%  806.96ms         2  403.48ms  174.98us  806.78ms  cudaMalloc
+  0.07%  525.44us        95  5.5300us     314ns  194.71us  cuDeviceGetAttribute
+  0.04%  320.28us         2  160.14us  131.42us  188.86us  cudaFree
+  0.02%  141.61us         1  141.61us  141.61us  141.61us  cuDeviceTotalMem
+  0.01%  89.346us         2  44.673us  41.743us  47.603us  cudaMemcpy
+  0.01%  62.954us         2  31.477us  16.306us  46.648us  cudaLaunch
+  0.01%  45.394us         1  45.394us  45.394us  45.394us  cuDeviceGetName
+  0.00%  12.490us        20     624ns     238ns  6.4560us  cudaSetupArgument
+  0.00%  5.1380us         3  1.7120us     366ns  3.9000us  cuDeviceGetCount
+  0.00%  2.1070us         2  1.0530us     608ns  1.4990us  cudaConfigureCall
+  0.00%  1.4770us         3     492ns     373ns     614ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 49
+==39278== NVPROF is profiling process 39278, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13413.912109
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39278== Profiling application: ./tmm1
+==39278== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.71%  12.448us         2  6.2240us  4.9920us  7.4560us  [CUDA memcpy DtoH]
+ 15.41%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.87%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39278== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.85%  817.66ms         2  408.83ms  173.98us  817.49ms  cudaMalloc
+  0.07%  551.07us        95  5.8000us     255ns  205.65us  cuDeviceGetAttribute
+  0.04%  305.67us         2  152.84us  137.35us  168.32us  cudaFree
+  0.02%  146.54us         1  146.54us  146.54us  146.54us  cuDeviceTotalMem
+  0.01%  88.183us         2  44.091us  40.724us  47.459us  cudaMemcpy
+  0.01%  75.373us         2  37.686us  16.403us  58.970us  cudaLaunch
+  0.01%  57.463us         1  57.463us  57.463us  57.463us  cuDeviceGetName
+  0.00%  14.009us        20     700ns     246ns  7.5070us  cudaSetupArgument
+  0.00%  5.3040us         3  1.7680us     484ns  4.0800us  cuDeviceGetCount
+  0.00%  2.6310us         2  1.3150us     593ns  2.0380us  cudaConfigureCall
+  0.00%  1.7200us         3     573ns     430ns     776ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 50
+==39290== NVPROF is profiling process 39290, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13279.496094
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39290== Profiling application: ./tmm1
+==39290== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.41%  12.416us         2  6.2080us  4.9920us  7.4240us  [CUDA memcpy DtoH]
+ 15.38%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 15.21%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39290== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.84%  797.89ms         2  398.95ms  182.42us  797.71ms  cudaMalloc
+  0.07%  529.34us        95  5.5720us     253ns  215.95us  cuDeviceGetAttribute
+  0.05%  384.61us         2  192.30us  127.82us  256.79us  cudaFree
+  0.02%  145.19us         1  145.19us  145.19us  145.19us  cuDeviceTotalMem
+  0.01%  90.094us         2  45.047us  42.296us  47.798us  cudaMemcpy
+  0.01%  63.622us         2  31.811us  16.756us  46.866us  cudaLaunch
+  0.01%  49.013us         1  49.013us  49.013us  49.013us  cuDeviceGetName
+  0.00%  12.622us        20     631ns     234ns  6.3320us  cudaSetupArgument
+  0.00%  5.6230us         3  1.8740us     447ns  4.3720us  cuDeviceGetCount
+  0.00%  2.2600us         2  1.1300us     625ns  1.6350us  cudaConfigureCall
+  0.00%  1.8720us         3     624ns     426ns     780ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 51
+==39302== NVPROF is profiling process 39302, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13755.256836
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39302== Profiling application: ./tmm1
+==39302== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.70%  12.512us         2  6.2560us  4.9920us  7.5200us  [CUDA memcpy DtoH]
+ 15.51%  2.7840us         1  2.7840us  2.7840us  2.7840us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.80%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39302== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.85%  837.27ms         2  418.64ms  167.98us  837.11ms  cudaMalloc
+  0.07%  546.57us        95  5.7530us     306ns  207.31us  cuDeviceGetAttribute
+  0.04%  298.00us         2  149.00us  130.98us  167.02us  cudaFree
+  0.02%  142.76us         1  142.76us  142.76us  142.76us  cuDeviceTotalMem
+  0.01%  91.861us         2  45.930us  42.525us  49.336us  cudaMemcpy
+  0.01%  63.940us         2  31.970us  16.064us  47.876us  cudaLaunch
+  0.01%  59.036us         1  59.036us  59.036us  59.036us  cuDeviceGetName
+  0.00%  12.757us        20     637ns     241ns  7.0080us  cudaSetupArgument
+  0.00%  4.8490us         3  1.6160us     385ns  3.7990us  cuDeviceGetCount
+  0.00%  2.2730us         2  1.1360us     857ns  1.4160us  cudaConfigureCall
+  0.00%  1.4510us         3     483ns     367ns     662ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 52
+==39314== NVPROF is profiling process 39314, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13466.522461
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39314== Profiling application: ./tmm1
+==39314== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.54%  12.417us         2  6.2080us  4.9930us  7.4240us  [CUDA memcpy DtoH]
+ 15.59%  2.7840us         1  2.7840us  2.7840us  2.7840us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.87%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39314== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.85%  810.10ms         2  405.05ms  167.66us  809.93ms  cudaMalloc
+  0.07%  552.91us        95  5.8200us     262ns  214.94us  cuDeviceGetAttribute
+  0.04%  298.93us         2  149.46us  131.79us  167.14us  cudaFree
+  0.02%  146.97us         1  146.97us  146.97us  146.97us  cuDeviceTotalMem
+  0.01%  90.804us         2  45.402us  43.059us  47.745us  cudaMemcpy
+  0.01%  63.241us         2  31.620us  16.172us  47.069us  cudaLaunch
+  0.01%  50.706us         1  50.706us  50.706us  50.706us  cuDeviceGetName
+  0.00%  12.351us        20     617ns     238ns  6.4580us  cudaSetupArgument
+  0.00%  4.7680us         3  1.5890us     334ns  3.6030us  cuDeviceGetCount
+  0.00%  1.9910us         2     995ns     591ns  1.4000us  cudaConfigureCall
+  0.00%  1.8110us         3     603ns     377ns     820ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 53
+==39326== NVPROF is profiling process 39326, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13674.842773
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39326== Profiling application: ./tmm1
+==39326== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.73%  12.608us         2  6.3040us  4.9920us  7.6160us  [CUDA memcpy DtoH]
+ 15.40%  2.7840us         1  2.7840us  2.7840us  2.7840us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.87%  2.6880us         1  2.6880us  2.6880us  2.6880us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39326== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  815.93ms         2  407.96ms  177.81us  815.75ms  cudaMalloc
+  0.06%  476.60us        95  5.0160us     253ns  190.69us  cuDeviceGetAttribute
+  0.04%  302.73us         2  151.36us  133.35us  169.38us  cudaFree
+  0.02%  123.73us         1  123.73us  123.73us  123.73us  cuDeviceTotalMem
+  0.01%  89.347us         2  44.673us  41.616us  47.731us  cudaMemcpy
+  0.01%  62.626us         2  31.313us  16.620us  46.006us  cudaLaunch
+  0.01%  49.281us         1  49.281us  49.281us  49.281us  cuDeviceGetName
+  0.00%  12.186us        20     609ns     236ns  6.3910us  cudaSetupArgument
+  0.00%  5.2000us         3  1.7330us     355ns  4.2180us  cuDeviceGetCount
+  0.00%  1.8850us         2     942ns     606ns  1.2790us  cudaConfigureCall
+  0.00%  1.4590us         3     486ns     337ns     618ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 54
+==39338== NVPROF is profiling process 39338, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13853.161133
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39338== Profiling application: ./tmm1
+==39338== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 74.40%  15.808us         2  7.9040us  7.4240us  8.3840us  [CUDA memcpy DtoH]
+ 12.95%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 12.65%  2.6880us         1  2.6880us  2.6880us  2.6880us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39338== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.84%  693.34ms         2  346.67ms  168.22us  693.17ms  cudaMalloc
+  0.07%  461.02us        95  4.8520us     258ns  171.61us  cuDeviceGetAttribute
+  0.04%  296.94us         2  148.47us  130.16us  166.78us  cudaFree
+  0.02%  118.53us         1  118.53us  118.53us  118.53us  cuDeviceTotalMem
+  0.01%  98.710us         2  49.355us  44.710us  54.000us  cudaMemcpy
+  0.01%  70.816us         2  35.408us  16.313us  54.503us  cudaLaunch
+  0.01%  49.249us         1  49.249us  49.249us  49.249us  cuDeviceGetName
+  0.00%  12.440us        20     622ns     237ns  6.6400us  cudaSetupArgument
+  0.00%  5.4230us         3  1.8070us     429ns  4.3390us  cuDeviceGetCount
+  0.00%  1.9650us         2     982ns     634ns  1.3310us  cudaConfigureCall
+  0.00%  1.5650us         3     521ns     313ns     768ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 55
+==39350== NVPROF is profiling process 39350, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13794.361328
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39350== Profiling application: ./tmm1
+==39350== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.66%  12.416us         2  6.2080us  4.9920us  7.4240us  [CUDA memcpy DtoH]
+ 15.26%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 15.08%  2.6880us         1  2.6880us  2.6880us  2.6880us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39350== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  800.75ms         2  400.38ms  167.66us  800.58ms  cudaMalloc
+  0.06%  482.07us        95  5.0740us     259ns  198.31us  cuDeviceGetAttribute
+  0.04%  311.79us         2  155.90us  137.08us  174.71us  cudaFree
+  0.01%  119.47us         1  119.47us  119.47us  119.47us  cuDeviceTotalMem
+  0.01%  90.520us         2  45.260us  42.725us  47.795us  cudaMemcpy
+  0.01%  64.059us         2  32.029us  16.215us  47.844us  cudaLaunch
+  0.01%  48.408us         1  48.408us  48.408us  48.408us  cuDeviceGetName
+  0.00%  12.186us        20     609ns     237ns  6.3040us  cudaSetupArgument
+  0.00%  5.2520us         3  1.7500us     375ns  4.2430us  cuDeviceGetCount
+  0.00%  1.8790us         2     939ns     598ns  1.2810us  cudaConfigureCall
+  0.00%  1.4000us         3     466ns     335ns     654ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 56
+==39362== NVPROF is profiling process 39362, command: ./tmm1
+### begin intervals
+[ 0,0:
+    14081.071289
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39362== Profiling application: ./tmm1
+==39362== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.77%  12.480us         2  6.2400us  4.9600us  7.5200us  [CUDA memcpy DtoH]
+ 15.38%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.85%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39362== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  777.21ms         2  388.60ms  166.81us  777.04ms  cudaMalloc
+  0.06%  466.10us        95  4.9060us     257ns  181.80us  cuDeviceGetAttribute
+  0.04%  300.35us         2  150.18us  130.80us  169.55us  cudaFree
+  0.02%  119.32us         1  119.32us  119.32us  119.32us  cuDeviceTotalMem
+  0.01%  98.505us         2  49.252us  42.113us  56.392us  cudaMemcpy
+  0.01%  62.651us         2  31.325us  16.266us  46.385us  cudaLaunch
+  0.01%  53.526us         1  53.526us  53.526us  53.526us  cuDeviceGetName
+  0.00%  12.168us        20     608ns     237ns  6.3790us  cudaSetupArgument
+  0.00%  4.5750us         3  1.5250us     339ns  3.5910us  cuDeviceGetCount
+  0.00%  1.9650us         2     982ns     609ns  1.3560us  cudaConfigureCall
+  0.00%  1.3990us         3     466ns     311ns     664ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 57
+==39377== NVPROF is profiling process 39377, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13392.375977
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39377== Profiling application: ./tmm1
+==39377== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.29%  12.416us         2  6.2080us  4.9920us  7.4240us  [CUDA memcpy DtoH]
+ 15.36%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 15.36%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39377== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.78%  565.58ms         2  282.79ms  193.32us  565.39ms  cudaMalloc
+  0.09%  506.40us        95  5.3300us     253ns  210.78us  cuDeviceGetAttribute
+  0.07%  369.12us         2  184.56us  151.97us  217.16us  cudaFree
+  0.02%  120.06us         1  120.06us  120.06us  120.06us  cuDeviceTotalMem
+  0.02%  101.19us         2  50.593us  47.190us  53.997us  cudaMemcpy
+  0.01%  73.349us         2  36.674us  20.215us  53.134us  cudaLaunch
+  0.01%  45.721us         1  45.721us  45.721us  45.721us  cuDeviceGetName
+  0.00%  15.209us        20     760ns     291ns  7.5180us  cudaSetupArgument
+  0.00%  5.2500us         3  1.7500us     417ns  4.1780us  cuDeviceGetCount
+  0.00%  2.5500us         2  1.2750us     725ns  1.8250us  cudaConfigureCall
+  0.00%  1.6920us         3     564ns     357ns     688ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 58
+==39389== NVPROF is profiling process 39389, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13601.768555
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39389== Profiling application: ./tmm1
+==39389== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 74.74%  15.904us         2  7.9520us  7.5200us  8.3840us  [CUDA memcpy DtoH]
+ 12.78%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 12.48%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39389== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.82%  619.82ms         2  309.91ms  165.88us  619.65ms  cudaMalloc
+  0.08%  469.84us        95  4.9450us     248ns  181.65us  cuDeviceGetAttribute
+  0.05%  301.76us         2  150.88us  130.98us  170.78us  cudaFree
+  0.02%  138.26us         1  138.26us  138.26us  138.26us  cuDeviceTotalMem
+  0.02%  103.07us         2  51.534us  49.258us  53.810us  cudaMemcpy
+  0.01%  63.946us         2  31.973us  16.409us  47.537us  cudaLaunch
+  0.01%  48.859us         1  48.859us  48.859us  48.859us  cuDeviceGetName
+  0.00%  12.308us        20     615ns     237ns  6.2640us  cudaSetupArgument
+  0.00%  6.3540us         3  2.1180us     457ns  4.5630us  cuDeviceGetCount
+  0.00%  1.9680us         2     984ns     638ns  1.3300us  cudaConfigureCall
+  0.00%  1.8310us         3     610ns     408ns     784ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 59
+==39401== NVPROF is profiling process 39401, command: ./tmm1
+==39401== Profiling application: ./tmm1
+### begin intervals
+[ 0,0:
+    13463.507812
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39401== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.60%  12.384us         2  6.1920us  4.9600us  7.4240us  [CUDA memcpy DtoH]
+ 15.47%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.93%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39401== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  834.90ms         2  417.45ms  163.77us  834.74ms  cudaMalloc
+  0.06%  484.00us        95  5.0940us     255ns  190.16us  cuDeviceGetAttribute
+  0.04%  299.27us         2  149.64us  130.46us  168.81us  cudaFree
+  0.01%  123.15us         1  123.15us  123.15us  123.15us  cuDeviceTotalMem
+  0.01%  91.410us         2  45.705us  43.256us  48.154us  cudaMemcpy
+  0.01%  70.118us         2  35.059us  15.963us  54.155us  cudaLaunch
+  0.01%  48.884us         1  48.884us  48.884us  48.884us  cuDeviceGetName
+  0.00%  12.317us        20     615ns     240ns  6.5890us  cudaSetupArgument
+  0.00%  5.0140us         3  1.6710us     351ns  4.0230us  cuDeviceGetCount
+  0.00%  1.9810us         2     990ns     594ns  1.3870us  cudaConfigureCall
+  0.00%  1.3460us         3     448ns     317ns     622ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 60
+==39413== NVPROF is profiling process 39413, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13815.868164
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39413== Profiling application: ./tmm1
+==39413== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.53%  12.416us         2  6.2080us  4.9920us  7.4240us  [CUDA memcpy DtoH]
+ 15.23%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 15.23%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39413== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.84%  815.28ms         2  407.64ms  167.54us  815.11ms  cudaMalloc
+  0.07%  609.44us        95  6.4150us     313ns  217.69us  cuDeviceGetAttribute
+  0.04%  299.02us         2  149.51us  130.49us  168.53us  cudaFree
+  0.02%  148.07us         1  148.07us  148.07us  148.07us  cuDeviceTotalMem
+  0.01%  88.641us         2  44.320us  41.212us  47.429us  cudaMemcpy
+  0.01%  62.634us         2  31.317us  16.155us  46.479us  cudaLaunch
+  0.01%  47.328us         1  47.328us  47.328us  47.328us  cuDeviceGetName
+  0.00%  11.944us        20     597ns     234ns  6.2150us  cudaSetupArgument
+  0.00%  5.5960us         3  1.8650us     437ns  4.4060us  cuDeviceGetCount
+  0.00%  2.0190us         2  1.0090us     612ns  1.4070us  cudaConfigureCall
+  0.00%  1.4640us         3     488ns     369ns     604ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 61
+==39425== NVPROF is profiling process 39425, command: ./tmm1
+==39425== Profiling application: ./tmm1
+### begin intervals
+[ 0,0:
+    13716.974609
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39425== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.73%  12.385us         2  6.1920us  4.9920us  7.3930us  [CUDA memcpy DtoH]
+ 15.49%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.77%  2.6240us         1  2.6240us  2.6240us  2.6240us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39425== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  809.78ms         2  404.89ms  168.46us  809.61ms  cudaMalloc
+  0.06%  460.41us        95  4.8460us     257ns  174.35us  cuDeviceGetAttribute
+  0.04%  291.67us         2  145.83us  131.11us  160.56us  cudaFree
+  0.01%  119.26us         1  119.26us  119.26us  119.26us  cuDeviceTotalMem
+  0.01%  91.399us         2  45.699us  42.952us  48.447us  cudaMemcpy
+  0.01%  63.882us         2  31.941us  16.171us  47.711us  cudaLaunch
+  0.01%  49.047us         1  49.047us  49.047us  49.047us  cuDeviceGetName
+  0.00%  12.243us        20     612ns     235ns  6.3350us  cudaSetupArgument
+  0.00%  4.5120us         3  1.5040us     379ns  3.3600us  cuDeviceGetCount
+  0.00%  1.8990us         2     949ns     613ns  1.2860us  cudaConfigureCall
+  0.00%  1.5190us         3     506ns     329ns     727ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 62
+==39437== NVPROF is profiling process 39437, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13201.435547
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39437== Profiling application: ./tmm1
+==39437== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.64%  12.480us         2  6.2400us  5.0560us  7.4240us  [CUDA memcpy DtoH]
+ 15.53%  2.7840us         1  2.7840us  2.7840us  2.7840us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.83%  2.6570us         1  2.6570us  2.6570us  2.6570us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39437== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.85%  797.93ms         2  398.96ms  167.27us  797.76ms  cudaMalloc
+  0.07%  522.21us        95  5.4960us     257ns  180.22us  cuDeviceGetAttribute
+  0.04%  308.16us         2  154.08us  136.86us  171.30us  cudaFree
+  0.01%  119.24us         1  119.24us  119.24us  119.24us  cuDeviceTotalMem
+  0.01%  92.975us         2  46.487us  43.996us  48.979us  cudaMemcpy
+  0.01%  62.754us         2  31.377us  15.943us  46.811us  cudaLaunch
+  0.00%  38.764us         1  38.764us  38.764us  38.764us  cuDeviceGetName
+  0.00%  12.348us        20     617ns     235ns  6.3600us  cudaSetupArgument
+  0.00%  4.9980us         3  1.6660us     362ns  4.0440us  cuDeviceGetCount
+  0.00%  1.8930us         2     946ns     589ns  1.3040us  cudaConfigureCall
+  0.00%  1.4220us         3     474ns     319ns     694ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 63
+==39449== NVPROF is profiling process 39449, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13771.193359
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39449== Profiling application: ./tmm1
+==39449== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.73%  12.384us         2  6.1920us  4.9600us  7.4240us  [CUDA memcpy DtoH]
+ 15.32%  2.7210us         1  2.7210us  2.7210us  2.7210us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.95%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39449== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  817.97ms         2  408.98ms  167.09us  817.80ms  cudaMalloc
+  0.06%  489.61us        95  5.1530us     255ns  200.86us  cuDeviceGetAttribute
+  0.04%  299.49us         2  149.74us  131.54us  167.95us  cudaFree
+  0.01%  120.33us         1  120.33us  120.33us  120.33us  cuDeviceTotalMem
+  0.01%  98.210us         2  49.105us  48.456us  49.754us  cudaMemcpy
+  0.01%  62.429us         2  31.214us  15.960us  46.469us  cudaLaunch
+  0.01%  41.456us         1  41.456us  41.456us  41.456us  cuDeviceGetName
+  0.00%  12.763us        20     638ns     233ns  6.7260us  cudaSetupArgument
+  0.00%  4.6760us         3  1.5580us     358ns  3.5120us  cuDeviceGetCount
+  0.00%  2.4310us         2  1.2150us     603ns  1.8280us  cudaConfigureCall
+  0.00%  1.5130us         3     504ns     325ns     616ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 64
+==39461== NVPROF is profiling process 39461, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13718.302734
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39461== Profiling application: ./tmm1
+==39461== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 80.70%  22.753us         2  11.376us  8.3850us  14.368us  [CUDA memcpy DtoH]
+  9.76%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+  9.53%  2.6880us         1  2.6880us  2.6880us  2.6880us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39461== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.82%  754.33ms         2  377.16ms  178.76us  754.15ms  cudaMalloc
+  0.07%  527.05us        95  5.5470us     321ns  193.14us  cuDeviceGetAttribute
+  0.04%  295.56us         2  147.78us  130.55us  165.01us  cudaFree
+  0.04%  268.99us         1  268.99us  268.99us  268.99us  cuDeviceTotalMem
+  0.01%  109.38us         2  54.692us  54.083us  55.301us  cudaMemcpy
+  0.01%  62.699us         2  31.349us  15.936us  46.763us  cudaLaunch
+  0.01%  51.171us         1  51.171us  51.171us  51.171us  cuDeviceGetName
+  0.00%  12.202us        20     610ns     234ns  6.3720us  cudaSetupArgument
+  0.00%  5.8450us         3  1.9480us     493ns  4.6500us  cuDeviceGetCount
+  0.00%  2.2690us         2  1.1340us     619ns  1.6500us  cudaConfigureCall
+  0.00%  1.6950us         3     565ns     350ns     806ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 65
+==39473== NVPROF is profiling process 39473, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13665.342773
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39473== Profiling application: ./tmm1
+==39473== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.41%  12.416us         2  6.2080us  4.9920us  7.4240us  [CUDA memcpy DtoH]
+ 15.74%  2.8160us         1  2.8160us  2.8160us  2.8160us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.85%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39473== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.85%  756.32ms         2  378.16ms  166.95us  756.16ms  cudaMalloc
+  0.06%  477.44us        95  5.0250us     253ns  185.87us  cuDeviceGetAttribute
+  0.04%  302.20us         2  151.10us  130.76us  171.43us  cudaFree
+  0.02%  124.41us         1  124.41us  124.41us  124.41us  cuDeviceTotalMem
+  0.01%  91.501us         2  45.750us  44.176us  47.325us  cudaMemcpy
+  0.01%  62.079us         2  31.039us  16.144us  45.935us  cudaLaunch
+  0.01%  52.737us         1  52.737us  52.737us  52.737us  cuDeviceGetName
+  0.00%  12.740us        20     637ns     238ns  6.6420us  cudaSetupArgument
+  0.00%  5.0930us         3  1.6970us     346ns  4.0740us  cuDeviceGetCount
+  0.00%  2.3630us         2  1.1810us     607ns  1.7560us  cudaConfigureCall
+  0.00%  1.4360us         3     478ns     340ns     650ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 66
+==39485== NVPROF is profiling process 39485, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13638.630859
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39485== Profiling application: ./tmm1
+==39485== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 74.44%  15.840us         2  7.9200us  7.4560us  8.3840us  [CUDA memcpy DtoH]
+ 13.08%  2.7840us         1  2.7840us  2.7840us  2.7840us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 12.48%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39485== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.83%  692.77ms         2  346.39ms  167.47us  692.61ms  cudaMalloc
+  0.07%  506.56us        95  5.3320us     254ns  167.18us  cuDeviceGetAttribute
+  0.04%  301.00us         2  150.50us  130.28us  170.72us  cudaFree
+  0.02%  144.58us         1  144.58us  144.58us  144.58us  cuDeviceTotalMem
+  0.01%  99.688us         2  49.844us  44.712us  54.976us  cudaMemcpy
+  0.01%  63.538us         2  31.769us  16.242us  47.296us  cudaLaunch
+  0.01%  42.423us         1  42.423us  42.423us  42.423us  cuDeviceGetName
+  0.00%  12.551us        20     627ns     235ns  6.3750us  cudaSetupArgument
+  0.00%  5.0410us         3  1.6800us     344ns  3.9840us  cuDeviceGetCount
+  0.00%  1.8950us         2     947ns     617ns  1.2780us  cudaConfigureCall
+  0.00%  1.3510us         3     450ns     326ns     627ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 67
+==39497== NVPROF is profiling process 39497, command: ./tmm1
+==39497== Profiling application: ./tmm1
+### begin intervals
+[ 0,0:
+    13674.981445
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39497== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 74.40%  15.808us         2  7.9040us  7.4240us  8.3840us  [CUDA memcpy DtoH]
+ 12.80%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 12.80%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39497== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.84%  691.47ms         2  345.73ms  167.38us  691.30ms  cudaMalloc
+  0.07%  458.09us        95  4.8220us     252ns  173.86us  cuDeviceGetAttribute
+  0.04%  301.83us         2  150.92us  131.00us  170.83us  cudaFree
+  0.02%  119.07us         1  119.07us  119.07us  119.07us  cuDeviceTotalMem
+  0.01%  99.593us         2  49.796us  44.331us  55.262us  cudaMemcpy
+  0.01%  62.483us         2  31.241us  16.299us  46.184us  cudaLaunch
+  0.01%  49.295us         1  49.295us  49.295us  49.295us  cuDeviceGetName
+  0.00%  12.215us        20     610ns     240ns  6.4110us  cudaSetupArgument
+  0.00%  5.1100us         3  1.7030us     355ns  4.1070us  cuDeviceGetCount
+  0.00%  1.9580us         2     979ns     608ns  1.3500us  cudaConfigureCall
+  0.00%  1.4600us         3     486ns     325ns     712ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 68
+==39509== NVPROF is profiling process 39509, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13683.368164
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39509== Profiling application: ./tmm1
+==39509== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 74.74%  16.097us         2  8.0480us  7.4240us  8.6730us  [CUDA memcpy DtoH]
+ 12.78%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 12.48%  2.6880us         1  2.6880us  2.6880us  2.6880us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39509== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.83%  757.72ms         2  378.86ms  181.39us  757.54ms  cudaMalloc
+  0.07%  528.82us        95  5.5660us     310ns  192.83us  cuDeviceGetAttribute
+  0.04%  301.14us         2  150.57us  132.29us  168.84us  cudaFree
+  0.02%  141.20us         1  141.20us  141.20us  141.20us  cuDeviceTotalMem
+  0.01%  103.89us         1  103.89us  103.89us  103.89us  cuDeviceGetName
+  0.01%  96.061us         2  48.030us  41.696us  54.365us  cudaMemcpy
+  0.01%  62.214us         2  31.107us  16.237us  45.977us  cudaLaunch
+  0.00%  12.126us        20     606ns     233ns  6.3730us  cudaSetupArgument
+  0.00%  5.3970us         3  1.7990us     419ns  4.1940us  cuDeviceGetCount
+  0.00%  2.0400us         2  1.0200us     637ns  1.4030us  cudaConfigureCall
+  0.00%  1.5680us         3     522ns     430ns     605ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 69
+==39521== NVPROF is profiling process 39521, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13182.551758
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39521== Profiling application: ./tmm1
+==39521== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.60%  12.384us         2  6.1920us  4.9600us  7.4240us  [CUDA memcpy DtoH]
+ 15.47%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.93%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39521== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.85%  755.51ms         2  377.76ms  166.47us  755.35ms  cudaMalloc
+  0.07%  492.94us        95  5.1880us     252ns  194.32us  cuDeviceGetAttribute
+  0.04%  295.10us         2  147.55us  126.08us  169.02us  cudaFree
+  0.02%  124.75us         1  124.75us  124.75us  124.75us  cuDeviceTotalMem
+  0.01%  89.578us         2  44.789us  42.751us  46.827us  cudaMemcpy
+  0.01%  64.145us         2  32.072us  15.845us  48.300us  cudaLaunch
+  0.01%  51.653us         1  51.653us  51.653us  51.653us  cuDeviceGetName
+  0.00%  11.976us        20     598ns     232ns  6.2620us  cudaSetupArgument
+  0.00%  5.2230us         3  1.7410us     343ns  4.1830us  cuDeviceGetCount
+  0.00%  2.0710us         2  1.0350us     782ns  1.2890us  cudaConfigureCall
+  0.00%  1.4330us         3     477ns     345ns     680ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 70
+==39533== NVPROF is profiling process 39533, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13766.113281
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39533== Profiling application: ./tmm1
+==39533== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.77%  12.480us         2  6.2400us  4.9920us  7.4880us  [CUDA memcpy DtoH]
+ 15.38%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.85%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39533== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  818.68ms         2  409.34ms  171.55us  818.51ms  cudaMalloc
+  0.06%  456.33us        95  4.8030us     253ns  173.42us  cuDeviceGetAttribute
+  0.04%  310.13us         2  155.07us  137.65us  172.48us  cudaFree
+  0.01%  118.67us         1  118.67us  118.67us  118.67us  cuDeviceTotalMem
+  0.01%  92.252us         2  46.126us  43.723us  48.529us  cudaMemcpy
+  0.01%  64.616us         2  32.308us  16.276us  48.340us  cudaLaunch
+  0.01%  49.449us         1  49.449us  49.449us  49.449us  cuDeviceGetName
+  0.00%  12.309us        20     615ns     237ns  6.5450us  cudaSetupArgument
+  0.00%  5.3310us         3  1.7770us     371ns  4.2550us  cuDeviceGetCount
+  0.00%  1.9240us         2     962ns     603ns  1.3210us  cudaConfigureCall
+  0.00%  1.4560us         3     485ns     328ns     697ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 71
+==39545== NVPROF is profiling process 39545, command: ./tmm1
+==39545== ### begin intervals
+[ 0,0:
+    13694.563477
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+Profiling application: ./tmm1
+==39545== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.79%  12.417us         2  6.2080us  4.9920us  7.4250us  [CUDA memcpy DtoH]
+ 15.47%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.75%  2.6240us         1  2.6240us  2.6240us  2.6240us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39545== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  765.68ms         2  382.84ms  167.28us  765.51ms  cudaMalloc
+  0.06%  456.61us        95  4.8060us     253ns  171.71us  cuDeviceGetAttribute
+  0.04%  301.10us         2  150.55us  130.29us  170.81us  cudaFree
+  0.02%  118.53us         1  118.53us  118.53us  118.53us  cuDeviceTotalMem
+  0.01%  91.128us         2  45.564us  43.187us  47.941us  cudaMemcpy
+  0.01%  61.877us         2  30.938us  15.963us  45.914us  cudaLaunch
+  0.01%  48.375us         1  48.375us  48.375us  48.375us  cuDeviceGetName
+  0.00%  12.183us        20     609ns     239ns  6.3640us  cudaSetupArgument
+  0.00%  5.5220us         3  1.8400us     446ns  4.4220us  cuDeviceGetCount
+  0.00%  2.0340us         2  1.0170us     607ns  1.4270us  cudaConfigureCall
+  0.00%  1.6630us         3     554ns     345ns     774ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 72
+==39557== NVPROF is profiling process 39557, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13701.864258
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39557== Profiling application: ./tmm1
+==39557== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.66%  12.416us         2  6.2080us  4.9600us  7.4560us  [CUDA memcpy DtoH]
+ 15.62%  2.7840us         1  2.7840us  2.7840us  2.7840us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.72%  2.6240us         1  2.6240us  2.6240us  2.6240us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39557== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  817.28ms         2  408.64ms  167.14us  817.11ms  cudaMalloc
+  0.06%  483.43us        95  5.0880us     255ns  183.22us  cuDeviceGetAttribute
+  0.04%  302.25us         2  151.13us  130.52us  171.73us  cudaFree
+  0.01%  120.35us         1  120.35us  120.35us  120.35us  cuDeviceTotalMem
+  0.01%  92.586us         2  46.293us  46.137us  46.449us  cudaMemcpy
+  0.01%  62.385us         2  31.192us  16.076us  46.309us  cudaLaunch
+  0.01%  42.186us         1  42.186us  42.186us  42.186us  cuDeviceGetName
+  0.00%  13.127us        20     656ns     238ns  6.7700us  cudaSetupArgument
+  0.00%  5.5070us         3  1.8350us     432ns  4.2940us  cuDeviceGetCount
+  0.00%  2.1260us         2  1.0630us     610ns  1.5160us  cudaConfigureCall
+  0.00%  1.7240us         3     574ns     327ns     749ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 73
+==39569== NVPROF is profiling process 39569, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13699.260742
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39569== Profiling application: ./tmm1
+==39569== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.86%  12.384us         2  6.1920us  4.9920us  7.3920us  [CUDA memcpy DtoH]
+ 15.34%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.80%  2.6240us         1  2.6240us  2.6240us  2.6240us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39569== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  818.64ms         2  409.32ms  164.75us  818.48ms  cudaMalloc
+  0.06%  475.04us        95  5.0000us     249ns  173.79us  cuDeviceGetAttribute
+  0.04%  300.45us         2  150.23us  136.57us  163.89us  cudaFree
+  0.01%  119.23us         1  119.23us  119.23us  119.23us  cuDeviceTotalMem
+  0.01%  91.182us         2  45.591us  42.208us  48.974us  cudaMemcpy
+  0.01%  70.581us         2  35.290us  15.794us  54.787us  cudaLaunch
+  0.01%  48.656us         1  48.656us  48.656us  48.656us  cuDeviceGetName
+  0.00%  12.277us        20     613ns     236ns  6.2620us  cudaSetupArgument
+  0.00%  4.8210us         3  1.6070us     350ns  3.8980us  cuDeviceGetCount
+  0.00%  2.0550us         2  1.0270us     576ns  1.4790us  cudaConfigureCall
+  0.00%  1.4270us         3     475ns     343ns     695ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 74
+==39581== NVPROF is profiling process 39581, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13219.435547
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39581== Profiling application: ./tmm1
+==39581== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.66%  12.416us         2  6.2080us  4.9920us  7.4240us  [CUDA memcpy DtoH]
+ 15.44%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.90%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39581== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.85%  826.04ms         2  413.02ms  174.60us  825.87ms  cudaMalloc
+  0.06%  536.04us        95  5.6420us     312ns  204.09us  cuDeviceGetAttribute
+  0.04%  299.33us         2  149.66us  131.45us  167.88us  cudaFree
+  0.02%  168.24us         1  168.24us  168.24us  168.24us  cuDeviceTotalMem
+  0.01%  90.496us         2  45.248us  42.815us  47.681us  cudaMemcpy
+  0.01%  61.686us         2  30.843us  16.063us  45.623us  cudaLaunch
+  0.01%  47.276us         1  47.276us  47.276us  47.276us  cuDeviceGetName
+  0.00%  12.701us        20     635ns     237ns  6.3770us  cudaSetupArgument
+  0.00%  5.1890us         3  1.7290us     394ns  3.8360us  cuDeviceGetCount
+  0.00%  2.0030us         2  1.0010us     607ns  1.3960us  cudaConfigureCall
+  0.00%  1.7990us         3     599ns     454ns     730ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 75
+==39593== NVPROF is profiling process 39593, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13674.697266
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39593== Profiling application: ./tmm1
+==39593== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 81.61%  24.000us         2  12.000us  9.2480us  14.752us  [CUDA memcpy DtoH]
+  9.25%  2.7210us         1  2.7210us  2.7210us  2.7210us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+  9.14%  2.6880us         1  2.6880us  2.6880us  2.6880us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39593== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.82%  654.69ms         2  327.35ms  168.02us  654.52ms  cudaMalloc
+  0.07%  472.40us        95  4.9720us     260ns  171.86us  cuDeviceGetAttribute
+  0.05%  306.86us         2  153.43us  130.57us  176.29us  cudaFree
+  0.02%  119.19us         1  119.19us  119.19us  119.19us  cuDeviceTotalMem
+  0.02%  110.30us         2  55.149us  54.619us  55.679us  cudaMemcpy
+  0.01%  65.210us         2  32.605us  16.204us  49.006us  cudaLaunch
+  0.01%  51.949us         1  51.949us  51.949us  51.949us  cuDeviceGetName
+  0.00%  19.669us        20     983ns     236ns  13.473us  cudaSetupArgument
+  0.00%  4.6160us         3  1.5380us     356ns  3.5960us  cuDeviceGetCount
+  0.00%  1.9820us         2     991ns     603ns  1.3790us  cudaConfigureCall
+  0.00%  1.5740us         3     524ns     322ns     763ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 76
+==39605== NVPROF is profiling process 39605, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13983.085938
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39605== Profiling application: ./tmm1
+==39605== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 70.13%  12.544us         2  6.2720us  4.9920us  7.5520us  [CUDA memcpy DtoH]
+ 15.21%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.67%  2.6240us         1  2.6240us  2.6240us  2.6240us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39605== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.85%  807.26ms         2  403.63ms  295.62us  806.96ms  cudaMalloc
+  0.06%  484.81us        95  5.1030us     258ns  190.25us  cuDeviceGetAttribute
+  0.04%  296.70us         2  148.35us  134.02us  162.68us  cudaFree
+  0.02%  141.98us         1  141.98us  141.98us  141.98us  cuDeviceTotalMem
+  0.01%  91.423us         2  45.711us  42.881us  48.542us  cudaMemcpy
+  0.01%  73.125us         1  73.125us  73.125us  73.125us  cuDeviceGetName
+  0.01%  62.952us         2  31.476us  16.681us  46.271us  cudaLaunch
+  0.00%  12.331us        20     616ns     236ns  6.2590us  cudaSetupArgument
+  0.00%  5.9190us         3  1.9730us     446ns  4.7060us  cuDeviceGetCount
+  0.00%  2.1260us         2  1.0630us     617ns  1.5090us  cudaConfigureCall
+  0.00%  1.7370us         3     579ns     406ns     834ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 77
+==39620== NVPROF is profiling process 39620, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13651.941406
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39620== Profiling application: ./tmm1
+==39620== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.53%  12.416us         2  6.2080us  4.9920us  7.4240us  [CUDA memcpy DtoH]
+ 15.41%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 15.05%  2.6880us         1  2.6880us  2.6880us  2.6880us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39620== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.85%  728.69ms         2  364.34ms  167.86us  728.52ms  cudaMalloc
+  0.07%  475.49us        95  5.0050us     250ns  180.96us  cuDeviceGetAttribute
+  0.04%  301.67us         2  150.83us  130.60us  171.07us  cudaFree
+  0.02%  120.53us         1  120.53us  120.53us  120.53us  cuDeviceTotalMem
+  0.01%  93.846us         2  46.923us  45.372us  48.474us  cudaMemcpy
+  0.01%  62.569us         2  31.284us  15.861us  46.708us  cudaLaunch
+  0.01%  42.131us         1  42.131us  42.131us  42.131us  cuDeviceGetName
+  0.00%  12.737us        20     636ns     239ns  6.7500us  cudaSetupArgument
+  0.00%  4.7200us         3  1.5730us     341ns  3.6700us  cuDeviceGetCount
+  0.00%  2.0530us         2  1.0260us     614ns  1.4390us  cudaConfigureCall
+  0.00%  1.5030us         3     501ns     341ns     612ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 78
+==39632== NVPROF is profiling process 39632, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13217.922852
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39632== Profiling application: ./tmm1
+==39632== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.60%  12.384us         2  6.1920us  4.9600us  7.4240us  [CUDA memcpy DtoH]
+ 15.47%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.93%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39632== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  783.72ms         2  391.86ms  166.95us  783.55ms  cudaMalloc
+  0.06%  475.83us        95  5.0080us     253ns  193.81us  cuDeviceGetAttribute
+  0.04%  307.15us         2  153.57us  129.86us  177.29us  cudaFree
+  0.02%  118.94us         1  118.94us  118.94us  118.94us  cuDeviceTotalMem
+  0.01%  90.128us         2  45.064us  43.138us  46.990us  cudaMemcpy
+  0.01%  63.271us         2  31.635us  16.516us  46.755us  cudaLaunch
+  0.01%  49.160us         1  49.160us  49.160us  49.160us  cuDeviceGetName
+  0.00%  12.348us        20     617ns     236ns  6.4220us  cudaSetupArgument
+  0.00%  5.0620us         3  1.6870us     350ns  4.0110us  cuDeviceGetCount
+  0.00%  1.9430us         2     971ns     620ns  1.3230us  cudaConfigureCall
+  0.00%  1.3050us         3     435ns     321ns     566ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 79
+==39644== NVPROF is profiling process 39644, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13273.050781
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39644== Profiling application: ./tmm1
+==39644== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.48%  12.384us         2  6.1920us  4.9920us  7.3920us  [CUDA memcpy DtoH]
+ 15.62%  2.7840us         1  2.7840us  2.7840us  2.7840us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.90%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39644== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.84%  816.60ms         2  408.30ms  168.38us  816.43ms  cudaMalloc
+  0.07%  610.32us        95  6.4240us     310ns  200.62us  cuDeviceGetAttribute
+  0.04%  292.77us         2  146.39us  130.93us  161.84us  cudaFree
+  0.02%  154.84us         1  154.84us  154.84us  154.84us  cuDeviceTotalMem
+  0.01%  93.811us         2  46.905us  45.147us  48.664us  cudaMemcpy
+  0.01%  61.909us         2  30.954us  16.056us  45.853us  cudaLaunch
+  0.00%  38.807us         1  38.807us  38.807us  38.807us  cuDeviceGetName
+  0.00%  12.035us        20     601ns     235ns  6.4050us  cudaSetupArgument
+  0.00%  5.6660us         3  1.8880us     442ns  4.5440us  cuDeviceGetCount
+  0.00%  1.9550us         2     977ns     605ns  1.3500us  cudaConfigureCall
+  0.00%  1.5800us         3     526ns     337ns     712ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 80
+==39656== NVPROF is profiling process 39656, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13679.262695
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39656== Profiling application: ./tmm1
+==39656== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.36%  12.385us         2  6.1920us  4.9610us  7.4240us  [CUDA memcpy DtoH]
+ 15.77%  2.8160us         1  2.8160us  2.8160us  2.8160us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.87%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39656== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.87%  855.86ms         2  427.93ms  164.99us  855.70ms  cudaMalloc
+  0.06%  482.64us        95  5.0800us     258ns  199.13us  cuDeviceGetAttribute
+  0.03%  299.09us         2  149.54us  130.99us  168.10us  cudaFree
+  0.01%  118.53us         1  118.53us  118.53us  118.53us  cuDeviceTotalMem
+  0.01%  92.556us         2  46.278us  43.192us  49.364us  cudaMemcpy
+  0.01%  62.465us         2  31.232us  16.220us  46.245us  cudaLaunch
+  0.01%  49.023us         1  49.023us  49.023us  49.023us  cuDeviceGetName
+  0.00%  12.831us        20     641ns     241ns  6.9890us  cudaSetupArgument
+  0.00%  4.8440us         3  1.6140us     356ns  3.7850us  cuDeviceGetCount
+  0.00%  2.1340us         2  1.0670us     616ns  1.5180us  cudaConfigureCall
+  0.00%  1.4110us         3     470ns     331ns     615ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 81
+==39668== NVPROF is profiling process 39668, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13645.508789
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39668== Profiling application: ./tmm1
+==39668== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 80.49%  22.176us         2  11.088us  4.9920us  17.184us  [CUDA memcpy DtoH]
+  9.99%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+  9.52%  2.6240us         1  2.6240us  2.6240us  2.6240us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39668== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.84%  754.22ms         2  377.11ms  170.25us  754.05ms  cudaMalloc
+  0.07%  520.59us        95  5.4790us     253ns  214.15us  cuDeviceGetAttribute
+  0.04%  308.98us         2  154.49us  136.30us  172.68us  cudaFree
+  0.02%  127.99us         1  127.99us  127.99us  127.99us  cuDeviceTotalMem
+  0.01%  100.83us         2  50.417us  47.587us  53.247us  cudaMemcpy
+  0.01%  61.668us         2  30.834us  16.047us  45.621us  cudaLaunch
+  0.01%  52.412us         1  52.412us  52.412us  52.412us  cuDeviceGetName
+  0.00%  12.498us        20     624ns     235ns  6.6160us  cudaSetupArgument
+  0.00%  5.5620us         3  1.8540us     459ns  4.4580us  cuDeviceGetCount
+  0.00%  2.0080us         2  1.0040us     630ns  1.3780us  cudaConfigureCall
+  0.00%  1.5410us         3     513ns     345ns     648ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 82
+==39680== NVPROF is profiling process 39680, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13661.696289
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39680== Profiling application: ./tmm1
+==39680== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.60%  12.384us         2  6.1920us  4.9600us  7.4240us  [CUDA memcpy DtoH]
+ 15.47%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.93%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39680== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.84%  706.39ms         2  353.20ms  172.75us  706.22ms  cudaMalloc
+  0.06%  456.36us        95  4.8030us     255ns  174.50us  cuDeviceGetAttribute
+  0.04%  300.83us         2  150.41us  132.07us  168.75us  cudaFree
+  0.02%  119.28us         1  119.28us  119.28us  119.28us  cuDeviceTotalMem
+  0.01%  89.484us         2  44.742us  42.230us  47.254us  cudaMemcpy
+  0.01%  62.193us         2  31.096us  16.000us  46.193us  cudaLaunch
+  0.01%  48.318us         1  48.318us  48.318us  48.318us  cuDeviceGetName
+  0.00%  12.349us        20     617ns     243ns  6.3830us  cudaSetupArgument
+  0.00%  5.2170us         3  1.7390us     485ns  4.1130us  cuDeviceGetCount
+  0.00%  1.9940us         2     997ns     606ns  1.3880us  cudaConfigureCall
+  0.00%  1.5330us         3     511ns     338ns     693ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 83
+==39692== NVPROF is profiling process 39692, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13363.985352
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39692== Profiling application: ./tmm1
+==39692== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.60%  12.384us         2  6.1920us  4.9600us  7.4240us  [CUDA memcpy DtoH]
+ 15.47%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.93%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39692== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.84%  809.78ms         2  404.89ms  192.16us  809.59ms  cudaMalloc
+  0.06%  513.38us        95  5.4030us     281ns  191.97us  cuDeviceGetAttribute
+  0.04%  332.64us         2  166.32us  137.61us  195.03us  cudaFree
+  0.02%  151.16us         1  151.16us  151.16us  151.16us  cuDeviceTotalMem
+  0.02%  124.51us         2  62.256us  54.475us  70.037us  cudaMemcpy
+  0.01%  72.171us         2  36.085us  19.491us  52.680us  cudaLaunch
+  0.01%  52.521us         1  52.521us  52.521us  52.521us  cuDeviceGetName
+  0.00%  14.610us        20     730ns     297ns  7.5760us  cudaSetupArgument
+  0.00%  5.5190us         3  1.8390us     411ns  4.3780us  cuDeviceGetCount
+  0.00%  2.5540us         2  1.2770us     731ns  1.8230us  cudaConfigureCall
+  0.00%  1.8170us         3     605ns     499ns     804ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 84
+==39704== NVPROF is profiling process 39704, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13729.060547
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39704== Profiling application: ./tmm1
+==39704== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.41%  12.417us         2  6.2080us  4.9930us  7.4240us  [CUDA memcpy DtoH]
+ 15.74%  2.8160us         1  2.8160us  2.8160us  2.8160us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.85%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39704== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.87%  840.85ms         2  420.43ms  174.76us  840.68ms  cudaMalloc
+  0.05%  462.36us        95  4.8660us     255ns  172.89us  cuDeviceGetAttribute
+  0.03%  293.42us         2  146.71us  125.90us  167.53us  cudaFree
+  0.02%  132.95us         1  132.95us  132.95us  132.95us  cuDeviceTotalMem
+  0.01%  89.345us         2  44.672us  42.584us  46.761us  cudaMemcpy
+  0.01%  61.675us         2  30.837us  16.255us  45.420us  cudaLaunch
+  0.01%  56.093us         1  56.093us  56.093us  56.093us  cuDeviceGetName
+  0.00%  12.088us        20     604ns     235ns  6.2850us  cudaSetupArgument
+  0.00%  5.3990us         3  1.7990us     462ns  4.0960us  cuDeviceGetCount
+  0.00%  1.9570us         2     978ns     590ns  1.3670us  cudaConfigureCall
+  0.00%  1.8050us         3     601ns     450ns     813ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 85
+==39716== NVPROF is profiling process 39716, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13305.716797
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39716== Profiling application: ./tmm1
+==39716== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.66%  12.416us         2  6.2080us  4.9920us  7.4240us  [CUDA memcpy DtoH]
+ 15.44%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.90%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39716== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.83%  681.36ms         2  340.68ms  162.66us  681.20ms  cudaMalloc
+  0.07%  475.73us        95  5.0070us     252ns  192.87us  cuDeviceGetAttribute
+  0.04%  303.64us         2  151.82us  132.38us  171.26us  cudaFree
+  0.02%  120.82us         1  120.82us  120.82us  120.82us  cuDeviceTotalMem
+  0.01%  92.713us         2  46.356us  43.419us  49.294us  cudaMemcpy
+  0.01%  63.802us         2  31.901us  15.812us  47.990us  cudaLaunch
+  0.01%  49.193us         1  49.193us  49.193us  49.193us  cuDeviceGetName
+  0.00%  12.477us        20     623ns     233ns  6.2520us  cudaSetupArgument
+  0.00%  4.6420us         3  1.5470us     348ns  3.6340us  cuDeviceGetCount
+  0.00%  2.0980us         2  1.0490us     564ns  1.5340us  cudaConfigureCall
+  0.00%  1.5200us         3     506ns     340ns     667ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 86
+==39729== NVPROF is profiling process 39729, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13787.864258
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39729== Profiling application: ./tmm1
+==39729== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 73.32%  15.040us         2  7.5200us  5.9520us  9.0880us  [CUDA memcpy DtoH]
+ 13.57%  2.7840us         1  2.7840us  2.7840us  2.7840us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 13.10%  2.6880us         1  2.6880us  2.6880us  2.6880us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39729== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.80%  568.53ms         2  284.27ms  173.94us  568.36ms  cudaMalloc
+  0.08%  477.08us        95  5.0210us     253ns  182.91us  cuDeviceGetAttribute
+  0.06%  313.62us         2  156.81us  142.21us  171.41us  cudaFree
+  0.02%  120.56us         1  120.56us  120.56us  120.56us  cuDeviceTotalMem
+  0.02%  94.978us         2  47.489us  43.315us  51.663us  cudaMemcpy
+  0.01%  67.331us         2  33.665us  16.203us  51.128us  cudaLaunch
+  0.01%  41.094us         1  41.094us  41.094us  41.094us  cuDeviceGetName
+  0.00%  12.283us        20     614ns     233ns  6.7580us  cudaSetupArgument
+  0.00%  5.5630us         3  1.8540us     427ns  4.2340us  cuDeviceGetCount
+  0.00%  2.3570us         2  1.1780us     625ns  1.7320us  cudaConfigureCall
+  0.00%  1.7140us         3     571ns     320ns     700ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 87
+==39741== NVPROF is profiling process 39741, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13780.187500
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39741== Profiling application: ./tmm1
+==39741== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.84%  12.448us         2  6.2240us  5.0240us  7.4240us  [CUDA memcpy DtoH]
+ 15.26%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.90%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39741== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.83%  693.73ms         2  346.87ms  168.61us  693.57ms  cudaMalloc
+  0.08%  522.82us        95  5.5030us     253ns  203.76us  cuDeviceGetAttribute
+  0.04%  301.48us         2  150.74us  131.32us  170.16us  cudaFree
+  0.02%  121.16us         1  121.16us  121.16us  121.16us  cuDeviceTotalMem
+  0.01%  92.767us         2  46.383us  44.534us  48.233us  cudaMemcpy
+  0.01%  61.379us         2  30.689us  16.080us  45.299us  cudaLaunch
+  0.01%  42.469us         1  42.469us  42.469us  42.469us  cuDeviceGetName
+  0.00%  12.742us        20     637ns     235ns  6.3800us  cudaSetupArgument
+  0.00%  5.1930us         3  1.7310us     443ns  4.1050us  cuDeviceGetCount
+  0.00%  2.0350us         2  1.0170us     613ns  1.4220us  cudaConfigureCall
+  0.00%  1.7280us         3     576ns     356ns     730ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 88
+==39753== NVPROF is profiling process 39753, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13482.806641
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39753== Profiling application: ./tmm1
+==39753== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 70.11%  12.609us         2  6.3040us  5.1530us  7.4560us  [CUDA memcpy DtoH]
+ 15.48%  2.7840us         1  2.7840us  2.7840us  2.7840us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.41%  2.5920us         1  2.5920us  2.5920us  2.5920us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39753== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.87%  821.64ms         2  410.82ms  167.16us  821.48ms  cudaMalloc
+  0.05%  449.45us        95  4.7310us     251ns  168.56us  cuDeviceGetAttribute
+  0.04%  290.48us         2  145.24us  126.04us  164.44us  cudaFree
+  0.02%  134.49us         1  134.49us  134.49us  134.49us  cuDeviceTotalMem
+  0.01%  89.832us         2  44.916us  42.632us  47.200us  cudaMemcpy
+  0.01%  61.780us         2  30.890us  15.801us  45.979us  cudaLaunch
+  0.01%  48.082us         1  48.082us  48.082us  48.082us  cuDeviceGetName
+  0.00%  12.459us        20     622ns     237ns  6.5880us  cudaSetupArgument
+  0.00%  4.3870us         3  1.4620us     405ns  3.3450us  cuDeviceGetCount
+  0.00%  1.8460us         2     923ns     611ns  1.2350us  cudaConfigureCall
+  0.00%  1.4200us         3     473ns     316ns     653ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 89
+==39765== NVPROF is profiling process 39765, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13747.308594
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39765== Profiling application: ./tmm1
+==39765== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 70.00%  12.544us         2  6.2720us  5.1520us  7.3920us  [CUDA memcpy DtoH]
+ 15.36%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.64%  2.6240us         1  2.6240us  2.6240us  2.6240us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39765== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.84%  697.87ms         2  348.94ms  191.28us  697.68ms  cudaMalloc
+  0.07%  465.26us        95  4.8970us     254ns  180.45us  cuDeviceGetAttribute
+  0.05%  329.31us         2  164.66us  159.02us  170.29us  cudaFree
+  0.02%  119.48us         1  119.48us  119.48us  119.48us  cuDeviceTotalMem
+  0.01%  89.513us         2  44.756us  41.609us  47.904us  cudaMemcpy
+  0.01%  64.350us         2  32.175us  17.379us  46.971us  cudaLaunch
+  0.01%  48.434us         1  48.434us  48.434us  48.434us  cuDeviceGetName
+  0.00%  12.550us        20     627ns     237ns  6.6850us  cudaSetupArgument
+  0.00%  4.6340us         3  1.5440us     352ns  3.7020us  cuDeviceGetCount
+  0.00%  1.9580us         2     979ns     604ns  1.3540us  cudaConfigureCall
+  0.00%  1.3280us         3     442ns     310ns     611ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 90
+==39777== NVPROF is profiling process 39777, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13373.880859
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39777== Profiling application: ./tmm1
+==39777== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.53%  12.416us         2  6.2080us  4.9920us  7.4240us  [CUDA memcpy DtoH]
+ 15.59%  2.7840us         1  2.7840us  2.7840us  2.7840us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.87%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39777== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  822.21ms         2  411.10ms  168.23us  822.04ms  cudaMalloc
+  0.06%  460.67us        95  4.8490us     254ns  174.61us  cuDeviceGetAttribute
+  0.04%  311.36us         2  155.68us  125.60us  185.77us  cudaFree
+  0.01%  119.39us         1  119.39us  119.39us  119.39us  cuDeviceTotalMem
+  0.01%  97.038us         2  48.519us  43.547us  53.491us  cudaMemcpy
+  0.01%  72.125us         2  36.062us  16.284us  55.841us  cudaLaunch
+  0.01%  65.010us         1  65.010us  65.010us  65.010us  cuDeviceGetName
+  0.00%  13.697us        20     684ns     243ns  7.3250us  cudaSetupArgument
+  0.00%  6.0710us         3  2.0230us     451ns  5.0060us  cuDeviceGetCount
+  0.00%  2.3830us         2  1.1910us     630ns  1.7530us  cudaConfigureCall
+  0.00%  1.5950us         3     531ns     317ns     770ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 91
+==39789== NVPROF is profiling process 39789, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13444.065430
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39789== Profiling application: ./tmm1
+==39789== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 70.52%  12.704us         2  6.3520us  4.9920us  7.7120us  [CUDA memcpy DtoH]
+ 15.10%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.39%  2.5920us         1  2.5920us  2.5920us  2.5920us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39789== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.81%  618.60ms         2  309.30ms  167.00us  618.43ms  cudaMalloc
+  0.08%  484.67us        95  5.1010us     259ns  185.78us  cuDeviceGetAttribute
+  0.05%  301.10us         2  150.55us  130.45us  170.66us  cudaFree
+  0.03%  161.99us         1  161.99us  161.99us  161.99us  cuDeviceTotalMem
+  0.02%  93.467us         2  46.733us  44.667us  48.800us  cudaMemcpy
+  0.01%  61.059us         2  30.529us  16.102us  44.957us  cudaLaunch
+  0.01%  46.303us         1  46.303us  46.303us  46.303us  cuDeviceGetName
+  0.00%  12.740us        20     637ns     237ns  6.4960us  cudaSetupArgument
+  0.00%  5.6520us         3  1.8840us     448ns  4.5090us  cuDeviceGetCount
+  0.00%  2.1360us         2  1.0680us     614ns  1.5220us  cudaConfigureCall
+  0.00%  1.5110us         3     503ns     339ns     616ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 92
+==39801== NVPROF is profiling process 39801, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13669.730469
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39801== Profiling application: ./tmm1
+==39801== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.29%  12.416us         2  6.2080us  4.9920us  7.4240us  [CUDA memcpy DtoH]
+ 15.71%  2.8160us         1  2.8160us  2.8160us  2.8160us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 15.00%  2.6880us         1  2.6880us  2.6880us  2.6880us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39801== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  823.16ms         2  411.58ms  174.69us  822.98ms  cudaMalloc
+  0.06%  499.51us        95  5.2580us     248ns  183.20us  cuDeviceGetAttribute
+  0.04%  306.30us         2  153.15us  139.51us  166.79us  cudaFree
+  0.01%  120.20us         1  120.20us  120.20us  120.20us  cuDeviceTotalMem
+  0.01%  87.608us         2  43.804us  41.350us  46.258us  cudaMemcpy
+  0.01%  63.248us         2  31.624us  16.609us  46.639us  cudaLaunch
+  0.01%  41.561us         1  41.561us  41.561us  41.561us  cuDeviceGetName
+  0.00%  13.203us        20     660ns     238ns  7.0730us  cudaSetupArgument
+  0.00%  4.4730us         3  1.4910us     371ns  3.4260us  cuDeviceGetCount
+  0.00%  2.3020us         2  1.1510us     597ns  1.7050us  cudaConfigureCall
+  0.00%  1.6050us         3     535ns     377ns     618ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 93
+==39813== NVPROF is profiling process 39813, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13666.208984
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39813== Profiling application: ./tmm1
+==39813== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 74.36%  15.872us         2  7.9360us  7.4240us  8.4480us  [CUDA memcpy DtoH]
+ 13.19%  2.8160us         1  2.8160us  2.8160us  2.8160us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 12.44%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39813== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.82%  690.07ms         2  345.03ms  171.21us  689.90ms  cudaMalloc
+  0.07%  490.97us        95  5.1680us     255ns  195.44us  cuDeviceGetAttribute
+  0.04%  306.56us         2  153.28us  132.76us  173.80us  cudaFree
+  0.03%  220.48us         1  220.48us  220.48us  220.48us  cuDeviceTotalMem
+  0.01%  95.911us         2  47.955us  41.438us  54.473us  cudaMemcpy
+  0.01%  63.429us         2  31.714us  16.052us  47.377us  cudaLaunch
+  0.01%  43.934us         1  43.934us  43.934us  43.934us  cuDeviceGetName
+  0.00%  12.735us        20     636ns     235ns  6.7300us  cudaSetupArgument
+  0.00%  5.3880us         3  1.7960us     464ns  4.1600us  cuDeviceGetCount
+  0.00%  2.0510us         2  1.0250us     715ns  1.3360us  cudaConfigureCall
+  0.00%  1.7440us         3     581ns     403ns     809ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 94
+==39879== NVPROF is profiling process 39879, command: ./tmm1
+==39879== ### begin intervals
+[ 0,0:
+    13721.726562
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+Profiling application: ./tmm1
+==39879== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 72.02%  13.920us         2  6.9600us  6.4640us  7.4560us  [CUDA memcpy DtoH]
+ 14.24%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 13.74%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39879== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.80%  689.44ms         2  344.72ms  169.24us  689.27ms  cudaMalloc
+  0.09%  654.40us        95  6.8880us     312ns  281.97us  cuDeviceGetAttribute
+  0.04%  302.74us         2  151.37us  131.43us  171.31us  cudaFree
+  0.02%  163.49us         1  163.49us  163.49us  163.49us  cuDeviceTotalMem
+  0.01%  91.511us         2  45.755us  42.888us  48.623us  cudaMemcpy
+  0.01%  61.272us         2  30.636us  16.359us  44.913us  cudaLaunch
+  0.01%  56.668us         1  56.668us  56.668us  56.668us  cuDeviceGetName
+  0.00%  12.285us        20     614ns     237ns  6.3750us  cudaSetupArgument
+  0.00%  5.4510us         3  1.8170us     482ns  4.1480us  cuDeviceGetCount
+  0.00%  2.1340us         3     711ns     455ns     991ns  cuDeviceGet
+  0.00%  1.8870us         2     943ns     608ns  1.2790us  cudaConfigureCall
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 95
+==39926== NVPROF is profiling process 39926, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13757.568359
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39926== Profiling application: ./tmm1
+==39926== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 81.08%  23.042us         2  11.521us  8.3850us  14.657us  [CUDA memcpy DtoH]
+  9.57%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+  9.35%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39926== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.82%  671.09ms         2  335.55ms  179.97us  670.91ms  cudaMalloc
+  0.07%  478.49us        95  5.0360us     252ns  181.29us  cuDeviceGetAttribute
+  0.05%  318.20us         2  159.10us  139.88us  178.32us  cudaFree
+  0.02%  138.33us         1  138.33us  138.33us  138.33us  cuDeviceTotalMem
+  0.02%  109.35us         2  54.672us  51.588us  57.757us  cudaMemcpy
+  0.01%  88.475us         2  44.237us  23.260us  65.215us  cudaLaunch
+  0.01%  41.639us         1  41.639us  41.639us  41.639us  cuDeviceGetName
+  0.00%  13.533us        20     676ns     236ns  7.2440us  cudaSetupArgument
+  0.00%  5.0330us         3  1.6770us     432ns  3.9860us  cuDeviceGetCount
+  0.00%  2.6650us         2  1.3320us     619ns  2.0460us  cudaConfigureCall
+  0.00%  1.6460us         3     548ns     340ns     710ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 96
+==39941== NVPROF is profiling process 39941, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13726.472656
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39941== Profiling application: ./tmm1
+==39941== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 74.44%  15.840us         2  7.9200us  7.4240us  8.4160us  [CUDA memcpy DtoH]
+ 13.23%  2.8160us         1  2.8160us  2.8160us  2.8160us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 12.33%  2.6240us         1  2.6240us  2.6240us  2.6240us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39941== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.83%  689.85ms         2  344.92ms  167.66us  689.68ms  cudaMalloc
+  0.07%  474.16us        95  4.9910us     251ns  179.91us  cuDeviceGetAttribute
+  0.04%  302.73us         2  151.36us  130.45us  172.28us  cudaFree
+  0.02%  137.77us         1  137.77us  137.77us  137.77us  cuDeviceTotalMem
+  0.01%  98.403us         2  49.201us  43.641us  54.762us  cudaMemcpy
+  0.01%  61.914us         2  30.957us  16.096us  45.818us  cudaLaunch
+  0.01%  48.983us         1  48.983us  48.983us  48.983us  cuDeviceGetName
+  0.00%  12.196us        20     609ns     234ns  6.3380us  cudaSetupArgument
+  0.00%  5.8660us         3  1.9550us     432ns  4.6600us  cuDeviceGetCount
+  0.00%  1.9460us         2     973ns     611ns  1.3350us  cudaConfigureCall
+  0.00%  1.5600us         3     520ns     334ns     706ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 97
+==39953== NVPROF is profiling process 39953, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13699.709961
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39953== Profiling application: ./tmm1
+==39953== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 72.96%  14.848us         2  7.4240us  5.9840us  8.8640us  [CUDA memcpy DtoH]
+ 13.68%  2.7840us         1  2.7840us  2.7840us  2.7840us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 13.36%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39953== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.83%  709.82ms         2  354.91ms  173.60us  709.65ms  cudaMalloc
+  0.07%  518.21us        95  5.4540us     258ns  211.79us  cuDeviceGetAttribute
+  0.04%  309.43us         2  154.72us  134.67us  174.76us  cudaFree
+  0.02%  121.96us         1  121.96us  121.96us  121.96us  cuDeviceTotalMem
+  0.01%  97.525us         2  48.762us  45.835us  51.690us  cudaMemcpy
+  0.01%  71.577us         2  35.788us  16.254us  55.323us  cudaLaunch
+  0.01%  44.013us         1  44.013us  44.013us  44.013us  cuDeviceGetName
+  0.00%  13.483us        20     674ns     235ns  7.1700us  cudaSetupArgument
+  0.00%  5.3440us         3  1.7810us     368ns  4.3330us  cuDeviceGetCount
+  0.00%  2.4570us         2  1.2280us     624ns  1.8330us  cudaConfigureCall
+  0.00%  1.6660us         3     555ns     357ns     762ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 98
+==39965== NVPROF is profiling process 39965, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13538.213867
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39965== Profiling application: ./tmm1
+==39965== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.60%  12.384us         2  6.1920us  4.9600us  7.4240us  [CUDA memcpy DtoH]
+ 15.47%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.93%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39965== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.85%  809.64ms         2  404.82ms  166.60us  809.47ms  cudaMalloc
+  0.06%  525.31us        95  5.5290us     311ns  200.84us  cuDeviceGetAttribute
+  0.04%  299.80us         2  149.90us  130.67us  169.13us  cudaFree
+  0.02%  147.34us         1  147.34us  147.34us  147.34us  cuDeviceTotalMem
+  0.01%  95.236us         2  47.618us  46.970us  48.266us  cudaMemcpy
+  0.01%  62.876us         2  31.438us  16.179us  46.697us  cudaLaunch
+  0.01%  47.295us         1  47.295us  47.295us  47.295us  cuDeviceGetName
+  0.00%  12.454us        20     622ns     240ns  6.1900us  cudaSetupArgument
+  0.00%  5.2870us         3  1.7620us     431ns  4.0430us  cuDeviceGetCount
+  0.00%  1.9740us         2     987ns     583ns  1.3910us  cudaConfigureCall
+  0.00%  1.8580us         3     619ns     454ns     732ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 99
+==39977== NVPROF is profiling process 39977, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13406.828125
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39977== Profiling application: ./tmm1
+==39977== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.78%  12.416us         2  6.2080us  4.9920us  7.4240us  [CUDA memcpy DtoH]
+ 15.47%  2.7520us         1  2.7520us  2.7520us  2.7520us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.75%  2.6240us         1  2.6240us  2.6240us  2.6240us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39977== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  818.43ms         2  409.21ms  167.57us  818.26ms  cudaMalloc
+  0.06%  511.51us        95  5.3840us     252ns  172.63us  cuDeviceGetAttribute
+  0.04%  294.06us         2  147.03us  126.22us  167.84us  cudaFree
+  0.02%  124.52us         1  124.52us  124.52us  124.52us  cuDeviceTotalMem
+  0.01%  89.005us         2  44.502us  42.149us  46.856us  cudaMemcpy
+  0.01%  62.508us         2  31.254us  16.173us  46.335us  cudaLaunch
+  0.00%  39.067us         1  39.067us  39.067us  39.067us  cuDeviceGetName
+  0.00%  14.051us        20     702ns     236ns  8.2940us  cudaSetupArgument
+  0.00%  4.9780us         3  1.6590us     345ns  3.9560us  cuDeviceGetCount
+  0.00%  1.9950us         2     997ns     597ns  1.3980us  cudaConfigureCall
+  0.00%  1.3790us         3     459ns     333ns     605ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------
+### run 100
+==39989== NVPROF is profiling process 39989, command: ./tmm1
+### begin intervals
+[ 0,0:
+    13668.557617
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==39989== Profiling application: ./tmm1
+==39989== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 69.78%  12.416us         2  6.2080us  4.9920us  7.4240us  [CUDA memcpy DtoH]
+ 15.29%  2.7200us         1  2.7200us  2.7200us  2.7200us  SACf__MAIN___cuknl_6818_CUDA__i__i__i__i__fd_256_32__f
+ 14.93%  2.6560us         1  2.6560us  2.6560us  2.6560us  SACf__MAIN___cuknl_6817_CUDA__i__i__i__i__fd_128_32__f
+
+==39989== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.86%  824.72ms         2  412.36ms  167.20us  824.55ms  cudaMalloc
+  0.06%  471.06us        95  4.9580us     252ns  171.79us  cuDeviceGetAttribute
+  0.04%  306.75us         2  153.37us  138.56us  168.19us  cudaFree
+  0.02%  144.46us         1  144.46us  144.46us  144.46us  cuDeviceTotalMem
+  0.01%  91.942us         2  45.971us  43.415us  48.527us  cudaMemcpy
+  0.01%  61.719us         2  30.859us  15.955us  45.764us  cudaLaunch
+  0.01%  53.720us         1  53.720us  53.720us  53.720us  cuDeviceGetName
+  0.00%  12.578us        20     628ns     236ns  6.7690us  cudaSetupArgument
+  0.00%  5.4930us         3  1.8310us     437ns  4.2960us  cuDeviceGetCount
+  0.00%  2.2670us         2  1.1330us     624ns  1.6430us  cudaConfigureCall
+  0.00%  2.1820us         3     727ns     462ns     941ns  cuDeviceGet
+======== Error: Application returned non-zero code 10
+--------------------------------

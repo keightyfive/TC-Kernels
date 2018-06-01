@@ -1,0 +1,50 @@
+/*
+name:	   tmm.sac
+author:	 Kevin Klein
+compile: sac2c -o tmm tmm.sac
+run:	   ./tmm
+descr.:	 SaC implementation of tmm (transposed matrix multiply)
+				 each test should be ran about 1000 times
+*/
+
+use Array: all;
+use StdIO: all;
+use CommandLine: {argc, argv};
+use String: {string};
+use Benchmarking: all;
+use Random: all;
+
+#define RAND_MAX 2147483647
+
+// parallel lookup tables in SaC
+noinline
+float[.,.], float[.,.] LUT2(float[.,.] LUT1, int[.,.] I1, float[.,.] LUT2, int[.,.] I2)
+{
+  // No shape information found for index scalar 'j'.
+  O1 = {[i,j] -> sum({[k] -> LUT1[I1[i,k],j]})};
+  O2 = {[i,j] -> sum({[k] -> LUT2[I2[i,k],j]})};
+  return(O1, O2);
+}
+
+int main()
+{
+	#define I 1000
+	#define K 1024
+	#define J 1024
+
+	LUT1 = genarray([I,K], tof(random(0, RAND_MAX))/tof(RAND_MAX));
+        I1 = genarray([K,J], toi(random(0, RAND_MAX))/toi(RAND_MAX));
+	LUT2 = genarray([I,J], tof(random(0, RAND_MAX))/tof(RAND_MAX));
+	I2 = genarray([K,I], toi(random(0, RAND_MAX))/toi(RAND_MAX));
+
+	interval = getInterval("work", 0, 2);
+  start(interval);
+
+	// call 2LUT
+  O1,O2 = LUT2(LUT1,I1,LUT2,I2);
+
+	end(interval);
+	printResult(interval);
+
+        return toi(O1[0,0] + O2[0,0]);
+}

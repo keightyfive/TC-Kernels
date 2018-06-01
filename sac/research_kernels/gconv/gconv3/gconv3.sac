@@ -1,0 +1,61 @@
+/*
+name:	 gconv.sac
+author:	 Kevin Klein
+compile: sac2c -o gconv gconv.sac
+run:	 ./gconv
+descr.:	 SaC implementation of Tensor Comprehension kernels
+*/
+
+use Array: all;
+use StdIO: all;
+use CommandLine: {argc, argv};
+use String: {string};
+use Benchmarking: all;
+use Random: all;
+
+#define RAND_MAX 2147483647
+
+
+// grouped convolutions in SaC
+noinline
+float[.,.,.,.,.] gconv(float[.,.,.,.,.] I, float[.,.,.,.,.] W1, float[.] B)
+{
+	lb = 0*shape(I);
+	ub = shape(I) - [0,0,0,shape(W1)[3], shape(W1)[4]];
+
+	O = with{
+		(lb <= [n,g,o,h,w] < ub) : sum({[i,kh,kw] -> I[n,g,i,h+kh,w+kw] * W1[g,o,i,kh,kw]});
+	} : modarray(I);
+  O = {[n,g,o,h,w] -> sum({[m] -> O[n,g,o,h,w] * B[[m]]})};
+  return(O);
+}
+
+int main()
+{
+	// test1: N:32, G:32, F:16, C:16, W:14, H:14, KH:14, KW:14
+	// test2: N:32, G:32, F:32, C:32, W:7, H:7, KH:7, KW:7
+	// test3: N:32, G:32, F:4, C:4, W:56, H:56, KH:56, KW:56
+	// test4: N:32, G:32, F:8, C:8, W:28, H:28, KH:28, KW:28
+	#define N 32
+	#define G 32
+	#define F 4
+	#define C 4
+	#define W 56
+	#define H 56
+	#define KW 56
+	#define KH 56
+
+
+	I = genarray([N,G,C,H,W], tof(random(0, RAND_MAX))/tof(RAND_MAX));
+	W1 = genarray([G,F,C,KH,KW], tof(random(0, RAND_MAX))/tof(RAND_MAX));
+
+	interval = getInterval("work", 0, 2);
+	start(interval);
+
+	O = gconv(I, W1,[tof(random(0, RAND_MAX))/tof(RAND_MAX)]);
+
+	end(interval);
+	printResult(interval);
+
+	return toi(O[0,0,0,0,0]);
+}

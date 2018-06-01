@@ -1,0 +1,3200 @@
+### run 1
+==51436== NVPROF is profiling process 51436, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69254.421875
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51436== Profiling application: ./gconv3
+==51436== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.18%  65.880ms         3  21.960ms  3.4128ms  31.466ms  [CUDA memcpy DtoH]
+ 14.82%  11.459ms         2  5.7296ms  1.6960us  11.457ms  [CUDA memcpy HtoD]
+
+==51436== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.13%  842.54ms         5  168.51ms  315.79us  836.18ms  cudaMalloc
+  8.66%  80.071ms         5  16.014ms  27.001us  32.559ms  cudaMemcpy
+  0.12%  1.1153ms         5  223.06us  169.08us  256.02us  cudaFree
+  0.06%  567.48us        95  5.9730us     253ns  225.49us  cuDeviceGetAttribute
+  0.01%  130.79us         1  130.79us  130.79us  130.79us  cuDeviceTotalMem
+  0.01%  57.093us         1  57.093us  57.093us  57.093us  cuDeviceGetName
+  0.00%  25.809us        69     374ns     227ns  6.4740us  cudaSetupArgument
+  0.00%  5.5110us         3  1.8370us  1.1060us  3.0570us  cudaLaunch
+  0.00%  4.9260us         3  1.6420us     356ns  3.9550us  cuDeviceGetCount
+  0.00%  4.8780us         3  1.6260us     904ns  2.2170us  cudaConfigureCall
+  0.00%  1.4850us         3     495ns     320ns     684ns  cuDeviceGet
+--------------------------------
+### run 2
+==51448== NVPROF is profiling process 51448, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69063.196289
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51448== Profiling application: ./gconv3
+==51448== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.20%  65.448ms         3  21.816ms  3.3338ms  31.184ms  [CUDA memcpy DtoH]
+ 14.80%  11.370ms         2  5.6850ms  1.7280us  11.368ms  [CUDA memcpy HtoD]
+
+==51448== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.15%  838.44ms         5  167.69ms  304.27us  832.10ms  cudaMalloc
+  8.65%  79.567ms         5  15.913ms  27.351us  32.256ms  cudaMemcpy
+  0.12%  1.1219ms         5  224.38us  169.13us  259.81us  cudaFree
+  0.05%  482.09us        95  5.0740us     258ns  186.84us  cuDeviceGetAttribute
+  0.02%  144.50us         1  144.50us  144.50us  144.50us  cuDeviceTotalMem
+  0.01%  50.971us         1  50.971us  50.971us  50.971us  cuDeviceGetName
+  0.00%  25.137us        69     364ns     227ns  6.2720us  cudaSetupArgument
+  0.00%  6.3210us         3  2.1070us  1.0770us  3.3270us  cudaLaunch
+  0.00%  5.4080us         3  1.8020us     426ns  4.3280us  cuDeviceGetCount
+  0.00%  4.3960us         3  1.4650us     918ns  2.1500us  cudaConfigureCall
+  0.00%  1.4650us         3     488ns     337ns     623ns  cuDeviceGet
+--------------------------------
+### run 3
+==51460== NVPROF is profiling process 51460, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69212.821289
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51460== Profiling application: ./gconv3
+==51460== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.19%  65.969ms         3  21.990ms  3.3714ms  31.323ms  [CUDA memcpy DtoH]
+ 14.81%  11.471ms         2  5.7353ms  1.7600us  11.469ms  [CUDA memcpy HtoD]
+
+==51460== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 89.66%  711.90ms         5  142.38ms  274.81us  705.60ms  cudaMalloc
+ 10.10%  80.212ms         5  16.042ms  28.814us  32.438ms  cudaMemcpy
+  0.14%  1.1483ms         5  229.66us  175.68us  262.69us  cudaFree
+  0.07%  538.46us        95  5.6670us     310ns  219.18us  cuDeviceGetAttribute
+  0.02%  141.22us         1  141.22us  141.22us  141.22us  cuDeviceTotalMem
+  0.01%  53.498us         1  53.498us  53.498us  53.498us  cuDeviceGetName
+  0.00%  24.779us        69     359ns     230ns  6.1910us  cudaSetupArgument
+  0.00%  6.0790us         3  2.0260us     411ns  4.9640us  cuDeviceGetCount
+  0.00%  5.9000us         3  1.9660us  1.1760us  3.3040us  cudaLaunch
+  0.00%  4.2110us         3  1.4030us     959ns  1.8370us  cudaConfigureCall
+  0.00%  1.5390us         3     513ns     390ns     662ns  cuDeviceGet
+--------------------------------
+### run 4
+==51473== NVPROF is profiling process 51473, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68930.649414
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51473== Profiling application: ./gconv3
+==51473== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.25%  65.903ms         3  21.968ms  3.4526ms  31.300ms  [CUDA memcpy DtoH]
+ 14.75%  11.402ms         2  5.7008ms  1.7920us  11.400ms  [CUDA memcpy HtoD]
+
+==51473== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.90%  818.91ms         5  163.78ms  279.72us  812.61ms  cudaMalloc
+  8.89%  80.074ms         5  16.015ms  26.980us  32.411ms  cudaMemcpy
+  0.13%  1.1563ms         5  231.27us  177.11us  266.61us  cudaFree
+  0.06%  505.25us        95  5.3180us     253ns  205.57us  cuDeviceGetAttribute
+  0.01%  120.07us         1  120.07us  120.07us  120.07us  cuDeviceTotalMem
+  0.00%  41.124us         1  41.124us  41.124us  41.124us  cuDeviceGetName
+  0.00%  26.869us        69     389ns     219ns  7.0410us  cudaSetupArgument
+  0.00%  6.0040us         3  2.0010us  1.4200us  3.0890us  cudaLaunch
+  0.00%  5.1880us         3  1.7290us     442ns  4.1280us  cuDeviceGetCount
+  0.00%  4.1140us         3  1.3710us  1.0490us  1.6170us  cudaConfigureCall
+  0.00%  1.7470us         3     582ns     308ns     753ns  cuDeviceGet
+--------------------------------
+### run 5
+==51485== NVPROF is profiling process 51485, command: ./gconv3
+### begin intervals
+[ 0,0:
+    76268.934570
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51485== Profiling application: ./gconv3
+==51485== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 77.86%  64.771ms         3  21.590ms  3.4705ms  31.245ms  [CUDA memcpy DtoH]
+ 22.14%  18.416ms         2  9.2079ms  1.7280us  18.414ms  [CUDA memcpy HtoD]
+
+==51485== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 89.99%  790.30ms         5  158.06ms  270.05us  783.96ms  cudaMalloc
+  9.78%  85.892ms         5  17.178ms  27.906us  32.340ms  cudaMemcpy
+  0.13%  1.1590ms         5  231.80us  172.83us  267.74us  cudaFree
+  0.06%  545.32us        95  5.7400us     304ns  208.54us  cuDeviceGetAttribute
+  0.02%  143.26us         1  143.26us  143.26us  143.26us  cuDeviceTotalMem
+  0.01%  78.700us         1  78.700us  78.700us  78.700us  cuDeviceGetName
+  0.00%  25.271us        69     366ns     227ns  6.3460us  cudaSetupArgument
+  0.00%  5.4580us         3  1.8190us  1.0980us  3.0320us  cudaLaunch
+  0.00%  5.4550us         3  1.8180us     482ns  4.3370us  cuDeviceGetCount
+  0.00%  4.1300us         3  1.3760us     970ns  1.6400us  cudaConfigureCall
+  0.00%  1.6830us         3     561ns     338ns     821ns  cuDeviceGet
+--------------------------------
+### run 6
+==51500== NVPROF is profiling process 51500, command: ./gconv3
+### begin intervals
+[ 0,0:
+    90743.821289
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51500== Profiling application: ./gconv3
+==51500== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 71.32%  73.739ms         3  24.580ms  4.2777ms  34.761ms  [CUDA memcpy DtoH]
+ 28.68%  29.656ms         2  14.828ms  1.7600us  29.654ms  [CUDA memcpy HtoD]
+
+==51500== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.68%  647.01ms         5  129.40ms  272.84us  640.64ms  cudaMalloc
+ 14.07%  106.25ms         5  21.251ms  29.277us  35.959ms  cudaMemcpy
+  0.15%  1.1425ms         5  228.50us  173.32us  266.11us  cudaFree
+  0.08%  568.48us        95  5.9840us     252ns  226.54us  cuDeviceGetAttribute
+  0.02%  123.51us         1  123.51us  123.51us  123.51us  cuDeviceTotalMem
+  0.01%  46.412us         1  46.412us  46.412us  46.412us  cuDeviceGetName
+  0.00%  28.256us        69     409ns     229ns  6.9950us  cudaSetupArgument
+  0.00%  6.0620us         3  2.0200us  1.0750us  3.5040us  cudaLaunch
+  0.00%  5.3810us         3  1.7930us     446ns  4.3030us  cuDeviceGetCount
+  0.00%  4.7250us         3  1.5750us     858ns  1.9430us  cudaConfigureCall
+  0.00%  1.7190us         3     573ns     367ns     708ns  cuDeviceGet
+--------------------------------
+### run 7
+==51514== NVPROF is profiling process 51514, command: ./gconv3
+### begin intervals
+[ 0,0:
+    87049.225586
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51514== Profiling application: ./gconv3
+==51514== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 72.96%  70.658ms         3  23.553ms  3.6073ms  33.593ms  [CUDA memcpy DtoH]
+ 27.04%  26.188ms         2  13.094ms  1.7280us  26.186ms  [CUDA memcpy HtoD]
+
+==51514== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 86.66%  657.77ms         5  131.55ms  291.31us  651.37ms  cudaMalloc
+ 13.08%  99.249ms         5  19.850ms  36.838us  34.648ms  cudaMemcpy
+  0.16%  1.2187ms         5  243.74us  179.59us  279.06us  cudaFree
+  0.07%  542.85us        95  5.7140us     257ns  213.50us  cuDeviceGetAttribute
+  0.02%  146.26us         1  146.26us  146.26us  146.26us  cuDeviceTotalMem
+  0.01%  61.503us         1  61.503us  61.503us  61.503us  cuDeviceGetName
+  0.00%  30.308us        69     439ns     220ns  7.2380us  cudaSetupArgument
+  0.00%  7.4040us         3  2.4680us  1.1880us  4.2400us  cudaLaunch
+  0.00%  6.0280us         3  2.0090us     877ns  2.8690us  cudaConfigureCall
+  0.00%  5.3630us         3  1.7870us     413ns  4.1670us  cuDeviceGetCount
+  0.00%  1.7700us         3     590ns     361ns     900ns  cuDeviceGet
+--------------------------------
+### run 8
+==51526== NVPROF is profiling process 51526, command: ./gconv3
+### begin intervals
+[ 0,0:
+    71458.535156
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51526== Profiling application: ./gconv3
+==51526== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 86.18%  71.125ms         3  23.708ms  4.1372ms  33.651ms  [CUDA memcpy DtoH]
+ 13.82%  11.403ms         2  5.7016ms  1.7600us  11.402ms  [CUDA memcpy HtoD]
+
+==51526== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 88.76%  689.41ms         5  137.88ms  270.30us  683.10ms  cudaMalloc
+ 11.00%  85.410ms         5  17.082ms  27.239us  34.724ms  cudaMemcpy
+  0.15%  1.1451ms         5  229.02us  172.46us  265.81us  cudaFree
+  0.07%  547.80us        95  5.7660us     254ns  231.51us  cuDeviceGetAttribute
+  0.02%  120.81us         1  120.81us  120.81us  120.81us  cuDeviceTotalMem
+  0.01%  42.023us         1  42.023us  42.023us  42.023us  cuDeviceGetName
+  0.00%  26.709us        69     387ns     231ns  6.3780us  cudaSetupArgument
+  0.00%  5.8810us         3  1.9600us  1.1860us  3.1920us  cudaLaunch
+  0.00%  4.6780us         3  1.5590us     330ns  3.7290us  cuDeviceGetCount
+  0.00%  4.5150us         3  1.5050us     939ns  2.1290us  cudaConfigureCall
+  0.00%  1.5080us         3     502ns     314ns     611ns  cuDeviceGet
+--------------------------------
+### run 9
+==51538== NVPROF is profiling process 51538, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68110.803711
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51538== Profiling application: ./gconv3
+==51538== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 84.92%  64.981ms         3  21.660ms  3.7746ms  31.145ms  [CUDA memcpy DtoH]
+ 15.08%  11.536ms         2  5.7678ms  1.7920us  11.534ms  [CUDA memcpy HtoD]
+
+==51538== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.62%  784.18ms         5  156.84ms  277.58us  777.88ms  cudaMalloc
+  9.15%  79.134ms         5  15.827ms  27.046us  32.289ms  cudaMemcpy
+  0.14%  1.2493ms         5  249.86us  197.80us  302.19us  cudaFree
+  0.06%  545.31us        95  5.7400us     248ns  242.58us  cuDeviceGetAttribute
+  0.01%  117.66us         1  117.66us  117.66us  117.66us  cuDeviceTotalMem
+  0.00%  38.759us         1  38.759us  38.759us  38.759us  cuDeviceGetName
+  0.00%  25.084us        69     363ns     229ns  6.5820us  cudaSetupArgument
+  0.00%  5.4960us         3  1.8320us  1.0080us  3.1120us  cudaLaunch
+  0.00%  4.4770us         3  1.4920us     330ns  3.5330us  cuDeviceGetCount
+  0.00%  3.8760us         3  1.2920us     979ns  1.6180us  cudaConfigureCall
+  0.00%  1.3440us         3     448ns     320ns     592ns  cuDeviceGet
+--------------------------------
+### run 10
+==51550== NVPROF is profiling process 51550, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69618.230469
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51550== Profiling application: ./gconv3
+==51550== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.10%  65.938ms         3  21.979ms  3.4471ms  31.255ms  [CUDA memcpy DtoH]
+ 14.90%  11.545ms         2  5.7727ms  1.7280us  11.544ms  [CUDA memcpy HtoD]
+
+==51550== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.13%  842.90ms         5  168.58ms  281.53us  836.60ms  cudaMalloc
+  8.68%  80.264ms         5  16.053ms  27.336us  32.362ms  cudaMemcpy
+  0.12%  1.1278ms         5  225.57us  170.67us  259.24us  cudaFree
+  0.05%  475.69us        95  5.0070us     246ns  186.93us  cuDeviceGetAttribute
+  0.01%  119.42us         1  119.42us  119.42us  119.42us  cuDeviceTotalMem
+  0.01%  49.120us         1  49.120us  49.120us  49.120us  cuDeviceGetName
+  0.00%  25.279us        69     366ns     222ns  6.0860us  cudaSetupArgument
+  0.00%  6.0950us         3  2.0310us  1.0380us  3.4820us  cudaLaunch
+  0.00%  6.0590us         3  2.0190us     352ns  5.0320us  cuDeviceGetCount
+  0.00%  4.2700us         3  1.4230us  1.0720us  1.8600us  cudaConfigureCall
+  0.00%  1.4360us         3     478ns     321ns     669ns  cuDeviceGet
+--------------------------------
+### run 11
+==51562== NVPROF is profiling process 51562, command: ./gconv3
+### begin intervals
+[ 0,0:
+    71637.545898
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51562== Profiling application: ./gconv3
+==51562== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 86.22%  71.054ms         3  23.685ms  4.0985ms  33.686ms  [CUDA memcpy DtoH]
+ 13.78%  11.357ms         2  5.6784ms  1.7600us  11.355ms  [CUDA memcpy HtoD]
+
+==51562== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 88.73%  687.42ms         5  137.48ms  335.93us  680.99ms  cudaMalloc
+ 11.02%  85.354ms         5  17.071ms  30.933us  34.748ms  cudaMemcpy
+  0.16%  1.2128ms         5  242.56us  187.93us  268.14us  cudaFree
+  0.07%  529.92us        95  5.5780us     250ns  212.52us  cuDeviceGetAttribute
+  0.02%  151.98us         1  151.98us  151.98us  151.98us  cuDeviceTotalMem
+  0.01%  61.543us         1  61.543us  61.543us  61.543us  cuDeviceGetName
+  0.00%  27.142us        69     393ns     233ns  6.5980us  cudaSetupArgument
+  0.00%  6.2700us         3  2.0900us     421ns  5.0550us  cuDeviceGetCount
+  0.00%  5.7400us         3  1.9130us     997ns  3.2020us  cudaLaunch
+  0.00%  4.5710us         3  1.5230us     951ns  1.9460us  cudaConfigureCall
+  0.00%  1.8110us         3     603ns     431ns     830ns  cuDeviceGet
+--------------------------------
+### run 12
+==51574== NVPROF is profiling process 51574, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69449.682617
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51574== Profiling application: ./gconv3
+==51574== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.17%  65.640ms         3  21.880ms  3.5861ms  31.228ms  [CUDA memcpy DtoH]
+ 14.83%  11.427ms         2  5.7136ms  1.7920us  11.425ms  [CUDA memcpy HtoD]
+
+==51574== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.48%  776.72ms         5  155.34ms  327.69us  770.31ms  cudaMalloc
+  9.31%  79.886ms         5  15.977ms  39.613us  32.331ms  cudaMemcpy
+  0.13%  1.1396ms         5  227.93us  165.09us  267.03us  cudaFree
+  0.05%  456.18us        95  4.8010us     253ns  173.19us  cuDeviceGetAttribute
+  0.01%  119.20us         1  119.20us  119.20us  119.20us  cuDeviceTotalMem
+  0.01%  49.259us         1  49.259us  49.259us  49.259us  cuDeviceGetName
+  0.00%  25.418us        69     368ns     227ns  6.6460us  cudaSetupArgument
+  0.00%  5.9580us         3  1.9860us  1.0420us  3.5070us  cudaLaunch
+  0.00%  5.2260us         3  1.7420us     327ns  4.2440us  cuDeviceGetCount
+  0.00%  4.3110us         3  1.4370us     968ns  1.9430us  cudaConfigureCall
+  0.00%  1.4090us         3     469ns     321ns     692ns  cuDeviceGet
+--------------------------------
+### run 13
+==51586== NVPROF is profiling process 51586, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69256.213867
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51586== Profiling application: ./gconv3
+==51586== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.32%  66.137ms         3  22.046ms  3.5468ms  31.477ms  [CUDA memcpy DtoH]
+ 14.68%  11.378ms         2  5.6891ms  1.7280us  11.376ms  [CUDA memcpy HtoD]
+
+==51586== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.97%  827.58ms         5  165.52ms  288.52us  821.29ms  cudaMalloc
+  8.83%  80.349ms         5  16.070ms  27.787us  32.562ms  cudaMemcpy
+  0.13%  1.1395ms         5  227.91us  171.06us  268.33us  cudaFree
+  0.05%  483.72us        95  5.0910us     257ns  185.65us  cuDeviceGetAttribute
+  0.01%  120.53us         1  120.53us  120.53us  120.53us  cuDeviceTotalMem
+  0.00%  41.840us         1  41.840us  41.840us  41.840us  cuDeviceGetName
+  0.00%  26.369us        69     382ns     230ns  6.6370us  cudaSetupArgument
+  0.00%  6.0600us         3  2.0200us  1.0830us  3.4550us  cudaLaunch
+  0.00%  5.2880us         3  1.7620us     434ns  4.1680us  cuDeviceGetCount
+  0.00%  3.9480us         3  1.3160us     778ns  1.7180us  cudaConfigureCall
+  0.00%  1.9450us         3     648ns     336ns  1.0020us  cuDeviceGet
+--------------------------------
+### run 14
+==51598== NVPROF is profiling process 51598, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68973.671875
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51598== Profiling application: ./gconv3
+==51598== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.16%  65.596ms         3  21.865ms  3.3901ms  31.255ms  [CUDA memcpy DtoH]
+ 14.84%  11.430ms         2  5.7151ms  1.7280us  11.428ms  [CUDA memcpy HtoD]
+
+==51598== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 89.52%  697.29ms         5  139.46ms  311.58us  690.91ms  cudaMalloc
+ 10.24%  79.730ms         5  15.946ms  28.805us  32.342ms  cudaMemcpy
+  0.14%  1.1288ms         5  225.77us  171.61us  268.83us  cudaFree
+  0.07%  541.31us        95  5.6980us     257ns  233.53us  cuDeviceGetAttribute
+  0.02%  120.03us         1  120.03us  120.03us  120.03us  cuDeviceTotalMem
+  0.01%  41.876us         1  41.876us  41.876us  41.876us  cuDeviceGetName
+  0.00%  27.022us        69     391ns     229ns  6.6380us  cudaSetupArgument
+  0.00%  5.8620us         3  1.9540us  1.2520us  3.1340us  cudaLaunch
+  0.00%  4.8600us         3  1.6200us     338ns  3.7350us  cuDeviceGetCount
+  0.00%  4.2980us         3  1.4320us     864ns  1.7870us  cudaConfigureCall
+  0.00%  1.5000us         3     500ns     331ns     597ns  cuDeviceGet
+--------------------------------
+### run 15
+==51610== NVPROF is profiling process 51610, command: ./gconv3
+### begin intervals
+[ 0,0:
+    70239.996094
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51610== Profiling application: ./gconv3
+==51610== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.96%  68.348ms         3  22.783ms  3.5204ms  32.647ms  [CUDA memcpy DtoH]
+ 14.04%  11.165ms         2  5.5826ms  1.7280us  11.164ms  [CUDA memcpy HtoD]
+
+==51610== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 87.95%  614.05ms         5  122.81ms  280.55us  607.75ms  cudaMalloc
+ 11.78%  82.235ms         5  16.447ms  29.567us  33.677ms  cudaMemcpy
+  0.17%  1.1825ms         5  236.49us  174.60us  278.22us  cudaFree
+  0.07%  482.03us        95  5.0740us     252ns  180.35us  cuDeviceGetAttribute
+  0.02%  120.44us         1  120.44us  120.44us  120.44us  cuDeviceTotalMem
+  0.01%  42.355us         1  42.355us  42.355us  42.355us  cuDeviceGetName
+  0.00%  26.157us        69     379ns     228ns  6.2030us  cudaSetupArgument
+  0.00%  6.0550us         3  2.0180us  1.2670us  3.2530us  cudaLaunch
+  0.00%  5.4640us         3  1.8210us     354ns  4.3530us  cuDeviceGetCount
+  0.00%  4.6680us         3  1.5560us     859ns  2.3060us  cudaConfigureCall
+  0.00%  1.5210us         3     507ns     334ns     595ns  cuDeviceGet
+--------------------------------
+### run 16
+==51622== NVPROF is profiling process 51622, command: ./gconv3
+### begin intervals
+[ 0,0:
+    85873.250977
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51622== Profiling application: ./gconv3
+==51622== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 72.95%  70.280ms         3  23.427ms  3.6431ms  33.401ms  [CUDA memcpy DtoH]
+ 27.05%  26.064ms         2  13.032ms  1.7280us  26.063ms  [CUDA memcpy HtoD]
+
+==51622== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 88.16%  750.41ms         5  150.08ms  283.99us  744.10ms  cudaMalloc
+ 11.60%  98.725ms         5  19.745ms  38.158us  34.415ms  cudaMemcpy
+  0.14%  1.2130ms         5  242.60us  182.48us  299.64us  cudaFree
+  0.07%  556.54us        95  5.8580us     310ns  209.60us  cuDeviceGetAttribute
+  0.02%  169.20us         1  169.20us  169.20us  169.20us  cuDeviceTotalMem
+  0.01%  47.836us         1  47.836us  47.836us  47.836us  cuDeviceGetName
+  0.00%  34.595us        69     501ns     228ns  7.9660us  cudaSetupArgument
+  0.00%  8.0540us         3  2.6840us  1.8950us  3.9400us  cudaLaunch
+  0.00%  7.0400us         3  2.3460us  1.9370us  2.6100us  cudaConfigureCall
+  0.00%  5.0590us         3  1.6860us     357ns  3.6680us  cuDeviceGetCount
+  0.00%  1.5830us         3     527ns     421ns     618ns  cuDeviceGet
+--------------------------------
+### run 17
+==51634== NVPROF is profiling process 51634, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69151.005859
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51634== Profiling application: ./gconv3
+==51634== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.13%  65.459ms         3  21.820ms  3.3615ms  31.094ms  [CUDA memcpy DtoH]
+ 14.87%  11.434ms         2  5.7168ms  1.7280us  11.432ms  [CUDA memcpy HtoD]
+
+==51634== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.10%  835.14ms         5  167.03ms  307.90us  828.79ms  cudaMalloc
+  8.69%  79.661ms         5  15.932ms  31.768us  32.190ms  cudaMemcpy
+  0.12%  1.1452ms         5  229.05us  171.81us  260.02us  cudaFree
+  0.06%  509.01us        95  5.3580us     254ns  212.17us  cuDeviceGetAttribute
+  0.02%  146.54us         1  146.54us  146.54us  146.54us  cuDeviceTotalMem
+  0.01%  78.633us         1  78.633us  78.633us  78.633us  cuDeviceGetName
+  0.00%  25.217us        69     365ns     228ns  6.2860us  cudaSetupArgument
+  0.00%  6.2600us         3  2.0860us     439ns  5.0500us  cuDeviceGetCount
+  0.00%  5.6700us         3  1.8900us  1.0710us  3.1450us  cudaLaunch
+  0.00%  4.6160us         3  1.5380us     854ns  2.1140us  cudaConfigureCall
+  0.00%  1.6900us         3     563ns     388ns     775ns  cuDeviceGet
+--------------------------------
+### run 18
+==51646== NVPROF is profiling process 51646, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69185.908203
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51646== Profiling application: ./gconv3
+==51646== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.15%  65.769ms         3  21.923ms  3.3521ms  31.430ms  [CUDA memcpy DtoH]
+ 14.85%  11.466ms         2  5.7329ms  1.7600us  11.464ms  [CUDA memcpy HtoD]
+
+==51646== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 87.90%  594.73ms         5  118.95ms  303.76us  588.33ms  cudaMalloc
+ 11.83%  80.015ms         5  16.003ms  30.162us  32.543ms  cudaMemcpy
+  0.17%  1.1287ms         5  225.73us  171.69us  260.93us  cudaFree
+  0.07%  480.56us        95  5.0580us     255ns  186.25us  cuDeviceGetAttribute
+  0.02%  125.04us         1  125.04us  125.04us  125.04us  cuDeviceTotalMem
+  0.01%  42.021us         1  42.021us  42.021us  42.021us  cuDeviceGetName
+  0.00%  27.954us        69     405ns     227ns  6.7540us  cudaSetupArgument
+  0.00%  5.6490us         3  1.8830us  1.0650us  3.1370us  cudaLaunch
+  0.00%  4.7740us         3  1.5910us     351ns  3.7440us  cuDeviceGetCount
+  0.00%  4.1380us         3  1.3790us     894ns  1.8690us  cudaConfigureCall
+  0.00%  1.5200us         3     506ns     345ns     620ns  cuDeviceGet
+--------------------------------
+### run 19
+==51658== NVPROF is profiling process 51658, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69035.989258
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51658== Profiling application: ./gconv3
+==51658== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.24%  65.600ms         3  21.867ms  3.3583ms  31.252ms  [CUDA memcpy DtoH]
+ 14.76%  11.363ms         2  5.6815ms  1.7600us  11.361ms  [CUDA memcpy HtoD]
+
+==51658== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.13%  838.29ms         5  167.66ms  287.71us  831.97ms  cudaMalloc
+  8.67%  79.749ms         5  15.950ms  29.179us  32.361ms  cudaMemcpy
+  0.12%  1.1351ms         5  227.01us  170.03us  265.42us  cudaFree
+  0.05%  491.61us        95  5.1740us     259ns  201.93us  cuDeviceGetAttribute
+  0.01%  118.79us         1  118.79us  118.79us  118.79us  cuDeviceTotalMem
+  0.01%  49.657us         1  49.657us  49.657us  49.657us  cuDeviceGetName
+  0.00%  25.522us        69     369ns     229ns  6.3180us  cudaSetupArgument
+  0.00%  5.9300us         3  1.9760us  1.1080us  3.4560us  cudaLaunch
+  0.00%  5.2240us         3  1.7410us  1.2840us  2.5470us  cudaConfigureCall
+  0.00%  5.1430us         3  1.7140us     357ns  4.1950us  cuDeviceGetCount
+  0.00%  1.4940us         3     498ns     329ns     762ns  cuDeviceGet
+--------------------------------
+### run 20
+==51670== NVPROF is profiling process 51670, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69303.247070
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51670== Profiling application: ./gconv3
+==51670== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.15%  65.656ms         3  21.885ms  3.3782ms  31.166ms  [CUDA memcpy DtoH]
+ 14.85%  11.447ms         2  5.7235ms  1.7600us  11.445ms  [CUDA memcpy HtoD]
+
+==51670== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 87.67%  581.57ms         5  116.31ms  307.89us  575.16ms  cudaMalloc
+ 12.04%  79.858ms         5  15.972ms  29.245us  32.247ms  cudaMemcpy
+  0.17%  1.1379ms         5  227.59us  180.07us  259.11us  cudaFree
+  0.08%  521.47us        95  5.4890us     311ns  199.01us  cuDeviceGetAttribute
+  0.02%  138.48us         1  138.48us  138.48us  138.48us  cuDeviceTotalMem
+  0.01%  59.504us         1  59.504us  59.504us  59.504us  cuDeviceGetName
+  0.00%  26.860us        69     389ns     227ns  6.4040us  cudaSetupArgument
+  0.00%  5.8620us         3  1.9540us  1.1570us  3.1720us  cudaLaunch
+  0.00%  5.4030us         3  1.8010us     391ns  4.3360us  cuDeviceGetCount
+  0.00%  4.1890us         3  1.3960us     845ns  1.9690us  cudaConfigureCall
+  0.00%  1.7460us         3     582ns     359ns     731ns  cuDeviceGet
+--------------------------------
+### run 21
+==51682== NVPROF is profiling process 51682, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69274.080078
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51682== Profiling application: ./gconv3
+==51682== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.25%  66.026ms         3  22.009ms  3.3445ms  31.390ms  [CUDA memcpy DtoH]
+ 14.75%  11.423ms         2  5.7114ms  1.7280us  11.421ms  [CUDA memcpy HtoD]
+
+==51682== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.04%  834.14ms         5  166.83ms  283.06us  827.86ms  cudaMalloc
+  8.76%  80.237ms         5  16.047ms  28.664us  32.495ms  cudaMemcpy
+  0.12%  1.1245ms         5  224.89us  169.44us  258.09us  cudaFree
+  0.05%  497.16us        95  5.2330us     252ns  188.38us  cuDeviceGetAttribute
+  0.01%  123.62us         1  123.62us  123.62us  123.62us  cuDeviceTotalMem
+  0.01%  53.593us         1  53.593us  53.593us  53.593us  cuDeviceGetName
+  0.00%  24.866us        69     360ns     227ns  6.1160us  cudaSetupArgument
+  0.00%  5.7350us         3  1.9110us     432ns  4.6480us  cuDeviceGetCount
+  0.00%  5.5140us         3  1.8380us  1.1100us  3.0850us  cudaLaunch
+  0.00%  4.0180us         3  1.3390us     880ns  1.6240us  cudaConfigureCall
+  0.00%  1.6800us         3     560ns     365ns     807ns  cuDeviceGet
+--------------------------------
+### run 22
+==51694== NVPROF is profiling process 51694, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68526.847656
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51694== Profiling application: ./gconv3
+==51694== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.11%  65.365ms         3  21.788ms  3.3945ms  31.231ms  [CUDA memcpy DtoH]
+ 14.89%  11.433ms         2  5.7165ms  1.7280us  11.431ms  [CUDA memcpy HtoD]
+
+==51694== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.97%  820.61ms         5  164.12ms  309.04us  814.27ms  cudaMalloc
+  8.82%  79.527ms         5  15.905ms  26.636us  32.328ms  cudaMemcpy
+  0.12%  1.1245ms         5  224.91us  166.87us  263.84us  cudaFree
+  0.07%  633.17us        95  6.6640us     273ns  310.76us  cuDeviceGetAttribute
+  0.01%  120.09us         1  120.09us  120.09us  120.09us  cuDeviceTotalMem
+  0.01%  56.182us         1  56.182us  56.182us  56.182us  cuDeviceGetName
+  0.00%  25.610us        69     371ns     227ns  6.5620us  cudaSetupArgument
+  0.00%  6.6160us         3  2.2050us  1.3620us  3.7710us  cudaLaunch
+  0.00%  4.8850us         3  1.6280us     378ns  3.8730us  cuDeviceGetCount
+  0.00%  4.0280us         3  1.3420us  1.0360us  1.7430us  cudaConfigureCall
+  0.00%  1.5650us         3     521ns     310ns     756ns  cuDeviceGet
+--------------------------------
+### run 23
+==51708== NVPROF is profiling process 51708, command: ./gconv3
+### begin intervals
+[ 0,0:
+    90263.451172
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51708== Profiling application: ./gconv3
+==51708== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 71.61%  73.554ms         3  24.518ms  4.2486ms  34.702ms  [CUDA memcpy DtoH]
+ 28.39%  29.166ms         2  14.583ms  1.7600us  29.165ms  [CUDA memcpy HtoD]
+
+==51708== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 84.98%  608.68ms         5  121.74ms  270.26us  602.39ms  cudaMalloc
+ 14.74%  105.59ms         5  21.118ms  28.599us  35.899ms  cudaMemcpy
+  0.16%  1.1663ms         5  233.26us  178.42us  296.71us  cudaFree
+  0.08%  563.83us        95  5.9350us     313ns  226.06us  cuDeviceGetAttribute
+  0.02%  141.47us         1  141.47us  141.47us  141.47us  cuDeviceTotalMem
+  0.01%  52.950us         1  52.950us  52.950us  52.950us  cuDeviceGetName
+  0.00%  25.158us        69     364ns     228ns  6.3230us  cudaSetupArgument
+  0.00%  6.0690us         3  2.0230us  1.2210us  3.2920us  cudaLaunch
+  0.00%  5.5440us         3  1.8480us     423ns  4.3410us  cuDeviceGetCount
+  0.00%  3.7750us         3  1.2580us     952ns  1.5590us  cudaConfigureCall
+  0.00%  1.8060us         3     602ns     435ns     790ns  cuDeviceGet
+--------------------------------
+### run 24
+==51808== NVPROF is profiling process 51808, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68743.174805
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51808== Profiling application: ./gconv3
+==51808== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.26%  65.599ms         3  21.866ms  3.3519ms  31.291ms  [CUDA memcpy DtoH]
+ 14.74%  11.344ms         2  5.6722ms  1.7600us  11.343ms  [CUDA memcpy HtoD]
+
+==51808== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.71%  797.18ms         5  159.44ms  276.55us  790.89ms  cudaMalloc
+  9.07%  79.738ms         5  15.948ms  41.840us  32.403ms  cudaMemcpy
+  0.13%  1.1299ms         5  225.98us  168.24us  264.51us  cudaFree
+  0.06%  538.16us        95  5.6640us     254ns  209.75us  cuDeviceGetAttribute
+  0.01%  119.99us         1  119.99us  119.99us  119.99us  cuDeviceTotalMem
+  0.00%  41.687us         1  41.687us  41.687us  41.687us  cuDeviceGetName
+  0.00%  27.070us        69     392ns     226ns  6.8590us  cudaSetupArgument
+  0.00%  6.2140us         3  2.0710us  1.4470us  3.1730us  cudaLaunch
+  0.00%  4.8590us         3  1.6190us  1.1170us  1.9990us  cudaConfigureCall
+  0.00%  4.3130us         3  1.4370us     349ns  3.3380us  cuDeviceGetCount
+  0.00%  1.5170us         3     505ns     329ns     596ns  cuDeviceGet
+--------------------------------
+### run 25
+==51830== NVPROF is profiling process 51830, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68959.362305
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51830== Profiling application: ./gconv3
+==51830== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.18%  65.595ms         3  21.865ms  3.4874ms  31.152ms  [CUDA memcpy DtoH]
+ 14.82%  11.414ms         2  5.7071ms  1.7600us  11.413ms  [CUDA memcpy HtoD]
+
+==51830== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.52%  778.72ms         5  155.74ms  311.75us  772.34ms  cudaMalloc
+  9.27%  79.753ms         5  15.951ms  27.887us  32.244ms  cudaMemcpy
+  0.13%  1.1397ms         5  227.93us  166.82us  270.15us  cudaFree
+  0.05%  456.33us        95  4.8030us     252ns  171.72us  cuDeviceGetAttribute
+  0.02%  144.20us         1  144.20us  144.20us  144.20us  cuDeviceTotalMem
+  0.01%  53.287us         1  53.287us  53.287us  53.287us  cuDeviceGetName
+  0.00%  25.969us        69     376ns     222ns  6.7660us  cudaSetupArgument
+  0.00%  9.5200us         3  3.1730us     326ns  8.5040us  cuDeviceGetCount
+  0.00%  5.4850us         3  1.8280us  1.0040us  3.0800us  cudaLaunch
+  0.00%  3.8520us         3  1.2840us     827ns  1.7180us  cudaConfigureCall
+  0.00%  1.4500us         3     483ns     329ns     716ns  cuDeviceGet
+--------------------------------
+### run 26
+==51842== NVPROF is profiling process 51842, command: ./gconv3
+==51842== Profiling application: ./gconv3
+### begin intervals
+[ 0,0:
+    69099.103516
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51842== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.08%  65.594ms         3  21.865ms  3.3239ms  31.274ms  [CUDA memcpy DtoH]
+ 14.92%  11.505ms         2  5.7524ms  1.7600us  11.503ms  [CUDA memcpy HtoD]
+
+==51842== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.74%  801.90ms         5  160.38ms  273.61us  795.60ms  cudaMalloc
+  9.04%  79.903ms         5  15.981ms  29.037us  32.411ms  cudaMemcpy
+  0.13%  1.1289ms         5  225.78us  169.29us  256.70us  cudaFree
+  0.06%  521.34us        95  5.4870us     311ns  192.21us  cuDeviceGetAttribute
+  0.02%  149.11us         1  149.11us  149.11us  149.11us  cuDeviceTotalMem
+  0.01%  47.360us         1  47.360us  47.360us  47.360us  cuDeviceGetName
+  0.00%  25.747us        69     373ns     229ns  6.4740us  cudaSetupArgument
+  0.00%  5.8990us         3  1.9660us  1.0600us  3.3990us  cudaLaunch
+  0.00%  5.5600us         3  1.8530us     422ns  4.2980us  cuDeviceGetCount
+  0.00%  4.5970us         3  1.5320us  1.0210us  2.2190us  cudaConfigureCall
+  0.00%  1.5270us         3     509ns     406ns     617ns  cuDeviceGet
+--------------------------------
+### run 27
+==51854== NVPROF is profiling process 51854, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69363.884766
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51854== Profiling application: ./gconv3
+==51854== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.18%  65.845ms         3  21.948ms  3.4114ms  31.259ms  [CUDA memcpy DtoH]
+ 14.82%  11.456ms         2  5.7281ms  1.7280us  11.455ms  [CUDA memcpy HtoD]
+
+==51854== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.86%  815.29ms         5  163.06ms  329.50us  808.88ms  cudaMalloc
+  8.92%  80.072ms         5  16.014ms  30.445us  32.364ms  cudaMemcpy
+  0.13%  1.1617ms         5  232.34us  186.24us  269.74us  cudaFree
+  0.06%  503.94us        95  5.3040us     311ns  190.58us  cuDeviceGetAttribute
+  0.02%  142.45us         1  142.45us  142.45us  142.45us  cuDeviceTotalMem
+  0.01%  64.630us         1  64.630us  64.630us  64.630us  cuDeviceGetName
+  0.00%  26.858us        69     389ns     222ns  6.3130us  cudaSetupArgument
+  0.00%  5.9940us         3  1.9980us  1.3720us  3.0490us  cudaLaunch
+  0.00%  5.1830us         3  1.7270us     416ns  4.0820us  cuDeviceGetCount
+  0.00%  4.6430us         3  1.5470us  1.0210us  2.2730us  cudaConfigureCall
+  0.00%  1.8640us         3     621ns     327ns     935ns  cuDeviceGet
+--------------------------------
+### run 28
+==51868== NVPROF is profiling process 51868, command: ./gconv3
+### begin intervals
+[ 0,0:
+    71800.382812
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51868== Profiling application: ./gconv3
+==51868== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 86.22%  71.412ms         3  23.804ms  4.0639ms  33.790ms  [CUDA memcpy DtoH]
+ 13.78%  11.415ms         2  5.7076ms  1.6960us  11.413ms  [CUDA memcpy HtoD]
+
+==51868== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 88.95%  706.20ms         5  141.24ms  270.13us  699.87ms  cudaMalloc
+ 10.80%  85.739ms         5  17.148ms  28.478us  34.857ms  cudaMemcpy
+  0.14%  1.1441ms         5  228.83us  175.93us  264.21us  cudaFree
+  0.07%  594.39us        95  6.2560us     313ns  239.97us  cuDeviceGetAttribute
+  0.02%  148.86us         1  148.86us  148.86us  148.86us  cuDeviceTotalMem
+  0.01%  47.699us         1  47.699us  47.699us  47.699us  cuDeviceGetName
+  0.00%  26.492us        69     383ns     227ns  6.9190us  cudaSetupArgument
+  0.00%  6.4160us         3  2.1380us  1.4230us  3.5260us  cudaLaunch
+  0.00%  5.6700us         3  1.8900us     401ns  4.5400us  cuDeviceGetCount
+  0.00%  4.9510us         3  1.6500us  1.2620us  2.1030us  cudaConfigureCall
+  0.00%  1.7740us         3     591ns     426ns     746ns  cuDeviceGet
+--------------------------------
+### run 29
+==51882== NVPROF is profiling process 51882, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68972.950195
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51882== Profiling application: ./gconv3
+==51882== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.08%  65.315ms         3  21.772ms  3.3670ms  31.012ms  [CUDA memcpy DtoH]
+ 14.92%  11.454ms         2  5.7269ms  1.7280us  11.452ms  [CUDA memcpy HtoD]
+
+==51882== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.21%  845.43ms         5  169.09ms  317.40us  839.03ms  cudaMalloc
+  8.58%  79.497ms         5  15.899ms  26.079us  32.080ms  cudaMemcpy
+  0.13%  1.1610ms         5  232.19us  169.54us  277.27us  cudaFree
+  0.06%  532.51us        95  5.6050us     305ns  193.03us  cuDeviceGetAttribute
+  0.02%  141.85us         1  141.85us  141.85us  141.85us  cuDeviceTotalMem
+  0.01%  53.769us         1  53.769us  53.769us  53.769us  cuDeviceGetName
+  0.00%  25.785us        69     373ns     229ns  6.3940us  cudaSetupArgument
+  0.00%  5.9810us         3  1.9930us     425ns  4.5740us  cuDeviceGetCount
+  0.00%  5.6570us         3  1.8850us  1.1590us  3.0800us  cudaLaunch
+  0.00%  3.8810us         3  1.2930us  1.0170us  1.4370us  cudaConfigureCall
+  0.00%  1.7900us         3     596ns     422ns     840ns  cuDeviceGet
+--------------------------------
+### run 30
+==51896== NVPROF is profiling process 51896, command: ./gconv3
+### begin intervals
+[ 0,0:
+    72232.310547
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51896== Profiling application: ./gconv3
+==51896== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 86.41%  72.815ms         3  24.272ms  4.1425ms  34.350ms  [CUDA memcpy DtoH]
+ 13.59%  11.449ms         2  5.7244ms  1.7280us  11.447ms  [CUDA memcpy HtoD]
+
+==51896== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 88.66%  695.67ms         5  139.13ms  278.47us  689.36ms  cudaMalloc
+ 11.10%  87.131ms         5  17.426ms  26.821us  35.587ms  cudaMemcpy
+  0.15%  1.1468ms         5  229.35us  170.05us  270.85us  cudaFree
+  0.06%  501.50us        95  5.2780us     252ns  194.32us  cuDeviceGetAttribute
+  0.02%  124.50us         1  124.50us  124.50us  124.50us  cuDeviceTotalMem
+  0.01%  54.992us         1  54.992us  54.992us  54.992us  cuDeviceGetName
+  0.00%  25.087us        69     363ns     228ns  6.4070us  cudaSetupArgument
+  0.00%  5.9670us         3  1.9890us  1.1170us  3.3650us  cudaLaunch
+  0.00%  4.9810us         3  1.6600us     342ns  4.0190us  cuDeviceGetCount
+  0.00%  3.9670us         3  1.3220us     974ns  1.4980us  cudaConfigureCall
+  0.00%  1.4440us         3     481ns     343ns     681ns  cuDeviceGet
+--------------------------------
+### run 31
+==51908== NVPROF is profiling process 51908, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69258.109375
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51908== Profiling application: ./gconv3
+==51908== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.31%  66.215ms         3  22.072ms  3.3594ms  31.487ms  [CUDA memcpy DtoH]
+ 14.69%  11.403ms         2  5.7014ms  1.7600us  11.401ms  [CUDA memcpy HtoD]
+
+==51908== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.94%  825.70ms         5  165.14ms  272.58us  819.41ms  cudaMalloc
+  8.85%  80.388ms         5  16.078ms  27.246us  32.577ms  cudaMemcpy
+  0.13%  1.1410ms         5  228.20us  176.41us  261.32us  cudaFree
+  0.06%  559.24us        95  5.8860us     247ns  251.24us  cuDeviceGetAttribute
+  0.01%  122.55us         1  122.55us  122.55us  122.55us  cuDeviceTotalMem
+  0.00%  39.002us         1  39.002us  39.002us  39.002us  cuDeviceGetName
+  0.00%  26.143us        69     378ns     227ns  6.5000us  cudaSetupArgument
+  0.00%  5.4950us         3  1.8310us  1.1490us  3.0480us  cudaLaunch
+  0.00%  4.8660us         3  1.6220us     351ns  3.9340us  cuDeviceGetCount
+  0.00%  4.8080us         3  1.6020us  1.0300us  2.1790us  cudaConfigureCall
+  0.00%  1.4770us         3     492ns     325ns     730ns  cuDeviceGet
+--------------------------------
+### run 32
+==51920== NVPROF is profiling process 51920, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69103.852539
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51920== Profiling application: ./gconv3
+==51920== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.06%  65.470ms         3  21.823ms  3.3680ms  31.150ms  [CUDA memcpy DtoH]
+ 14.94%  11.503ms         2  5.7515ms  1.7600us  11.501ms  [CUDA memcpy HtoD]
+
+==51920== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.85%  810.71ms         5  162.14ms  270.75us  804.42ms  cudaMalloc
+  8.93%  79.718ms         5  15.944ms  27.473us  32.219ms  cudaMemcpy
+  0.13%  1.1479ms         5  229.58us  177.73us  261.21us  cudaFree
+  0.06%  539.40us        95  5.6770us     253ns  199.90us  cuDeviceGetAttribute
+  0.02%  149.24us         1  149.24us  149.24us  149.24us  cuDeviceTotalMem
+  0.00%  42.273us         1  42.273us  42.273us  42.273us  cuDeviceGetName
+  0.00%  25.926us        69     375ns     227ns  6.4280us  cudaSetupArgument
+  0.00%  6.1610us         3  2.0530us  1.3260us  3.4040us  cudaLaunch
+  0.00%  5.2520us         3  1.7500us     418ns  4.1940us  cuDeviceGetCount
+  0.00%  3.9890us         3  1.3290us     828ns  1.6460us  cudaConfigureCall
+  0.00%  1.8490us         3     616ns     341ns     781ns  cuDeviceGet
+--------------------------------
+### run 33
+==51932== NVPROF is profiling process 51932, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69048.056641
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51932== Profiling application: ./gconv3
+==51932== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.05%  65.904ms         3  21.968ms  3.3553ms  31.346ms  [CUDA memcpy DtoH]
+ 14.95%  11.588ms         2  5.7938ms  1.7600us  11.586ms  [CUDA memcpy HtoD]
+
+==51932== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.06%  744.01ms         5  148.80ms  297.58us  737.70ms  cudaMalloc
+  9.72%  80.274ms         5  16.055ms  28.387us  32.456ms  cudaMemcpy
+  0.14%  1.1410ms         5  228.20us  170.58us  265.96us  cudaFree
+  0.06%  534.02us        95  5.6210us     254ns  226.10us  cuDeviceGetAttribute
+  0.01%  121.77us         1  121.77us  121.77us  121.77us  cuDeviceTotalMem
+  0.01%  42.070us         1  42.070us  42.070us  42.070us  cuDeviceGetName
+  0.00%  26.571us        69     385ns     222ns  6.2600us  cudaSetupArgument
+  0.00%  6.0900us         3  2.0300us  1.3430us  3.2640us  cudaLaunch
+  0.00%  4.5070us         3  1.5020us     360ns  3.5350us  cuDeviceGetCount
+  0.00%  3.8990us         3  1.2990us     991ns  1.6050us  cudaConfigureCall
+  0.00%  1.5280us         3     509ns     359ns     598ns  cuDeviceGet
+--------------------------------
+### run 34
+==51944== NVPROF is profiling process 51944, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68848.551758
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51944== Profiling application: ./gconv3
+==51944== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.16%  65.577ms         3  21.859ms  3.3411ms  31.142ms  [CUDA memcpy DtoH]
+ 14.84%  11.428ms         2  5.7141ms  1.7280us  11.426ms  [CUDA memcpy HtoD]
+
+==51944== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.12%  837.13ms         5  167.43ms  310.26us  830.76ms  cudaMalloc
+  8.68%  79.768ms         5  15.954ms  27.997us  32.235ms  cudaMemcpy
+  0.12%  1.1355ms         5  227.10us  169.92us  262.14us  cudaFree
+  0.05%  449.05us        95  4.7260us     247ns  167.29us  cuDeviceGetAttribute
+  0.01%  134.62us         1  134.62us  134.62us  134.62us  cuDeviceTotalMem
+  0.01%  52.612us         1  52.612us  52.612us  52.612us  cuDeviceGetName
+  0.00%  25.365us        69     367ns     227ns  6.4590us  cudaSetupArgument
+  0.00%  5.6470us         3  1.8820us  1.0860us  3.2920us  cudaLaunch
+  0.00%  5.3550us         3  1.7850us     360ns  4.3500us  cuDeviceGetCount
+  0.00%  4.6870us         3  1.5620us  1.0250us  2.1600us  cudaConfigureCall
+  0.00%  1.4140us         3     471ns     309ns     661ns  cuDeviceGet
+--------------------------------
+### run 35
+==51956== NVPROF is profiling process 51956, command: ./gconv3
+### begin intervals
+[ 0,0:
+    86163.711914
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51956== Profiling application: ./gconv3
+==51956== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 72.75%  70.488ms         3  23.496ms  3.6620ms  33.490ms  [CUDA memcpy DtoH]
+ 27.25%  26.400ms         2  13.200ms  1.7280us  26.398ms  [CUDA memcpy HtoD]
+
+==51956== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 87.44%  705.35ms         5  141.07ms  306.18us  699.02ms  cudaMalloc
+ 12.31%  99.322ms         5  19.864ms  37.219us  34.542ms  cudaMemcpy
+  0.15%  1.1861ms         5  237.22us  182.02us  275.03us  cudaFree
+  0.07%  563.86us        95  5.9350us     253ns  227.39us  cuDeviceGetAttribute
+  0.02%  123.46us         1  123.46us  123.46us  123.46us  cuDeviceTotalMem
+  0.01%  46.598us         1  46.598us  46.598us  46.598us  cuDeviceGetName
+  0.00%  28.400us        69     411ns     227ns  7.5990us  cudaSetupArgument
+  0.00%  7.7280us         3  2.5760us  1.3060us  4.0940us  cudaLaunch
+  0.00%  6.2650us         3  2.0880us  1.2070us  3.0200us  cudaConfigureCall
+  0.00%  4.6260us         3  1.5420us     394ns  3.4340us  cuDeviceGetCount
+  0.00%  1.6030us         3     534ns     352ns     629ns  cuDeviceGet
+--------------------------------
+### run 36
+==51968== NVPROF is profiling process 51968, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69027.560547
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51968== Profiling application: ./gconv3
+==51968== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.12%  65.470ms         3  21.823ms  3.3659ms  31.076ms  [CUDA memcpy DtoH]
+ 14.88%  11.449ms         2  5.7243ms  1.7600us  11.447ms  [CUDA memcpy HtoD]
+
+==51968== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.31%  760.77ms         5  152.15ms  269.24us  754.49ms  cudaMalloc
+  9.46%  79.668ms         5  15.934ms  27.512us  32.159ms  cudaMemcpy
+  0.14%  1.1451ms         5  229.03us  165.91us  269.06us  cudaFree
+  0.06%  526.99us        95  5.5470us     305ns  210.97us  cuDeviceGetAttribute
+  0.02%  146.10us         1  146.10us  146.10us  146.10us  cuDeviceTotalMem
+  0.01%  53.338us         1  53.338us  53.338us  53.338us  cuDeviceGetName
+  0.00%  27.207us        69     394ns     227ns  7.4280us  cudaSetupArgument
+  0.00%  6.3440us         3  2.1140us  1.1810us  3.7720us  cudaLaunch
+  0.00%  4.9870us         3  1.6620us     351ns  3.8670us  cuDeviceGetCount
+  0.00%  4.3020us         3  1.4340us     853ns  1.7860us  cudaConfigureCall
+  0.00%  1.5600us         3     520ns     399ns     759ns  cuDeviceGet
+--------------------------------
+### run 37
+==51980== NVPROF is profiling process 51980, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68933.290039
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51980== Profiling application: ./gconv3
+==51980== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.09%  65.542ms         3  21.847ms  3.3577ms  31.209ms  [CUDA memcpy DtoH]
+ 14.91%  11.487ms         2  5.7437ms  1.7600us  11.486ms  [CUDA memcpy HtoD]
+
+==51980== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.41%  769.49ms         5  153.90ms  288.77us  763.18ms  cudaMalloc
+  9.37%  79.787ms         5  15.957ms  26.737us  32.301ms  cudaMemcpy
+  0.13%  1.1281ms         5  225.62us  171.46us  259.42us  cudaFree
+  0.06%  514.21us        95  5.4120us     253ns  188.49us  cuDeviceGetAttribute
+  0.01%  124.75us         1  124.75us  124.75us  124.75us  cuDeviceTotalMem
+  0.01%  53.528us         1  53.528us  53.528us  53.528us  cuDeviceGetName
+  0.00%  25.244us        69     365ns     227ns  6.3280us  cudaSetupArgument
+  0.00%  5.8070us         3  1.9350us  1.1500us  3.2350us  cudaLaunch
+  0.00%  4.5330us         3  1.5110us     383ns  3.5550us  cuDeviceGetCount
+  0.00%  4.1430us         3  1.3810us  1.0130us  1.5960us  cudaConfigureCall
+  0.00%  1.2960us         3     432ns     298ns     603ns  cuDeviceGet
+--------------------------------
+### run 38
+==51992== NVPROF is profiling process 51992, command: ./gconv3
+### begin intervals
+[ 0,0:
+    71501.189453
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==51992== Profiling application: ./gconv3
+==51992== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 86.07%  71.038ms         3  23.679ms  4.0638ms  33.648ms  [CUDA memcpy DtoH]
+ 13.93%  11.500ms         2  5.7499ms  1.7600us  11.498ms  [CUDA memcpy HtoD]
+
+==51992== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 86.03%  537.91ms         5  107.58ms  271.09us  531.59ms  cudaMalloc
+ 13.66%  85.426ms         5  17.085ms  28.857us  34.721ms  cudaMemcpy
+  0.19%  1.1645ms         5  232.91us  172.78us  273.50us  cudaFree
+  0.09%  538.57us        95  5.6690us     255ns  206.83us  cuDeviceGetAttribute
+  0.02%  123.63us         1  123.63us  123.63us  123.63us  cuDeviceTotalMem
+  0.01%  46.981us         1  46.981us  46.981us  46.981us  cuDeviceGetName
+  0.00%  26.549us        69     384ns     228ns  6.2590us  cudaSetupArgument
+  0.00%  5.6220us         3  1.8740us  1.1020us  3.1120us  cudaLaunch
+  0.00%  5.3510us         3  1.7830us     430ns  4.2410us  cuDeviceGetCount
+  0.00%  4.5160us         3  1.5050us     952ns  2.0690us  cudaConfigureCall
+  0.00%  1.6380us         3     546ns     349ns     664ns  cuDeviceGet
+--------------------------------
+### run 39
+==52004== NVPROF is profiling process 52004, command: ./gconv3
+### begin intervals
+[ 0,0:
+    85911.852539
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52004== Profiling application: ./gconv3
+==52004== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 72.25%  69.545ms         3  23.182ms  3.5063ms  33.238ms  [CUDA memcpy DtoH]
+ 27.75%  26.717ms         2  13.359ms  1.7920us  26.716ms  [CUDA memcpy HtoD]
+
+==52004== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 88.22%  753.28ms         5  150.66ms  284.69us  746.96ms  cudaMalloc
+ 11.55%  98.605ms         5  19.721ms  37.216us  34.275ms  cudaMemcpy
+  0.14%  1.1957ms         5  239.13us  182.15us  275.63us  cudaFree
+  0.07%  583.27us        95  6.1390us     251ns  210.66us  cuDeviceGetAttribute
+  0.01%  123.47us         1  123.47us  123.47us  123.47us  cuDeviceTotalMem
+  0.01%  48.639us         1  48.639us  48.639us  48.639us  cuDeviceGetName
+  0.00%  30.509us        69     442ns     221ns  7.6570us  cudaSetupArgument
+  0.00%  7.8500us         3  2.6160us  1.2690us  4.5420us  cudaLaunch
+  0.00%  5.8720us         3  1.9570us     432ns  4.7940us  cuDeviceGetCount
+  0.00%  5.7590us         3  1.9190us  1.0880us  2.3850us  cudaConfigureCall
+  0.00%  1.4730us         3     491ns     331ns     631ns  cuDeviceGet
+--------------------------------
+### run 40
+==52016== NVPROF is profiling process 52016, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68906.680664
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52016== Profiling application: ./gconv3
+==52016== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.08%  65.574ms         3  21.858ms  3.3380ms  31.149ms  [CUDA memcpy DtoH]
+ 14.92%  11.495ms         2  5.7475ms  1.7600us  11.493ms  [CUDA memcpy HtoD]
+
+==52016== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.38%  767.41ms         5  153.48ms  273.29us  761.11ms  cudaMalloc
+  9.40%  79.837ms         5  15.967ms  27.991us  32.266ms  cudaMemcpy
+  0.13%  1.1273ms         5  225.45us  174.17us  254.05us  cudaFree
+  0.05%  452.83us        95  4.7660us     247ns  174.09us  cuDeviceGetAttribute
+  0.02%  127.38us         1  127.38us  127.38us  127.38us  cuDeviceTotalMem
+  0.01%  52.436us         1  52.436us  52.436us  52.436us  cuDeviceGetName
+  0.00%  25.039us        69     362ns     228ns  6.0630us  cudaSetupArgument
+  0.00%  5.9110us         3  1.9700us  1.1250us  3.3430us  cudaLaunch
+  0.00%  5.6930us         3  1.8970us     454ns  4.5960us  cuDeviceGetCount
+  0.00%  4.3640us         3  1.4540us     860ns  2.0550us  cudaConfigureCall
+  0.00%  1.4520us         3     484ns     306ns     631ns  cuDeviceGet
+--------------------------------
+### run 41
+==52028== NVPROF is profiling process 52028, command: ./gconv3
+### begin intervals
+[ 0,0:
+    72568.744141
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52028== Profiling application: ./gconv3
+==52028== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 75.81%  60.509ms         3  20.170ms  3.3587ms  31.115ms  [CUDA memcpy DtoH]
+ 24.19%  19.311ms         2  9.6554ms  2.0160us  19.309ms  [CUDA memcpy HtoD]
+
+==52028== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.96%  853.97ms         5  170.79ms  280.64us  847.57ms  cudaMalloc
+  8.82%  82.832ms         5  16.566ms  35.905us  32.206ms  cudaMemcpy
+  0.14%  1.3423ms         5  268.46us  190.81us  338.41us  cudaFree
+  0.06%  521.53us        95  5.4890us     250ns  201.23us  cuDeviceGetAttribute
+  0.01%  126.77us         1  126.77us  126.77us  126.77us  cuDeviceTotalMem
+  0.00%  41.651us         1  41.651us  41.651us  41.651us  cuDeviceGetName
+  0.00%  28.601us        69     414ns     228ns  6.3180us  cudaSetupArgument
+  0.00%  7.0240us         3  2.3410us  1.3400us  3.4920us  cudaLaunch
+  0.00%  5.4030us         3  1.8010us     414ns  4.3400us  cuDeviceGetCount
+  0.00%  4.9340us         3  1.6440us  1.1050us  2.5750us  cudaConfigureCall
+  0.00%  1.7690us         3     589ns     343ns     793ns  cuDeviceGet
+--------------------------------
+### run 42
+==52040== NVPROF is profiling process 52040, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69704.752930
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52040== Profiling application: ./gconv3
+==52040== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.39%  66.820ms         3  22.273ms  3.3782ms  31.855ms  [CUDA memcpy DtoH]
+ 14.61%  11.431ms         2  5.7155ms  1.7280us  11.429ms  [CUDA memcpy HtoD]
+
+==52040== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 89.10%  677.35ms         5  135.47ms  279.65us  671.03ms  cudaMalloc
+ 10.66%  81.019ms         5  16.204ms  28.758us  32.950ms  cudaMemcpy
+  0.15%  1.1716ms         5  234.33us  180.75us  265.04us  cudaFree
+  0.06%  451.05us        95  4.7470us     252ns  172.75us  cuDeviceGetAttribute
+  0.02%  121.25us         1  121.25us  121.25us  121.25us  cuDeviceTotalMem
+  0.01%  50.546us         1  50.546us  50.546us  50.546us  cuDeviceGetName
+  0.00%  25.075us        69     363ns     227ns  6.3240us  cudaSetupArgument
+  0.00%  5.9740us         3  1.9910us  1.1290us  3.4590us  cudaLaunch
+  0.00%  5.0210us         3  1.6730us     349ns  3.9390us  cuDeviceGetCount
+  0.00%  4.3210us         3  1.4400us     959ns  1.9300us  cudaConfigureCall
+  0.00%  1.5240us         3     508ns     359ns     716ns  cuDeviceGet
+--------------------------------
+### run 43
+==52055== NVPROF is profiling process 52055, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68919.651367
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52055== Profiling application: ./gconv3
+==52055== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.12%  65.471ms         3  21.824ms  3.3406ms  31.092ms  [CUDA memcpy DtoH]
+ 14.88%  11.442ms         2  5.7209ms  1.7600us  11.440ms  [CUDA memcpy HtoD]
+
+==52055== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.23%  847.72ms         5  169.54ms  281.27us  841.42ms  cudaMalloc
+  8.58%  79.683ms         5  15.937ms  27.651us  32.171ms  cudaMemcpy
+  0.12%  1.1340ms         5  226.80us  170.70us  258.72us  cudaFree
+  0.05%  482.65us        95  5.0800us     258ns  194.42us  cuDeviceGetAttribute
+  0.01%  119.41us         1  119.41us  119.41us  119.41us  cuDeviceTotalMem
+  0.01%  52.867us         1  52.867us  52.867us  52.867us  cuDeviceGetName
+  0.00%  24.754us        69     358ns     227ns  6.1410us  cudaSetupArgument
+  0.00%  5.5180us         3  1.8390us  1.1360us  3.0320us  cudaLaunch
+  0.00%  5.1360us         3  1.7120us     338ns  4.2150us  cuDeviceGetCount
+  0.00%  4.4170us         3  1.4720us     904ns  1.9720us  cudaConfigureCall
+  0.00%  1.4700us         3     490ns     330ns     739ns  cuDeviceGet
+--------------------------------
+### run 44
+==52067== NVPROF is profiling process 52067, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68995.835938
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52067== Profiling application: ./gconv3
+==52067== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.31%  66.077ms         3  22.026ms  3.4021ms  31.388ms  [CUDA memcpy DtoH]
+ 14.69%  11.382ms         2  5.6910ms  1.7280us  11.380ms  [CUDA memcpy HtoD]
+
+==52067== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.02%  831.00ms         5  166.20ms  273.29us  824.69ms  cudaMalloc
+  8.79%  80.218ms         5  16.044ms  28.874us  32.466ms  cudaMemcpy
+  0.12%  1.1360ms         5  227.20us  172.18us  264.18us  cudaFree
+  0.05%  457.56us        95  4.8160us     252ns  173.50us  cuDeviceGetAttribute
+  0.01%  118.97us         1  118.97us  118.97us  118.97us  cuDeviceTotalMem
+  0.01%  49.058us         1  49.058us  49.058us  49.058us  cuDeviceGetName
+  0.00%  30.010us        69     434ns     228ns  9.9130us  cudaSetupArgument
+  0.00%  6.3060us         3  2.1020us  1.0840us  3.5540us  cudaLaunch
+  0.00%  4.9270us         3  1.6420us     335ns  3.8940us  cuDeviceGetCount
+  0.00%  4.5570us         3  1.5190us     996ns  1.8460us  cudaConfigureCall
+  0.00%  1.4850us         3     495ns     360ns     620ns  cuDeviceGet
+--------------------------------
+### run 45
+==52079== NVPROF is profiling process 52079, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68900.586914
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52079== Profiling application: ./gconv3
+==52079== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.22%  65.962ms         3  21.987ms  3.3788ms  31.539ms  [CUDA memcpy DtoH]
+ 14.78%  11.439ms         2  5.7194ms  1.7280us  11.437ms  [CUDA memcpy HtoD]
+
+==52079== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 89.41%  692.58ms         5  138.52ms  267.24us  686.27ms  cudaMalloc
+ 10.35%  80.176ms         5  16.035ms  26.699us  32.639ms  cudaMemcpy
+  0.15%  1.1746ms         5  234.92us  187.24us  264.04us  cudaFree
+  0.06%  469.68us        95  4.9440us     251ns  189.88us  cuDeviceGetAttribute
+  0.02%  119.35us         1  119.35us  119.35us  119.35us  cuDeviceTotalMem
+  0.01%  48.589us         1  48.589us  48.589us  48.589us  cuDeviceGetName
+  0.00%  25.703us        69     372ns     228ns  7.0180us  cudaSetupArgument
+  0.00%  5.5920us         3  1.8640us  1.0690us  3.1320us  cudaLaunch
+  0.00%  5.3500us         3  1.7830us     339ns  4.3810us  cuDeviceGetCount
+  0.00%  4.7110us         3  1.5700us     940ns  2.0570us  cudaConfigureCall
+  0.00%  1.5020us         3     500ns     304ns     733ns  cuDeviceGet
+--------------------------------
+### run 46
+==52091== NVPROF is profiling process 52091, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69022.688477
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52091== Profiling application: ./gconv3
+==52091== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.21%  65.874ms         3  21.958ms  3.3478ms  31.363ms  [CUDA memcpy DtoH]
+ 14.79%  11.437ms         2  5.7186ms  1.7280us  11.435ms  [CUDA memcpy HtoD]
+
+==52091== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 89.56%  703.00ms         5  140.60ms  306.57us  696.62ms  cudaMalloc
+ 10.20%  80.063ms         5  16.013ms  27.465us  32.452ms  cudaMemcpy
+  0.15%  1.1489ms         5  229.77us  174.24us  271.47us  cudaFree
+  0.06%  488.36us        95  5.1400us     257ns  199.64us  cuDeviceGetAttribute
+  0.02%  120.50us         1  120.50us  120.50us  120.50us  cuDeviceTotalMem
+  0.01%  41.843us         1  41.843us  41.843us  41.843us  cuDeviceGetName
+  0.00%  27.252us        69     394ns     228ns  6.3620us  cudaSetupArgument
+  0.00%  6.2030us         3  2.0670us  1.4080us  3.2560us  cudaLaunch
+  0.00%  4.9220us         3  1.6400us     357ns  3.9550us  cuDeviceGetCount
+  0.00%  4.4240us         3  1.4740us  1.0260us  2.0230us  cudaConfigureCall
+  0.00%  1.6570us         3     552ns     350ns     656ns  cuDeviceGet
+--------------------------------
+### run 47
+==52103== NVPROF is profiling process 52103, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69695.748047
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52103== Profiling application: ./gconv3
+==52103== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.29%  65.829ms         3  21.943ms  3.4650ms  31.251ms  [CUDA memcpy DtoH]
+ 14.71%  11.355ms         2  5.6776ms  1.7920us  11.353ms  [CUDA memcpy HtoD]
+
+==52103== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 89.38%  688.30ms         5  137.66ms  322.66us  681.86ms  cudaMalloc
+ 10.39%  79.986ms         5  15.997ms  31.030us  32.359ms  cudaMemcpy
+  0.15%  1.1390ms         5  227.80us  170.73us  265.68us  cudaFree
+  0.06%  457.98us        95  4.8200us     248ns  170.78us  cuDeviceGetAttribute
+  0.02%  123.39us         1  123.39us  123.39us  123.39us  cuDeviceTotalMem
+  0.01%  49.858us         1  49.858us  49.858us  49.858us  cuDeviceGetName
+  0.00%  26.169us        69     379ns     227ns  6.2020us  cudaSetupArgument
+  0.00%  5.9870us         3  1.9950us  1.2490us  3.0430us  cudaLaunch
+  0.00%  4.8640us         3  1.6210us  1.1410us  2.0770us  cudaConfigureCall
+  0.00%  4.5720us         3  1.5240us     345ns  3.5360us  cuDeviceGetCount
+  0.00%  1.4740us         3     491ns     332ns     744ns  cuDeviceGet
+--------------------------------
+### run 48
+==52115== NVPROF is profiling process 52115, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68987.107422
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52115== Profiling application: ./gconv3
+==52115== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.08%  65.493ms         3  21.831ms  3.3761ms  31.093ms  [CUDA memcpy DtoH]
+ 14.92%  11.482ms         2  5.7408ms  1.7600us  11.480ms  [CUDA memcpy HtoD]
+
+==52115== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.33%  761.95ms         5  152.39ms  271.13us  755.64ms  cudaMalloc
+  9.45%  79.745ms         5  15.949ms  26.700us  32.209ms  cudaMemcpy
+  0.14%  1.1754ms         5  235.09us  179.20us  278.29us  cudaFree
+  0.06%  468.08us        95  4.9270us     258ns  184.86us  cuDeviceGetAttribute
+  0.01%  118.04us         1  118.04us  118.04us  118.04us  cuDeviceTotalMem
+  0.01%  49.301us         1  49.301us  49.301us  49.301us  cuDeviceGetName
+  0.00%  25.459us        69     368ns     226ns  6.3650us  cudaSetupArgument
+  0.00%  8.5460us         3  2.8480us  1.5400us  4.9660us  cudaConfigureCall
+  0.00%  5.6760us         3  1.8920us  1.1530us  3.1240us  cudaLaunch
+  0.00%  5.1810us         3  1.7270us     330ns  4.2340us  cuDeviceGetCount
+  0.00%  1.3440us         3     448ns     318ns     652ns  cuDeviceGet
+--------------------------------
+### run 49
+==52127== NVPROF is profiling process 52127, command: ./gconv3
+### begin intervals
+[ 0,0:
+    89834.777344
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52127== Profiling application: ./gconv3
+==52127== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 71.51%  73.105ms         3  24.368ms  4.2723ms  34.470ms  [CUDA memcpy DtoH]
+ 28.49%  29.130ms         2  14.565ms  1.7600us  29.129ms  [CUDA memcpy HtoD]
+
+==52127== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 87.53%  751.14ms         5  150.23ms  270.40us  744.82ms  cudaMalloc
+ 12.25%  105.08ms         5  21.017ms  29.429us  35.657ms  cudaMemcpy
+  0.13%  1.1381ms         5  227.61us  173.27us  263.60us  cudaFree
+  0.06%  488.19us        95  5.1380us     258ns  196.37us  cuDeviceGetAttribute
+  0.02%  168.50us         1  168.50us  168.50us  168.50us  cuDeviceTotalMem
+  0.01%  53.465us         1  53.465us  53.465us  53.465us  cuDeviceGetName
+  0.00%  25.114us        69     363ns     228ns  6.4080us  cudaSetupArgument
+  0.00%  6.1410us         3  2.0470us  1.2410us  3.5830us  cudaLaunch
+  0.00%  5.0410us         3  1.6800us     363ns  3.8610us  cuDeviceGetCount
+  0.00%  4.1760us         3  1.3920us     918ns  1.9280us  cudaConfigureCall
+  0.00%  1.5780us         3     526ns     396ns     759ns  cuDeviceGet
+--------------------------------
+### run 50
+==52139== NVPROF is profiling process 52139, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69300.825195
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52139== Profiling application: ./gconv3
+==52139== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.16%  65.835ms         3  21.945ms  3.4063ms  31.266ms  [CUDA memcpy DtoH]
+ 14.84%  11.470ms         2  5.7348ms  1.7600us  11.468ms  [CUDA memcpy HtoD]
+
+==52139== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.82%  810.44ms         5  162.09ms  272.19us  804.13ms  cudaMalloc
+  8.97%  80.074ms         5  16.015ms  29.676us  32.357ms  cudaMemcpy
+  0.13%  1.1376ms         5  227.52us  179.99us  260.89us  cudaFree
+  0.06%  501.81us        95  5.2820us     258ns  193.83us  cuDeviceGetAttribute
+  0.02%  134.55us         1  134.55us  134.55us  134.55us  cuDeviceTotalMem
+  0.00%  44.153us         1  44.153us  44.153us  44.153us  cuDeviceGetName
+  0.00%  27.903us        69     404ns     231ns  6.4600us  cudaSetupArgument
+  0.00%  5.9780us         3  1.9920us  1.1030us  3.3600us  cudaLaunch
+  0.00%  5.2880us         3  1.7620us     352ns  4.3040us  cuDeviceGetCount
+  0.00%  4.6780us         3  1.5590us  1.1590us  1.8650us  cudaConfigureCall
+  0.00%  1.6930us         3     564ns     345ns     746ns  cuDeviceGet
+--------------------------------
+### run 51
+==52151== NVPROF is profiling process 52151, command: ./gconv3
+### begin intervals
+[ 0,0:
+    71325.609375
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52151== Profiling application: ./gconv3
+==52151== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 86.26%  71.015ms         3  23.672ms  4.1103ms  33.676ms  [CUDA memcpy DtoH]
+ 13.74%  11.308ms         2  5.6541ms  1.7600us  11.306ms  [CUDA memcpy HtoD]
+
+==52151== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 89.76%  764.44ms         5  152.89ms  281.23us  758.13ms  cudaMalloc
+ 10.02%  85.309ms         5  17.062ms  26.745us  34.725ms  cudaMemcpy
+  0.13%  1.1421ms         5  228.42us  181.87us  261.10us  cudaFree
+  0.06%  513.82us        95  5.4080us     256ns  193.52us  cuDeviceGetAttribute
+  0.02%  144.56us         1  144.56us  144.56us  144.56us  cuDeviceTotalMem
+  0.01%  55.987us         1  55.987us  55.987us  55.987us  cuDeviceGetName
+  0.00%  25.256us        69     366ns     229ns  6.2640us  cudaSetupArgument
+  0.00%  5.6890us         3  1.8960us  1.0880us  3.2380us  cudaLaunch
+  0.00%  5.6870us         3  1.8950us     419ns  4.5260us  cuDeviceGetCount
+  0.00%  4.5480us         3  1.5160us  1.3800us  1.6360us  cudaConfigureCall
+  0.00%  1.7610us         3     587ns     403ns     846ns  cuDeviceGet
+--------------------------------
+### run 52
+==52163== NVPROF is profiling process 52163, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69099.859375
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52163== Profiling application: ./gconv3
+==52163== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.27%  65.677ms         3  21.892ms  3.3567ms  31.206ms  [CUDA memcpy DtoH]
+ 14.73%  11.348ms         2  5.6739ms  1.7280us  11.346ms  [CUDA memcpy HtoD]
+
+==52163== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.19%  750.29ms         5  150.06ms  308.65us  743.93ms  cudaMalloc
+  9.59%  79.786ms         5  15.957ms  27.310us  32.291ms  cudaMemcpy
+  0.13%  1.1173ms         5  223.47us  168.86us  257.94us  cudaFree
+  0.06%  468.74us        95  4.9340us     256ns  173.30us  cuDeviceGetAttribute
+  0.01%  118.67us         1  118.67us  118.67us  118.67us  cuDeviceTotalMem
+  0.01%  49.301us         1  49.301us  49.301us  49.301us  cuDeviceGetName
+  0.00%  24.818us        69     359ns     229ns  6.3110us  cudaSetupArgument
+  0.00%  5.8360us         3  1.9450us  1.1170us  3.2960us  cudaLaunch
+  0.00%  5.3540us         3  1.7840us     369ns  4.3550us  cuDeviceGetCount
+  0.00%  4.3800us         3  1.4600us     962ns  2.0710us  cudaConfigureCall
+  0.00%  1.3470us         3     449ns     310ns     631ns  cuDeviceGet
+--------------------------------
+### run 53
+==52175== NVPROF is profiling process 52175, command: ./gconv3
+### begin intervals
+[ 0,0:
+    71387.062500
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52175== Profiling application: ./gconv3
+==52175== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 86.38%  71.268ms         3  23.756ms  4.0712ms  33.690ms  [CUDA memcpy DtoH]
+ 13.62%  11.235ms         2  5.6175ms  1.7280us  11.233ms  [CUDA memcpy HtoD]
+
+==52175== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 87.84%  630.19ms         5  126.04ms  282.20us  623.85ms  cudaMalloc
+ 11.90%  85.389ms         5  17.078ms  28.720us  34.760ms  cudaMemcpy
+  0.16%  1.1578ms         5  231.56us  177.21us  277.79us  cudaFree
+  0.07%  506.56us        95  5.3320us     257ns  211.15us  cuDeviceGetAttribute
+  0.02%  122.75us         1  122.75us  122.75us  122.75us  cuDeviceTotalMem
+  0.01%  47.443us         1  47.443us  47.443us  47.443us  cuDeviceGetName
+  0.00%  27.236us        69     394ns     230ns  6.7050us  cudaSetupArgument
+  0.00%  5.8790us         3  1.9590us  1.2520us  3.1620us  cudaLaunch
+  0.00%  5.3760us         3  1.7920us     427ns  4.3450us  cuDeviceGetCount
+  0.00%  4.6260us         3  1.5420us  1.1480us  1.9170us  cudaConfigureCall
+  0.00%  1.8030us         3     601ns     375ns     715ns  cuDeviceGet
+--------------------------------
+### run 54
+==52187== NVPROF is profiling process 52187, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68952.324219
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52187== Profiling application: ./gconv3
+==52187== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.45%  65.812ms         3  21.937ms  3.4415ms  31.225ms  [CUDA memcpy DtoH]
+ 14.55%  11.208ms         2  5.6041ms  1.7920us  11.206ms  [CUDA memcpy HtoD]
+
+==52187== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.93%  818.25ms         5  163.65ms  324.78us  811.87ms  cudaMalloc
+  8.87%  79.776ms         5  15.955ms  30.248us  32.336ms  cudaMemcpy
+  0.13%  1.1575ms         5  231.51us  178.72us  264.50us  cudaFree
+  0.05%  453.06us        95  4.7690us     247ns  169.04us  cuDeviceGetAttribute
+  0.02%  140.43us         1  140.43us  140.43us  140.43us  cuDeviceTotalMem
+  0.01%  53.704us         1  53.704us  53.704us  53.704us  cuDeviceGetName
+  0.00%  27.068us        69     392ns     230ns  6.4170us  cudaSetupArgument
+  0.00%  5.9820us         3  1.9940us  1.2030us  3.1890us  cudaLaunch
+  0.00%  5.3000us         3  1.7660us     472ns  4.1680us  cuDeviceGetCount
+  0.00%  4.7170us         3  1.5720us  1.0350us  2.1260us  cudaConfigureCall
+  0.00%  1.5380us         3     512ns     360ns     685ns  cuDeviceGet
+--------------------------------
+### run 55
+==52199== NVPROF is profiling process 52199, command: ./gconv3
+### begin intervals
+[ 0,0:
+    91010.581055
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52199== Profiling application: ./gconv3
+==52199== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 71.48%  74.271ms         3  24.757ms  4.3503ms  35.064ms  [CUDA memcpy DtoH]
+ 28.52%  29.635ms         2  14.818ms  1.7280us  29.633ms  [CUDA memcpy HtoD]
+
+==52199== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 86.56%  699.51ms         5  139.90ms  277.72us  693.14ms  cudaMalloc
+ 13.22%  106.80ms         5  21.359ms  28.427us  36.260ms  cudaMemcpy
+  0.14%  1.1370ms         5  227.39us  169.99us  267.87us  cudaFree
+  0.06%  472.12us        95  4.9690us     256ns  184.02us  cuDeviceGetAttribute
+  0.01%  119.30us         1  119.30us  119.30us  119.30us  cuDeviceTotalMem
+  0.01%  49.841us         1  49.841us  49.841us  49.841us  cuDeviceGetName
+  0.00%  25.374us        69     367ns     221ns  6.7510us  cudaSetupArgument
+  0.00%  6.0190us         3  2.0060us     981ns  3.2840us  cudaLaunch
+  0.00%  4.7860us         3  1.5950us     353ns  3.8130us  cuDeviceGetCount
+  0.00%  4.6600us         3  1.5530us     892ns  2.3160us  cudaConfigureCall
+  0.00%  1.4020us         3     467ns     313ns     683ns  cuDeviceGet
+--------------------------------
+### run 56
+==52211== NVPROF is profiling process 52211, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68881.458008
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52211== Profiling application: ./gconv3
+==52211== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 84.90%  65.260ms         3  21.753ms  3.3949ms  30.957ms  [CUDA memcpy DtoH]
+ 15.10%  11.609ms         2  5.8047ms  2.1120us  11.607ms  [CUDA memcpy HtoD]
+
+==52211== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.08%  832.83ms         5  166.57ms  315.19us  826.49ms  cudaMalloc
+  8.70%  79.588ms         5  15.918ms  26.535us  32.043ms  cudaMemcpy
+  0.13%  1.1464ms         5  229.28us  168.62us  269.47us  cudaFree
+  0.06%  543.84us        95  5.7240us     313ns  208.65us  cuDeviceGetAttribute
+  0.02%  143.71us         1  143.71us  143.71us  143.71us  cuDeviceTotalMem
+  0.01%  57.807us         1  57.807us  57.807us  57.807us  cuDeviceGetName
+  0.00%  25.518us        69     369ns     230ns  6.2840us  cudaSetupArgument
+  0.00%  5.5200us         3  1.8400us  1.0480us  3.1130us  cudaLaunch
+  0.00%  5.0870us         3  1.6950us     338ns  3.8690us  cuDeviceGetCount
+  0.00%  3.6950us         3  1.2310us     946ns  1.4890us  cudaConfigureCall
+  0.00%  1.5580us         3     519ns     377ns     711ns  cuDeviceGet
+--------------------------------
+### run 57
+==52223== NVPROF is profiling process 52223, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69111.720703
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52223== Profiling application: ./gconv3
+==52223== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.37%  65.519ms         3  21.840ms  3.3554ms  31.116ms  [CUDA memcpy DtoH]
+ 14.63%  11.228ms         2  5.6142ms  1.8560us  11.226ms  [CUDA memcpy HtoD]
+
+==52223== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.32%  856.36ms         5  171.27ms  271.90us  850.07ms  cudaMalloc
+  8.48%  79.481ms         5  15.896ms  26.961us  32.191ms  cudaMemcpy
+  0.12%  1.1524ms         5  230.49us  166.81us  275.31us  cudaFree
+  0.06%  537.56us        95  5.6580us     283ns  201.44us  cuDeviceGetAttribute
+  0.02%  148.98us         1  148.98us  148.98us  148.98us  cuDeviceTotalMem
+  0.00%  42.750us         1  42.750us  42.750us  42.750us  cuDeviceGetName
+  0.00%  26.565us        69     385ns     229ns  6.7630us  cudaSetupArgument
+  0.00%  6.0530us         3  2.0170us  1.1190us  3.4300us  cudaLaunch
+  0.00%  5.5320us         3  1.8440us     451ns  4.3720us  cuDeviceGetCount
+  0.00%  4.4210us         3  1.4730us     826ns  2.0870us  cudaConfigureCall
+  0.00%  1.6100us         3     536ns     371ns     643ns  cuDeviceGet
+--------------------------------
+### run 58
+==52235== NVPROF is profiling process 52235, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68902.967773
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52235== Profiling application: ./gconv3
+==52235== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.34%  65.343ms         3  21.781ms  3.4050ms  31.086ms  [CUDA memcpy DtoH]
+ 14.66%  11.226ms         2  5.6130ms  1.7280us  11.224ms  [CUDA memcpy HtoD]
+
+==52235== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.11%  831.67ms         5  166.33ms  310.98us  825.29ms  cudaMalloc
+  8.69%  79.299ms         5  15.860ms  26.591us  32.154ms  cudaMemcpy
+  0.12%  1.1311ms         5  226.21us  169.81us  261.22us  cudaFree
+  0.06%  514.25us        95  5.4130us     253ns  204.66us  cuDeviceGetAttribute
+  0.01%  124.61us         1  124.61us  124.61us  124.61us  cuDeviceTotalMem
+  0.01%  51.952us         1  51.952us  51.952us  51.952us  cuDeviceGetName
+  0.00%  25.384us        69     367ns     229ns  6.4780us  cudaSetupArgument
+  0.00%  6.0230us         3  2.0070us  1.1100us  3.1190us  cudaLaunch
+  0.00%  5.7570us         3  1.9190us     417ns  4.7590us  cuDeviceGetCount
+  0.00%  3.9820us         3  1.3270us     802ns  1.7620us  cudaConfigureCall
+  0.00%  1.6840us         3     561ns     298ns     890ns  cuDeviceGet
+--------------------------------
+### run 59
+==52248== NVPROF is profiling process 52248, command: ./gconv3
+### begin intervals
+[ 0,0:
+    71483.871094
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52248== Profiling application: ./gconv3
+==52248== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 86.42%  71.164ms         3  23.721ms  4.0691ms  33.556ms  [CUDA memcpy DtoH]
+ 13.58%  11.183ms         2  5.5915ms  2.0480us  11.181ms  [CUDA memcpy HtoD]
+
+==52248== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 88.77%  688.72ms         5  137.74ms  289.32us  682.40ms  cudaMalloc
+ 10.99%  85.233ms         5  17.047ms  27.095us  34.778ms  cudaMemcpy
+  0.15%  1.1520ms         5  230.40us  176.04us  278.56us  cudaFree
+  0.06%  496.42us        95  5.2250us     251ns  184.84us  cuDeviceGetAttribute
+  0.02%  144.76us         1  144.76us  144.76us  144.76us  cuDeviceTotalMem
+  0.01%  52.172us         1  52.172us  52.172us  52.172us  cuDeviceGetName
+  0.00%  26.023us        69     377ns     229ns  6.8600us  cudaSetupArgument
+  0.00%  21.947us         3  7.3150us     459ns  20.861us  cuDeviceGetCount
+  0.00%  5.9600us         3  1.9860us  1.2580us  3.2270us  cudaLaunch
+  0.00%  4.0540us         3  1.3510us  1.1070us  1.5100us  cudaConfigureCall
+  0.00%  1.5740us         3     524ns     347ns     708ns  cuDeviceGet
+--------------------------------
+### run 60
+==52282== NVPROF is profiling process 52282, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69023.681641
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52282== Profiling application: ./gconv3
+==52282== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.60%  65.808ms         3  21.936ms  3.4133ms  31.264ms  [CUDA memcpy DtoH]
+ 14.40%  11.070ms         2  5.5350ms  1.7600us  11.068ms  [CUDA memcpy HtoD]
+
+==52282== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 89.42%  688.97ms         5  137.79ms  301.56us  682.58ms  cudaMalloc
+ 10.33%  79.624ms         5  15.925ms  33.893us  32.363ms  cudaMemcpy
+  0.15%  1.1555ms         5  231.09us  174.87us  274.44us  cudaFree
+  0.07%  533.68us        95  5.6170us     257ns  215.31us  cuDeviceGetAttribute
+  0.02%  122.16us         1  122.16us  122.16us  122.16us  cuDeviceTotalMem
+  0.01%  43.867us         1  43.867us  43.867us  43.867us  cuDeviceGetName
+  0.00%  26.528us        69     384ns     229ns  6.2320us  cudaSetupArgument
+  0.00%  6.2530us         3  2.0840us     987ns  3.7930us  cudaLaunch
+  0.00%  5.2780us         3  1.7590us     408ns  4.2130us  cuDeviceGetCount
+  0.00%  4.5750us         3  1.5250us     936ns  1.9990us  cudaConfigureCall
+  0.00%  1.6920us         3     564ns     321ns     696ns  cuDeviceGet
+--------------------------------
+### run 61
+==52297== NVPROF is profiling process 52297, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69115.337891
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52297== Profiling application: ./gconv3
+==52297== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.47%  65.737ms         3  21.912ms  3.4118ms  31.166ms  [CUDA memcpy DtoH]
+ 14.53%  11.174ms         2  5.5869ms  1.7280us  11.172ms  [CUDA memcpy HtoD]
+
+==52297== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.35%  763.31ms         5  152.66ms  312.39us  756.93ms  cudaMalloc
+  9.43%  79.676ms         5  15.935ms  27.708us  32.252ms  cudaMemcpy
+  0.13%  1.1367ms         5  227.34us  171.60us  265.96us  cudaFree
+  0.06%  509.26us        95  5.3600us     249ns  205.65us  cuDeviceGetAttribute
+  0.01%  117.89us         1  117.89us  117.89us  117.89us  cuDeviceTotalMem
+  0.00%  38.986us         1  38.986us  38.986us  38.986us  cuDeviceGetName
+  0.00%  25.331us        69     367ns     227ns  6.4110us  cudaSetupArgument
+  0.00%  6.0650us         3  2.0210us  1.3980us  3.2460us  cudaLaunch
+  0.00%  4.7240us         3  1.5740us     352ns  3.7690us  cuDeviceGetCount
+  0.00%  4.5390us         3  1.5130us  1.1020us  2.1640us  cudaConfigureCall
+  0.00%  1.4830us         3     494ns     316ns     717ns  cuDeviceGet
+--------------------------------
+### run 62
+==52309== NVPROF is profiling process 52309, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69176.208984
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52309== Profiling application: ./gconv3
+==52309== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.49%  65.978ms         3  21.993ms  3.3624ms  31.312ms  [CUDA memcpy DtoH]
+ 14.51%  11.198ms         2  5.5990ms  1.7280us  11.196ms  [CUDA memcpy HtoD]
+
+==52309== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.00%  826.80ms         5  165.36ms  277.51us  820.49ms  cudaMalloc
+  8.80%  79.930ms         5  15.986ms  27.092us  32.409ms  cudaMemcpy
+  0.12%  1.1261ms         5  225.21us  163.70us  261.43us  cudaFree
+  0.05%  459.06us        95  4.8320us     255ns  170.93us  cuDeviceGetAttribute
+  0.01%  118.62us         1  118.62us  118.62us  118.62us  cuDeviceTotalMem
+  0.01%  48.336us         1  48.336us  48.336us  48.336us  cuDeviceGetName
+  0.00%  24.711us        69     358ns     228ns  6.3120us  cudaSetupArgument
+  0.00%  8.4420us         3  2.8140us     380ns  7.4300us  cuDeviceGetCount
+  0.00%  5.3310us         3  1.7770us  1.0890us  2.9080us  cudaLaunch
+  0.00%  4.0650us         3  1.3550us  1.1840us  1.5920us  cudaConfigureCall
+  0.00%  1.4350us         3     478ns     301ns     642ns  cuDeviceGet
+--------------------------------
+### run 63
+==52321== NVPROF is profiling process 52321, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68880.096680
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52321== Profiling application: ./gconv3
+==52321== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.52%  65.915ms         3  21.972ms  3.3700ms  31.505ms  [CUDA memcpy DtoH]
+ 14.48%  11.158ms         2  5.5792ms  1.7280us  11.157ms  [CUDA memcpy HtoD]
+
+==52321== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.44%  772.51ms         5  154.50ms  311.01us  766.14ms  cudaMalloc
+  9.35%  79.840ms         5  15.968ms  27.568us  32.611ms  cudaMemcpy
+  0.13%  1.1305ms         5  226.10us  169.01us  259.17us  cudaFree
+  0.05%  453.69us        95  4.7750us     249ns  172.11us  cuDeviceGetAttribute
+  0.01%  119.46us         1  119.46us  119.46us  119.46us  cuDeviceTotalMem
+  0.01%  49.537us         1  49.537us  49.537us  49.537us  cuDeviceGetName
+  0.00%  25.525us        69     369ns     229ns  6.6830us  cudaSetupArgument
+  0.00%  5.8420us         3  1.9470us  1.2340us  3.2130us  cudaLaunch
+  0.00%  5.5590us         3  1.8530us     348ns  4.5290us  cuDeviceGetCount
+  0.00%  4.7270us         3  1.5750us  1.4090us  1.8310us  cudaConfigureCall
+  0.00%  1.5510us         3     517ns     327ns     810ns  cuDeviceGet
+--------------------------------
+### run 64
+==52333== NVPROF is profiling process 52333, command: ./gconv3
+==52333== ### begin intervals
+[ 0,0:
+    68943.791992
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+Profiling application: ./gconv3
+==52333== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.49%  65.863ms         3  21.954ms  3.4754ms  31.373ms  [CUDA memcpy DtoH]
+ 14.51%  11.175ms         2  5.5875ms  1.7280us  11.173ms  [CUDA memcpy HtoD]
+
+==52333== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 89.60%  703.86ms         5  140.77ms  303.34us  697.50ms  cudaMalloc
+ 10.16%  79.778ms         5  15.956ms  27.352us  32.459ms  cudaMemcpy
+  0.15%  1.1639ms         5  232.78us  178.12us  269.42us  cudaFree
+  0.07%  553.94us        95  5.8300us     311ns  218.87us  cuDeviceGetAttribute
+  0.02%  143.76us         1  143.76us  143.76us  143.76us  cuDeviceTotalMem
+  0.01%  45.861us         1  45.861us  45.861us  45.861us  cuDeviceGetName
+  0.00%  26.191us        69     379ns     226ns  6.4720us  cudaSetupArgument
+  0.00%  6.0870us         3  2.0290us  1.0630us  3.5430us  cudaLaunch
+  0.00%  5.2990us         3  1.7660us     401ns  4.2080us  cuDeviceGetCount
+  0.00%  4.2780us         3  1.4260us     937ns  1.9550us  cudaConfigureCall
+  0.00%  1.8100us         3     603ns     503ns     667ns  cuDeviceGet
+--------------------------------
+### run 65
+==52345== NVPROF is profiling process 52345, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69130.069336
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52345== Profiling application: ./gconv3
+==52345== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.49%  65.942ms         3  21.981ms  3.3876ms  31.331ms  [CUDA memcpy DtoH]
+ 14.51%  11.188ms         2  5.5941ms  1.7280us  11.186ms  [CUDA memcpy HtoD]
+
+==52345== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 89.67%  709.36ms         5  141.87ms  286.17us  703.02ms  cudaMalloc
+ 10.10%  79.875ms         5  15.975ms  26.862us  32.407ms  cudaMemcpy
+  0.15%  1.1576ms         5  231.52us  176.93us  266.99us  cudaFree
+  0.06%  481.52us        95  5.0680us     256ns  182.93us  cuDeviceGetAttribute
+  0.02%  120.41us         1  120.41us  120.41us  120.41us  cuDeviceTotalMem
+  0.01%  46.607us         1  46.607us  46.607us  46.607us  cuDeviceGetName
+  0.00%  26.274us        69     380ns     221ns  6.4370us  cudaSetupArgument
+  0.00%  5.8990us         3  1.9660us  1.1300us  3.1880us  cudaLaunch
+  0.00%  4.4120us         3  1.4700us     783ns  1.9190us  cudaConfigureCall
+  0.00%  4.3940us         3  1.4640us     343ns  3.4220us  cuDeviceGetCount
+  0.00%  1.4270us         3     475ns     361ns     573ns  cuDeviceGet
+--------------------------------
+### run 66
+==52357== NVPROF is profiling process 52357, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69040.491211
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52357== Profiling application: ./gconv3
+==52357== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.50%  66.182ms         3  22.061ms  3.3747ms  31.461ms  [CUDA memcpy DtoH]
+ 14.50%  11.221ms         2  5.6106ms  1.7280us  11.219ms  [CUDA memcpy HtoD]
+
+==52357== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.97%  825.71ms         5  165.14ms  303.60us  819.35ms  cudaMalloc
+  8.83%  80.136ms         5  16.027ms  26.896us  32.547ms  cudaMemcpy
+  0.13%  1.1511ms         5  230.22us  168.35us  267.96us  cudaFree
+  0.06%  504.47us        95  5.3100us     248ns  194.50us  cuDeviceGetAttribute
+  0.01%  121.55us         1  121.55us  121.55us  121.55us  cuDeviceTotalMem
+  0.01%  48.685us         1  48.685us  48.685us  48.685us  cuDeviceGetName
+  0.00%  25.033us        69     362ns     227ns  6.4570us  cudaSetupArgument
+  0.00%  5.6270us         3  1.8750us     422ns  4.5890us  cuDeviceGetCount
+  0.00%  5.6260us         3  1.8750us  1.0800us  3.1560us  cudaLaunch
+  0.00%  4.9080us         3  1.6360us  1.5960us  1.7160us  cudaConfigureCall
+  0.00%  1.5710us         3     523ns     304ns     790ns  cuDeviceGet
+--------------------------------
+### run 67
+==52369== NVPROF is profiling process 52369, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69262.505859
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52369== Profiling application: ./gconv3
+==52369== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.27%  66.178ms         3  22.059ms  3.4286ms  31.519ms  [CUDA memcpy DtoH]
+ 14.73%  11.430ms         2  5.7150ms  1.7280us  11.428ms  [CUDA memcpy HtoD]
+
+==52369== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 88.10%  608.91ms         5  121.78ms  270.52us  602.59ms  cudaMalloc
+ 11.63%  80.377ms         5  16.075ms  28.913us  32.620ms  cudaMemcpy
+  0.17%  1.1589ms         5  231.79us  173.92us  281.41us  cudaFree
+  0.07%  485.47us        95  5.1100us     255ns  197.75us  cuDeviceGetAttribute
+  0.02%  120.00us         1  120.00us  120.00us  120.00us  cuDeviceTotalMem
+  0.01%  45.448us         1  45.448us  45.448us  45.448us  cuDeviceGetName
+  0.00%  27.097us        69     392ns     227ns  6.7210us  cudaSetupArgument
+  0.00%  5.6460us         3  1.8820us  1.0810us  3.1050us  cudaLaunch
+  0.00%  4.7630us         3  1.5870us     366ns  3.7870us  cuDeviceGetCount
+  0.00%  4.4490us         3  1.4830us     877ns  1.8610us  cudaConfigureCall
+  0.00%  1.5170us         3     505ns     390ns     606ns  cuDeviceGet
+--------------------------------
+### run 68
+==52381== NVPROF is profiling process 52381, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69268.928711
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52381== Profiling application: ./gconv3
+==52381== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.26%  65.958ms         3  21.986ms  3.4306ms  31.310ms  [CUDA memcpy DtoH]
+ 14.74%  11.408ms         2  5.7038ms  1.7280us  11.406ms  [CUDA memcpy HtoD]
+
+==52381== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 89.84%  725.43ms         5  145.09ms  286.38us  719.02ms  cudaMalloc
+  9.93%  80.177ms         5  16.035ms  26.355us  32.426ms  cudaMemcpy
+  0.14%  1.1348ms         5  226.96us  170.62us  261.54us  cudaFree
+  0.06%  474.55us        95  4.9950us     254ns  184.74us  cuDeviceGetAttribute
+  0.01%  120.29us         1  120.29us  120.29us  120.29us  cuDeviceTotalMem
+  0.01%  49.640us         1  49.640us  49.640us  49.640us  cuDeviceGetName
+  0.00%  25.155us        69     364ns     229ns  6.2960us  cudaSetupArgument
+  0.00%  5.8450us         3  1.9480us  1.1620us  3.1520us  cudaLaunch
+  0.00%  5.6050us         3  1.8680us     410ns  4.4780us  cuDeviceGetCount
+  0.00%  4.3540us         3  1.4510us  1.0210us  1.8930us  cudaConfigureCall
+  0.00%  1.4820us         3     494ns     323ns     663ns  cuDeviceGet
+--------------------------------
+### run 69
+==52393== NVPROF is profiling process 52393, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69295.053711
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52393== Profiling application: ./gconv3
+==52393== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.22%  66.048ms         3  22.016ms  3.3997ms  31.414ms  [CUDA memcpy DtoH]
+ 14.78%  11.453ms         2  5.7266ms  1.7610us  11.452ms  [CUDA memcpy HtoD]
+
+==52393== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.97%  828.05ms         5  165.61ms  304.42us  821.69ms  cudaMalloc
+  8.81%  80.227ms         5  16.045ms  26.503us  32.484ms  cudaMemcpy
+  0.13%  1.1464ms         5  229.28us  178.06us  259.17us  cudaFree
+  0.06%  529.28us        95  5.5710us     249ns  202.70us  cuDeviceGetAttribute
+  0.02%  151.86us         1  151.86us  151.86us  151.86us  cuDeviceTotalMem
+  0.01%  61.520us         1  61.520us  61.520us  61.520us  cuDeviceGetName
+  0.00%  27.916us        69     404ns     227ns  7.3780us  cudaSetupArgument
+  0.00%  6.3770us         3  2.1250us  1.1520us  3.8770us  cudaLaunch
+  0.00%  5.0920us         3  1.6970us     459ns  3.9530us  cuDeviceGetCount
+  0.00%  4.5800us         3  1.5260us  1.0160us  2.1220us  cudaConfigureCall
+  0.00%  1.6710us         3     557ns     402ns     711ns  cuDeviceGet
+--------------------------------
+### run 70
+==52405== NVPROF is profiling process 52405, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69076.543945
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52405== Profiling application: ./gconv3
+==52405== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.13%  65.664ms         3  21.888ms  3.3468ms  31.160ms  [CUDA memcpy DtoH]
+ 14.87%  11.467ms         2  5.7337ms  1.7280us  11.466ms  [CUDA memcpy HtoD]
+
+==52405== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.12%  839.51ms         5  167.90ms  317.80us  833.13ms  cudaMalloc
+  8.67%  79.876ms         5  15.975ms  27.583us  32.242ms  cudaMemcpy
+  0.12%  1.1362ms         5  227.24us  169.72us  268.60us  cudaFree
+  0.06%  569.28us        95  5.9920us     254ns  222.99us  cuDeviceGetAttribute
+  0.02%  146.27us         1  146.27us  146.27us  146.27us  cuDeviceTotalMem
+  0.01%  48.365us         1  48.365us  48.365us  48.365us  cuDeviceGetName
+  0.00%  26.824us        69     388ns     230ns  6.5270us  cudaSetupArgument
+  0.00%  9.2160us         3  3.0720us     448ns  7.7750us  cuDeviceGetCount
+  0.00%  6.2870us         3  2.0950us  1.2620us  3.5420us  cudaLaunch
+  0.00%  4.8330us         3  1.6110us  1.2770us  2.0180us  cudaConfigureCall
+  0.00%  1.7260us         3     575ns     437ns     756ns  cuDeviceGet
+--------------------------------
+### run 71
+==52417== NVPROF is profiling process 52417, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68989.244141
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52417== Profiling application: ./gconv3
+==52417== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.26%  65.925ms         3  21.975ms  3.4407ms  31.291ms  [CUDA memcpy DtoH]
+ 14.74%  11.398ms         2  5.6991ms  1.7280us  11.396ms  [CUDA memcpy HtoD]
+
+==52417== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.78%  805.98ms         5  161.20ms  316.91us  799.63ms  cudaMalloc
+  9.02%  80.066ms         5  16.013ms  26.152us  32.374ms  cudaMemcpy
+  0.13%  1.1489ms         5  229.78us  172.06us  272.81us  cudaFree
+  0.05%  451.34us        95  4.7500us     248ns  170.70us  cuDeviceGetAttribute
+  0.02%  136.14us         1  136.14us  136.14us  136.14us  cuDeviceTotalMem
+  0.01%  48.406us         1  48.406us  48.406us  48.406us  cuDeviceGetName
+  0.00%  24.822us        69     359ns     230ns  6.0910us  cudaSetupArgument
+  0.00%  5.6730us         3  1.8910us  1.3020us  3.0380us  cudaLaunch
+  0.00%  4.7920us         3  1.5970us     369ns  3.8200us  cuDeviceGetCount
+  0.00%  4.0420us         3  1.3470us  1.0900us  1.5890us  cudaConfigureCall
+  0.00%  1.4170us         3     472ns     343ns     661ns  cuDeviceGet
+--------------------------------
+### run 72
+==52429== NVPROF is profiling process 52429, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69284.494141
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52429== Profiling application: ./gconv3
+==52429== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.22%  66.063ms         3  22.021ms  3.3433ms  31.364ms  [CUDA memcpy DtoH]
+ 14.78%  11.454ms         2  5.7270ms  1.7600us  11.452ms  [CUDA memcpy HtoD]
+
+==52429== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 89.49%  699.74ms         5  139.95ms  314.44us  693.36ms  cudaMalloc
+ 10.27%  80.280ms         5  16.056ms  27.542us  32.456ms  cudaMemcpy
+  0.15%  1.1481ms         5  229.62us  171.39us  268.24us  cudaFree
+  0.07%  528.23us        95  5.5600us     308ns  204.79us  cuDeviceGetAttribute
+  0.02%  145.92us         1  145.92us  145.92us  145.92us  cuDeviceTotalMem
+  0.01%  42.285us         1  42.285us  42.285us  42.285us  cuDeviceGetName
+  0.00%  25.900us        69     375ns     224ns  6.3640us  cudaSetupArgument
+  0.00%  6.0030us         3  2.0010us  1.1670us  3.3280us  cudaLaunch
+  0.00%  5.2300us         3  1.7430us     422ns  4.1750us  cuDeviceGetCount
+  0.00%  4.5100us         3  1.5030us     917ns  2.0550us  cudaConfigureCall
+  0.00%  1.5540us         3     518ns     309ns     780ns  cuDeviceGet
+--------------------------------
+### run 73
+==52441== NVPROF is profiling process 52441, command: ./gconv3
+==52441== Profiling application: ./gconv3
+### begin intervals
+[ 0,0:
+    69043.532227
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52441== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.23%  65.833ms         3  21.944ms  3.3993ms  31.262ms  [CUDA memcpy DtoH]
+ 14.77%  11.406ms         2  5.7032ms  2.0160us  11.404ms  [CUDA memcpy HtoD]
+
+==52441== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.02%  831.21ms         5  166.24ms  286.86us  824.91ms  cudaMalloc
+  8.77%  80.057ms         5  16.011ms  27.578us  32.353ms  cudaMemcpy
+  0.13%  1.1437ms         5  228.75us  167.64us  266.83us  cudaFree
+  0.07%  616.82us        95  6.4920us     258ns  222.38us  cuDeviceGetAttribute
+  0.01%  125.35us         1  125.35us  125.35us  125.35us  cuDeviceTotalMem
+  0.01%  45.704us         1  45.704us  45.704us  45.704us  cuDeviceGetName
+  0.00%  27.448us        69     397ns     230ns  6.7780us  cudaSetupArgument
+  0.00%  5.8800us         3  1.9600us  1.0240us  3.3050us  cudaLaunch
+  0.00%  5.4040us         3  1.8010us  1.0580us  2.8330us  cudaConfigureCall
+  0.00%  4.9430us         3  1.6470us     352ns  3.9600us  cuDeviceGetCount
+  0.00%  1.4300us         3     476ns     355ns     612ns  cuDeviceGet
+--------------------------------
+### run 74
+==52453== NVPROF is profiling process 52453, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68850.667969
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52453== Profiling application: ./gconv3
+==52453== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.13%  65.736ms         3  21.912ms  3.3537ms  31.413ms  [CUDA memcpy DtoH]
+ 14.87%  11.487ms         2  5.7433ms  1.7600us  11.485ms  [CUDA memcpy HtoD]
+
+==52453== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.19%  847.04ms         5  169.41ms  276.89us  840.74ms  cudaMalloc
+  8.61%  80.000ms         5  16.000ms  29.196us  32.525ms  cudaMemcpy
+  0.12%  1.1332ms         5  226.64us  171.84us  264.38us  cudaFree
+  0.05%  492.30us        95  5.1820us     253ns  181.33us  cuDeviceGetAttribute
+  0.02%  143.12us         1  143.12us  143.12us  143.12us  cuDeviceTotalMem
+  0.00%  41.524us         1  41.524us  41.524us  41.524us  cuDeviceGetName
+  0.00%  26.177us        69     379ns     228ns  6.4080us  cudaSetupArgument
+  0.00%  5.7530us         3  1.9170us  1.1270us  3.1630us  cudaLaunch
+  0.00%  4.5380us         3  1.5120us     366ns  3.5350us  cuDeviceGetCount
+  0.00%  4.3840us         3  1.4610us  1.1190us  1.7300us  cudaConfigureCall
+  0.00%  1.8790us         3     626ns     367ns     842ns  cuDeviceGet
+--------------------------------
+### run 75
+==52465== NVPROF is profiling process 52465, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69289.445312
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52465== Profiling application: ./gconv3
+==52465== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.00%  65.648ms         3  21.883ms  3.3584ms  31.221ms  [CUDA memcpy DtoH]
+ 15.00%  11.580ms         2  5.7902ms  1.7290us  11.579ms  [CUDA memcpy HtoD]
+
+==52465== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.05%  741.14ms         5  148.23ms  301.50us  734.78ms  cudaMalloc
+  9.72%  79.976ms         5  15.995ms  27.933us  32.287ms  cudaMemcpy
+  0.14%  1.1192ms         5  223.84us  170.94us  256.14us  cudaFree
+  0.06%  533.43us        95  5.6150us     313ns  203.83us  cuDeviceGetAttribute
+  0.02%  160.25us         1  160.25us  160.25us  160.25us  cuDeviceTotalMem
+  0.01%  46.529us         1  46.529us  46.529us  46.529us  cuDeviceGetName
+  0.00%  26.232us        69     380ns     228ns  6.2660us  cudaSetupArgument
+  0.00%  5.7650us         3  1.9210us  1.1180us  3.1950us  cudaLaunch
+  0.00%  4.7000us         3  1.5660us     312ns  3.6980us  cuDeviceGetCount
+  0.00%  4.5020us         3  1.5000us     877ns  2.1010us  cudaConfigureCall
+  0.00%  1.6570us         3     552ns     429ns     620ns  cuDeviceGet
+--------------------------------
+### run 76
+==52478== NVPROF is profiling process 52478, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68993.792969
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52478== Profiling application: ./gconv3
+==52478== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.12%  65.759ms         3  21.920ms  3.3859ms  31.205ms  [CUDA memcpy DtoH]
+ 14.88%  11.492ms         2  5.7461ms  1.7280us  11.490ms  [CUDA memcpy HtoD]
+
+==52478== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.05%  832.85ms         5  166.57ms  284.33us  826.55ms  cudaMalloc
+  8.75%  80.016ms         5  16.003ms  29.766us  32.289ms  cudaMemcpy
+  0.12%  1.1285ms         5  225.69us  169.89us  259.90us  cudaFree
+  0.05%  469.11us        95  4.9370us     253ns  182.02us  cuDeviceGetAttribute
+  0.01%  119.41us         1  119.41us  119.41us  119.41us  cuDeviceTotalMem
+  0.01%  49.182us         1  49.182us  49.182us  49.182us  cuDeviceGetName
+  0.00%  26.114us        69     378ns     228ns  6.7860us  cudaSetupArgument
+  0.00%  6.1050us         3  2.0350us  1.0740us  3.4120us  cudaLaunch
+  0.00%  4.6970us         3  1.5650us     346ns  3.6880us  cuDeviceGetCount
+  0.00%  4.1990us         3  1.3990us     873ns  1.9380us  cudaConfigureCall
+  0.00%  1.6730us         3     557ns     304ns     952ns  cuDeviceGet
+--------------------------------
+### run 77
+==52490== NVPROF is profiling process 52490, command: ./gconv3
+==52490== ### begin intervals
+[ 0,0:
+    68761.119141
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+Profiling application: ./gconv3
+==52490== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.32%  66.034ms         3  22.011ms  3.3526ms  31.538ms  [CUDA memcpy DtoH]
+ 14.68%  11.365ms         2  5.6826ms  1.7280us  11.363ms  [CUDA memcpy HtoD]
+
+==52490== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.91%  820.40ms         5  164.08ms  289.36us  814.10ms  cudaMalloc
+  8.89%  80.177ms         5  16.035ms  26.457us  32.650ms  cudaMemcpy
+  0.12%  1.1250ms         5  225.00us  170.46us  258.60us  cudaFree
+  0.05%  477.39us        95  5.0250us     254ns  182.71us  cuDeviceGetAttribute
+  0.01%  120.39us         1  120.39us  120.39us  120.39us  cuDeviceTotalMem
+  0.00%  42.179us         1  42.179us  42.179us  42.179us  cuDeviceGetName
+  0.00%  26.775us        69     388ns     229ns  6.6120us  cudaSetupArgument
+  0.00%  5.7260us         3  1.9080us  1.0960us  3.1540us  cudaLaunch
+  0.00%  5.4260us         3  1.8080us     466ns  4.3340us  cuDeviceGetCount
+  0.00%  4.3880us         3  1.4620us     955ns  1.9870us  cudaConfigureCall
+  0.00%  1.7130us         3     571ns     327ns     740ns  cuDeviceGet
+--------------------------------
+### run 78
+==52505== NVPROF is profiling process 52505, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69176.997070
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52505== Profiling application: ./gconv3
+==52505== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.16%  65.893ms         3  21.964ms  3.3463ms  31.319ms  [CUDA memcpy DtoH]
+ 14.84%  11.482ms         2  5.7408ms  1.7600us  11.480ms  [CUDA memcpy HtoD]
+
+==52505== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 88.56%  634.89ms         5  126.98ms  279.17us  628.56ms  cudaMalloc
+ 11.18%  80.156ms         5  16.031ms  28.876us  32.414ms  cudaMemcpy
+  0.16%  1.1389ms         5  227.77us  170.12us  267.45us  cudaFree
+  0.07%  526.34us        95  5.5400us     257ns  204.03us  cuDeviceGetAttribute
+  0.02%  138.00us         1  138.00us  138.00us  138.00us  cuDeviceTotalMem
+  0.01%  45.211us         1  45.211us  45.211us  45.211us  cuDeviceGetName
+  0.00%  26.966us        69     390ns     229ns  6.5970us  cudaSetupArgument
+  0.00%  5.8480us         3  1.9490us  1.0960us  3.2970us  cudaLaunch
+  0.00%  5.1960us         3  1.7320us     452ns  4.1640us  cuDeviceGetCount
+  0.00%  4.0370us         3  1.3450us     874ns  1.7450us  cudaConfigureCall
+  0.00%  1.7630us         3     587ns     335ns     733ns  cuDeviceGet
+--------------------------------
+### run 79
+==52517== NVPROF is profiling process 52517, command: ./gconv3
+### begin intervals
+[ 0,0:
+    86082.103516
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52517== Profiling application: ./gconv3
+==52517== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 72.88%  70.389ms         3  23.463ms  3.5799ms  33.410ms  [CUDA memcpy DtoH]
+ 27.12%  26.197ms         2  13.098ms  1.7600us  26.195ms  [CUDA memcpy HtoD]
+
+==52517== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 87.09%  680.98ms         5  136.20ms  286.79us  674.64ms  cudaMalloc
+ 12.66%  98.967ms         5  19.793ms  37.157us  34.461ms  cudaMemcpy
+  0.15%  1.2092ms         5  241.83us  180.42us  280.24us  cudaFree
+  0.07%  528.71us        95  5.5650us     254ns  214.88us  cuDeviceGetAttribute
+  0.02%  147.93us         1  147.93us  147.93us  147.93us  cuDeviceTotalMem
+  0.01%  79.552us         1  79.552us  79.552us  79.552us  cuDeviceGetName
+  0.00%  27.827us        69     403ns     226ns  7.3940us  cudaSetupArgument
+  0.00%  7.1120us         3  2.3700us  1.1700us  4.0680us  cudaLaunch
+  0.00%  5.5200us         3  1.8400us     822ns  2.6790us  cudaConfigureCall
+  0.00%  5.3410us         3  1.7800us     418ns  4.1380us  cuDeviceGetCount
+  0.00%  1.7090us         3     569ns     379ns     695ns  cuDeviceGet
+--------------------------------
+### run 80
+==52529== NVPROF is profiling process 52529, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68810.396484
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52529== Profiling application: ./gconv3
+==52529== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.15%  65.702ms         3  21.901ms  3.3526ms  31.216ms  [CUDA memcpy DtoH]
+ 14.85%  11.461ms         2  5.7307ms  1.7280us  11.460ms  [CUDA memcpy HtoD]
+
+==52529== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.13%  840.58ms         5  168.12ms  280.10us  834.28ms  cudaMalloc
+  8.66%  79.910ms         5  15.982ms  27.028us  32.312ms  cudaMemcpy
+  0.12%  1.1399ms         5  227.97us  168.57us  266.59us  cudaFree
+  0.06%  537.50us        95  5.6570us     312ns  210.71us  cuDeviceGetAttribute
+  0.02%  147.57us         1  147.57us  147.57us  147.57us  cuDeviceTotalMem
+  0.01%  46.824us         1  46.824us  46.824us  46.824us  cuDeviceGetName
+  0.00%  26.076us        69     377ns     228ns  6.2020us  cudaSetupArgument
+  0.00%  6.4460us         3  2.1480us  1.4250us  3.2380us  cudaLaunch
+  0.00%  5.1170us         3  1.7050us     461ns  3.8400us  cuDeviceGetCount
+  0.00%  4.2130us         3  1.4040us  1.1150us  1.7190us  cudaConfigureCall
+  0.00%  1.5420us         3     514ns     358ns     595ns  cuDeviceGet
+--------------------------------
+### run 81
+==52541== NVPROF is profiling process 52541, command: ./gconv3
+### begin intervals
+[ 0,0:
+    71477.695312
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52541== Profiling application: ./gconv3
+==52541== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 86.15%  71.160ms         3  23.720ms  4.0644ms  33.732ms  [CUDA memcpy DtoH]
+ 13.85%  11.444ms         2  5.7219ms  1.7290us  11.442ms  [CUDA memcpy HtoD]
+
+==52541== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 89.13%  716.85ms         5  143.37ms  276.62us  710.54ms  cudaMalloc
+ 10.63%  85.461ms         5  17.092ms  29.212us  34.772ms  cudaMemcpy
+  0.14%  1.1447ms         5  228.94us  180.27us  263.02us  cudaFree
+  0.07%  557.68us        95  5.8700us     303ns  232.84us  cuDeviceGetAttribute
+  0.02%  156.07us         1  156.07us  156.07us  156.07us  cuDeviceTotalMem
+  0.01%  41.991us         1  41.991us  41.991us  41.991us  cuDeviceGetName
+  0.00%  25.426us        69     368ns     228ns  6.3030us  cudaSetupArgument
+  0.00%  5.7930us         3  1.9310us  1.0880us  3.3800us  cudaLaunch
+  0.00%  5.1360us         3  1.7120us     363ns  4.1270us  cuDeviceGetCount
+  0.00%  4.3720us         3  1.4570us  1.0030us  1.9520us  cudaConfigureCall
+  0.00%  1.3620us         3     454ns     313ns     643ns  cuDeviceGet
+--------------------------------
+### run 82
+==52553== NVPROF is profiling process 52553, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69155.324219
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52553== Profiling application: ./gconv3
+==52553== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.21%  66.005ms         3  22.002ms  3.4158ms  31.327ms  [CUDA memcpy DtoH]
+ 14.79%  11.457ms         2  5.7286ms  1.7280us  11.455ms  [CUDA memcpy HtoD]
+
+==52553== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.20%  850.86ms         5  170.17ms  278.85us  844.57ms  cudaMalloc
+  8.60%  80.230ms         5  16.046ms  27.462us  32.418ms  cudaMemcpy
+  0.12%  1.1391ms         5  227.81us  174.57us  263.71us  cudaFree
+  0.05%  477.94us        95  5.0300us     250ns  179.52us  cuDeviceGetAttribute
+  0.01%  118.78us         1  118.78us  118.78us  118.78us  cuDeviceTotalMem
+  0.01%  48.485us         1  48.485us  48.485us  48.485us  cuDeviceGetName
+  0.00%  24.791us        69     359ns     226ns  6.3510us  cudaSetupArgument
+  0.00%  5.9080us         3  1.9690us     409ns  4.8900us  cuDeviceGetCount
+  0.00%  5.4940us         3  1.8310us  1.0630us  3.0220us  cudaLaunch
+  0.00%  4.9630us         3  1.6540us     965ns  2.4840us  cudaConfigureCall
+  0.00%  1.5270us         3     509ns     329ns     631ns  cuDeviceGet
+--------------------------------
+### run 83
+==52565== NVPROF is profiling process 52565, command: ./gconv3
+### begin intervals
+[ 0,0:
+    71727.082031
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52565== Profiling application: ./gconv3
+==52565== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 86.15%  71.346ms         3  23.782ms  4.0715ms  33.843ms  [CUDA memcpy DtoH]
+ 13.85%  11.467ms         2  5.7336ms  1.7280us  11.465ms  [CUDA memcpy HtoD]
+
+==52565== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 88.87%  698.98ms         5  139.80ms  280.60us  692.64ms  cudaMalloc
+ 10.89%  85.687ms         5  17.137ms  28.011us  34.897ms  cudaMemcpy
+  0.15%  1.1586ms         5  231.71us  172.89us  276.53us  cudaFree
+  0.06%  471.31us        95  4.9610us     252ns  182.56us  cuDeviceGetAttribute
+  0.02%  119.51us         1  119.51us  119.51us  119.51us  cuDeviceTotalMem
+  0.01%  48.672us         1  48.672us  48.672us  48.672us  cuDeviceGetName
+  0.00%  24.894us        69     360ns     229ns  6.2800us  cudaSetupArgument
+  0.00%  5.7320us         3  1.9100us  1.2110us  3.1440us  cudaLaunch
+  0.00%  4.7990us         3  1.5990us     375ns  3.7720us  cuDeviceGetCount
+  0.00%  4.1530us         3  1.3840us     923ns  1.7960us  cudaConfigureCall
+  0.00%  1.4840us         3     494ns     350ns     731ns  cuDeviceGet
+--------------------------------
+### run 84
+==52578== NVPROF is profiling process 52578, command: ./gconv3
+### begin intervals
+[ 0,0:
+    86038.008789
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52578== Profiling application: ./gconv3
+==52578== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 72.71%  70.188ms         3  23.396ms  3.5412ms  33.384ms  [CUDA memcpy DtoH]
+ 27.29%  26.349ms         2  13.174ms  1.7280us  26.347ms  [CUDA memcpy HtoD]
+
+==52578== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 87.00%  674.88ms         5  134.98ms  294.26us  668.56ms  cudaMalloc
+ 12.76%  98.960ms         5  19.792ms  37.752us  34.396ms  cudaMemcpy
+  0.15%  1.1745ms         5  234.89us  177.79us  274.41us  cudaFree
+  0.06%  481.05us        95  5.0630us     254ns  186.38us  cuDeviceGetAttribute
+  0.02%  131.10us         1  131.10us  131.10us  131.10us  cuDeviceTotalMem
+  0.01%  42.937us         1  42.937us  42.937us  42.937us  cuDeviceGetName
+  0.00%  28.070us        69     406ns     222ns  7.6250us  cudaSetupArgument
+  0.00%  7.4180us         3  2.4720us  1.2640us  4.1670us  cudaLaunch
+  0.00%  5.8520us         3  1.9500us  1.0560us  2.4430us  cudaConfigureCall
+  0.00%  5.0080us         3  1.6690us     349ns  4.0260us  cuDeviceGetCount
+  0.00%  1.4850us         3     495ns     304ns     649ns  cuDeviceGet
+--------------------------------
+### run 85
+==52590== NVPROF is profiling process 52590, command: ./gconv3
+### begin intervals
+[ 0,0:
+    90836.707031
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52590== Profiling application: ./gconv3
+==52590== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 71.35%  74.103ms         3  24.701ms  4.2869ms  34.994ms  [CUDA memcpy DtoH]
+ 28.65%  29.751ms         2  14.875ms  1.7600us  29.749ms  [CUDA memcpy HtoD]
+
+==52590== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 86.23%  681.18ms         5  136.24ms  273.39us  674.80ms  cudaMalloc
+ 13.51%  106.76ms         5  21.351ms  29.690us  36.217ms  cudaMemcpy
+  0.15%  1.1814ms         5  236.28us  172.17us  289.78us  cudaFree
+  0.07%  569.07us        95  5.9900us     315ns  238.73us  cuDeviceGetAttribute
+  0.02%  146.39us         1  146.39us  146.39us  146.39us  cuDeviceTotalMem
+  0.01%  50.311us         1  50.311us  50.311us  50.311us  cuDeviceGetName
+  0.00%  27.529us        69     398ns     230ns  6.7990us  cudaSetupArgument
+  0.00%  7.3390us         3  2.4460us  1.8820us  3.4700us  cudaLaunch
+  0.00%  4.7510us         3  1.5830us  1.3360us  1.8140us  cudaConfigureCall
+  0.00%  4.6870us         3  1.5620us     343ns  3.5830us  cuDeviceGetCount
+  0.00%  2.2150us         3     738ns     428ns  1.0360us  cuDeviceGet
+--------------------------------
+### run 86
+==52602== NVPROF is profiling process 52602, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68887.599609
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52602== Profiling application: ./gconv3
+==52602== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.13%  65.536ms         3  21.845ms  3.3984ms  31.140ms  [CUDA memcpy DtoH]
+ 14.87%  11.452ms         2  5.7258ms  1.7280us  11.450ms  [CUDA memcpy HtoD]
+
+==52602== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.03%  828.71ms         5  165.74ms  290.84us  822.41ms  cudaMalloc
+  8.76%  79.717ms         5  15.943ms  27.107us  32.215ms  cudaMemcpy
+  0.13%  1.1454ms         5  229.09us  173.01us  264.82us  cudaFree
+  0.06%  571.12us        95  6.0110us     310ns  226.59us  cuDeviceGetAttribute
+  0.02%  146.90us         1  146.90us  146.90us  146.90us  cuDeviceTotalMem
+  0.01%  51.576us         1  51.576us  51.576us  51.576us  cuDeviceGetName
+  0.00%  26.934us        69     390ns     229ns  6.6460us  cudaSetupArgument
+  0.00%  7.6570us         3  2.5520us     453ns  4.1730us  cuDeviceGetCount
+  0.00%  6.2630us         3  2.0870us  1.4850us  3.2120us  cudaLaunch
+  0.00%  4.8190us         3  1.6060us  1.0240us  2.2620us  cudaConfigureCall
+  0.00%  1.9520us         3     650ns     420ns     872ns  cuDeviceGet
+--------------------------------
+### run 87
+==52614== NVPROF is profiling process 52614, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68823.872070
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52614== Profiling application: ./gconv3
+==52614== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.28%  66.117ms         3  22.039ms  3.3880ms  31.457ms  [CUDA memcpy DtoH]
+ 14.72%  11.411ms         2  5.7055ms  1.7280us  11.409ms  [CUDA memcpy HtoD]
+
+==52614== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.03%  834.56ms         5  166.91ms  278.13us  828.27ms  cudaMalloc
+  8.76%  80.295ms         5  16.059ms  28.993us  32.569ms  cudaMemcpy
+  0.13%  1.1772ms         5  235.43us  168.32us  283.96us  cudaFree
+  0.06%  579.44us        95  6.0990us     252ns  240.00us  cuDeviceGetAttribute
+  0.01%  123.14us         1  123.14us  123.14us  123.14us  cuDeviceTotalMem
+  0.01%  56.656us         1  56.656us  56.656us  56.656us  cuDeviceGetName
+  0.00%  26.718us        69     387ns     227ns  6.6820us  cudaSetupArgument
+  0.00%  6.0610us         3  2.0200us  1.0970us  3.5170us  cudaLaunch
+  0.00%  5.4230us         3  1.8070us     455ns  4.2320us  cuDeviceGetCount
+  0.00%  4.7170us         3  1.5720us  1.3960us  1.7490us  cudaConfigureCall
+  0.00%  1.8600us         3     620ns     403ns     750ns  cuDeviceGet
+--------------------------------
+### run 88
+==52626== NVPROF is profiling process 52626, command: ./gconv3
+==52626== ### begin intervals
+[ 0,0:
+    71543.778320
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+Profiling application: ./gconv3
+==52626== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 86.10%  71.011ms         3  23.670ms  4.0595ms  33.654ms  [CUDA memcpy DtoH]
+ 13.90%  11.461ms         2  5.7307ms  1.7600us  11.460ms  [CUDA memcpy HtoD]
+
+==52626== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 88.47%  669.60ms         5  133.92ms  273.31us  663.29ms  cudaMalloc
+ 11.28%  85.345ms         5  17.069ms  27.981us  34.702ms  cudaMemcpy
+  0.15%  1.1489ms         5  229.78us  171.72us  271.05us  cudaFree
+  0.07%  527.97us        95  5.5570us     317ns  210.51us  cuDeviceGetAttribute
+  0.02%  145.70us         1  145.70us  145.70us  145.70us  cuDeviceTotalMem
+  0.01%  53.120us         1  53.120us  53.120us  53.120us  cuDeviceGetName
+  0.00%  24.738us        69     358ns     230ns  6.1950us  cudaSetupArgument
+  0.00%  6.6000us         3  2.2000us     464ns  5.3470us  cuDeviceGetCount
+  0.00%  5.7190us         3  1.9060us  1.1440us  3.0220us  cudaLaunch
+  0.00%  4.5860us         3  1.5280us  1.4260us  1.6970us  cudaConfigureCall
+  0.00%  1.5090us         3     503ns     390ns     626ns  cuDeviceGet
+--------------------------------
+### run 89
+==52638== NVPROF is profiling process 52638, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69100.998047
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52638== Profiling application: ./gconv3
+==52638== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.19%  66.048ms         3  22.016ms  3.3928ms  31.347ms  [CUDA memcpy DtoH]
+ 14.81%  11.480ms         2  5.7402ms  1.7280us  11.479ms  [CUDA memcpy HtoD]
+
+==52638== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 88.42%  627.03ms         5  125.41ms  317.87us  620.63ms  cudaMalloc
+ 11.32%  80.277ms         5  16.055ms  27.937us  32.433ms  cudaMemcpy
+  0.16%  1.1369ms         5  227.37us  170.77us  268.24us  cudaFree
+  0.07%  497.62us        95  5.2380us     250ns  198.91us  cuDeviceGetAttribute
+  0.02%  120.17us         1  120.17us  120.17us  120.17us  cuDeviceTotalMem
+  0.01%  41.737us         1  41.737us  41.737us  41.737us  cuDeviceGetName
+  0.00%  26.986us        69     391ns     227ns  6.3790us  cudaSetupArgument
+  0.00%  5.7510us         3  1.9170us  1.0630us  3.2170us  cudaLaunch
+  0.00%  5.2170us         3  1.7390us     449ns  4.1120us  cuDeviceGetCount
+  0.00%  4.0750us         3  1.3580us  1.0410us  1.6540us  cudaConfigureCall
+  0.00%  1.7310us         3     577ns     383ns     718ns  cuDeviceGet
+--------------------------------
+### run 90
+==52650== NVPROF is profiling process 52650, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68897.516602
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52650== Profiling application: ./gconv3
+==52650== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.14%  65.620ms         3  21.873ms  3.3417ms  31.151ms  [CUDA memcpy DtoH]
+ 14.86%  11.453ms         2  5.7263ms  1.7600us  11.451ms  [CUDA memcpy HtoD]
+
+==52650== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.02%  736.36ms         5  147.27ms  310.53us  730.00ms  cudaMalloc
+  9.76%  79.844ms         5  15.969ms  28.310us  32.235ms  cudaMemcpy
+  0.14%  1.1396ms         5  227.92us  168.51us  274.03us  cudaFree
+  0.06%  473.12us        95  4.9800us     254ns  191.40us  cuDeviceGetAttribute
+  0.01%  119.13us         1  119.13us  119.13us  119.13us  cuDeviceTotalMem
+  0.01%  48.263us         1  48.263us  48.263us  48.263us  cuDeviceGetName
+  0.00%  25.266us        69     366ns     228ns  6.5210us  cudaSetupArgument
+  0.00%  5.5840us         3  1.8610us  1.1900us  3.0890us  cudaLaunch
+  0.00%  5.2420us         3  1.7470us     406ns  4.1770us  cuDeviceGetCount
+  0.00%  4.8860us         3  1.6280us  1.0390us  2.4810us  cudaConfigureCall
+  0.00%  1.5960us         3     532ns     308ns     789ns  cuDeviceGet
+--------------------------------
+### run 91
+==52662== NVPROF is profiling process 52662, command: ./gconv3
+### begin intervals
+[ 0,0:
+    71639.083008
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52662== Profiling application: ./gconv3
+==52662== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 86.07%  71.104ms         3  23.701ms  4.0684ms  33.797ms  [CUDA memcpy DtoH]
+ 13.93%  11.506ms         2  5.7530ms  1.7280us  11.504ms  [CUDA memcpy HtoD]
+
+==52662== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 89.42%  738.47ms         5  147.69ms  281.09us  732.17ms  cudaMalloc
+ 10.35%  85.517ms         5  17.103ms  29.172us  34.862ms  cudaMemcpy
+  0.14%  1.1449ms         5  228.99us  173.08us  264.13us  cudaFree
+  0.06%  486.48us        95  5.1200us     250ns  187.04us  cuDeviceGetAttribute
+  0.02%  141.90us         1  141.90us  141.90us  141.90us  cuDeviceTotalMem
+  0.01%  57.860us         1  57.860us  57.860us  57.860us  cuDeviceGetName
+  0.00%  25.060us        69     363ns     225ns  6.3730us  cudaSetupArgument
+  0.00%  5.5810us         3  1.8600us  1.0790us  3.0700us  cudaLaunch
+  0.00%  5.0560us         3  1.6850us     348ns  3.9640us  cuDeviceGetCount
+  0.00%  4.8310us         3  1.6100us     976ns  2.4260us  cudaConfigureCall
+  0.00%  1.4710us         3     490ns     333ns     722ns  cuDeviceGet
+--------------------------------
+### run 92
+==52674== NVPROF is profiling process 52674, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68964.625000
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52674== Profiling application: ./gconv3
+==52674== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.24%  66.003ms         3  22.001ms  3.4499ms  31.319ms  [CUDA memcpy DtoH]
+ 14.76%  11.433ms         2  5.7167ms  1.7600us  11.432ms  [CUDA memcpy HtoD]
+
+==52674== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.01%  830.76ms         5  166.15ms  279.55us  824.44ms  cudaMalloc
+  8.79%  80.257ms         5  16.051ms  28.372us  32.440ms  cudaMemcpy
+  0.12%  1.1222ms         5  224.44us  173.17us  256.90us  cudaFree
+  0.05%  468.61us        95  4.9320us     253ns  185.60us  cuDeviceGetAttribute
+  0.01%  118.65us         1  118.65us  118.65us  118.65us  cuDeviceTotalMem
+  0.01%  49.313us         1  49.313us  49.313us  49.313us  cuDeviceGetName
+  0.00%  25.256us        69     366ns     219ns  6.2580us  cudaSetupArgument
+  0.00%  5.9530us         3  1.9840us  1.1980us  3.2290us  cudaLaunch
+  0.00%  5.2880us         3  1.7620us     381ns  4.2600us  cuDeviceGetCount
+  0.00%  4.2870us         3  1.4290us     948ns  1.9570us  cudaConfigureCall
+  0.00%  1.5110us         3     503ns     317ns     706ns  cuDeviceGet
+--------------------------------
+### run 93
+==52686== NVPROF is profiling process 52686, command: ./gconv3
+### begin intervals
+[ 0,0:
+    71434.272461
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52686== Profiling application: ./gconv3
+==52686== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 86.18%  71.329ms         3  23.776ms  4.1188ms  33.784ms  [CUDA memcpy DtoH]
+ 13.82%  11.437ms         2  5.7187ms  1.7920us  11.436ms  [CUDA memcpy HtoD]
+
+==52686== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 87.53%  614.13ms         5  122.83ms  279.58us  607.81ms  cudaMalloc
+ 12.21%  85.649ms         5  17.130ms  29.230us  34.842ms  cudaMemcpy
+  0.16%  1.1427ms         5  228.54us  170.93us  265.82us  cudaFree
+  0.07%  521.89us        95  5.4930us     256ns  202.65us  cuDeviceGetAttribute
+  0.02%  122.92us         1  122.92us  122.92us  122.92us  cuDeviceTotalMem
+  0.01%  46.937us         1  46.937us  46.937us  46.937us  cuDeviceGetName
+  0.00%  27.024us        69     391ns     228ns  6.7000us  cudaSetupArgument
+  0.00%  6.0000us         3  2.0000us  1.0430us  3.4650us  cudaLaunch
+  0.00%  5.2140us         3  1.7380us     436ns  4.2030us  cuDeviceGetCount
+  0.00%  4.3010us         3  1.4330us     896ns  1.8860us  cudaConfigureCall
+  0.00%  1.6290us         3     543ns     325ns     683ns  cuDeviceGet
+--------------------------------
+### run 94
+==52698== NVPROF is profiling process 52698, command: ./gconv3
+### begin intervals
+[ 0,0:
+    90256.220703
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52698== Profiling application: ./gconv3
+==52698== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 71.48%  73.727ms         3  24.575ms  4.2558ms  34.874ms  [CUDA memcpy DtoH]
+ 28.52%  29.419ms         2  14.710ms  1.7600us  29.418ms  [CUDA memcpy HtoD]
+
+==52698== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 86.54%  693.20ms         5  138.64ms  272.80us  686.84ms  cudaMalloc
+ 13.23%  105.98ms         5  21.195ms  28.944us  36.063ms  cudaMemcpy
+  0.14%  1.1400ms         5  228.01us  172.40us  264.49us  cudaFree
+  0.06%  484.02us        95  5.0940us     253ns  190.89us  cuDeviceGetAttribute
+  0.01%  119.64us         1  119.64us  119.64us  119.64us  cuDeviceTotalMem
+  0.01%  48.426us         1  48.426us  48.426us  48.426us  cuDeviceGetName
+  0.00%  25.345us        69     367ns     229ns  6.2380us  cudaSetupArgument
+  0.00%  5.9090us         3  1.9690us  1.0790us  3.5290us  cudaLaunch
+  0.00%  5.8420us         3  1.9470us     421ns  4.7910us  cuDeviceGetCount
+  0.00%  3.7880us         3  1.2620us     866ns  1.5480us  cudaConfigureCall
+  0.00%  1.6640us         3     554ns     314ns     853ns  cuDeviceGet
+--------------------------------
+### run 95
+==52791== NVPROF is profiling process 52791, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68821.006836
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52791== Profiling application: ./gconv3
+==52791== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.10%  65.447ms         3  21.816ms  3.3859ms  31.200ms  [CUDA memcpy DtoH]
+ 14.90%  11.460ms         2  5.7300ms  1.7280us  11.458ms  [CUDA memcpy HtoD]
+
+==52791== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.55%  781.89ms         5  156.38ms  301.35us  775.52ms  cudaMalloc
+  9.23%  79.679ms         5  15.936ms  28.025us  32.319ms  cudaMemcpy
+  0.13%  1.1304ms         5  226.08us  170.48us  263.27us  cudaFree
+  0.07%  591.00us        95  6.2210us     254ns  238.86us  cuDeviceGetAttribute
+  0.02%  145.37us         1  145.37us  145.37us  145.37us  cuDeviceTotalMem
+  0.01%  48.660us         1  48.660us  48.660us  48.660us  cuDeviceGetName
+  0.00%  27.937us        69     404ns     228ns  6.8580us  cudaSetupArgument
+  0.00%  5.9790us         3  1.9930us  1.3500us  3.2770us  cudaLaunch
+  0.00%  5.4920us         3  1.8300us     344ns  4.1610us  cuDeviceGetCount
+  0.00%  4.5720us         3  1.5240us  1.1110us  1.8060us  cudaConfigureCall
+  0.00%  1.8160us         3     605ns     437ns     767ns  cuDeviceGet
+--------------------------------
+### run 96
+==52810== NVPROF is profiling process 52810, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68834.122070
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52810== Profiling application: ./gconv3
+==52810== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.21%  65.654ms         3  21.885ms  3.4784ms  31.139ms  [CUDA memcpy DtoH]
+ 14.79%  11.396ms         2  5.6982ms  1.7600us  11.395ms  [CUDA memcpy HtoD]
+
+==52810== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.75%  800.96ms         5  160.19ms  310.26us  794.61ms  cudaMalloc
+  9.04%  79.805ms         5  15.961ms  28.243us  32.236ms  cudaMemcpy
+  0.13%  1.1259ms         5  225.17us  168.58us  259.04us  cudaFree
+  0.05%  460.85us        95  4.8510us     252ns  173.67us  cuDeviceGetAttribute
+  0.01%  119.06us         1  119.06us  119.06us  119.06us  cuDeviceTotalMem
+  0.01%  49.313us         1  49.313us  49.313us  49.313us  cuDeviceGetName
+  0.00%  25.077us        69     363ns     223ns  6.4050us  cudaSetupArgument
+  0.00%  5.7530us         3  1.9170us  1.0250us  3.0880us  cudaLaunch
+  0.00%  4.8630us         3  1.6210us     350ns  3.9450us  cuDeviceGetCount
+  0.00%  3.9590us         3  1.3190us     908ns  1.6030us  cudaConfigureCall
+  0.00%  1.5560us         3     518ns     319ns     710ns  cuDeviceGet
+--------------------------------
+### run 97
+==52825== NVPROF is profiling process 52825, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69019.993164
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52825== Profiling application: ./gconv3
+==52825== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.20%  65.877ms         3  21.959ms  3.3961ms  31.284ms  [CUDA memcpy DtoH]
+ 14.80%  11.445ms         2  5.7226ms  1.7280us  11.443ms  [CUDA memcpy HtoD]
+
+==52825== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 90.89%  818.59ms         5  163.72ms  282.72us  812.30ms  cudaMalloc
+  8.89%  80.104ms         5  16.021ms  27.822us  32.395ms  cudaMemcpy
+  0.13%  1.1526ms         5  230.52us  170.00us  267.86us  cudaFree
+  0.06%  573.02us        95  6.0310us     268ns  219.51us  cuDeviceGetAttribute
+  0.02%  143.61us         1  143.61us  143.61us  143.61us  cuDeviceTotalMem
+  0.01%  45.194us         1  45.194us  45.194us  45.194us  cuDeviceGetName
+  0.00%  29.579us        69     428ns     227ns  8.0180us  cudaSetupArgument
+  0.00%  5.7800us         3  1.9260us  1.0690us  3.1640us  cudaLaunch
+  0.00%  5.6550us         3  1.8850us     434ns  4.5730us  cuDeviceGetCount
+  0.00%  4.9440us         3  1.6480us  1.1060us  1.9900us  cudaConfigureCall
+  0.00%  1.5480us         3     516ns     317ns     642ns  cuDeviceGet
+--------------------------------
+### run 98
+==52837== NVPROF is profiling process 52837, command: ./gconv3
+### begin intervals
+[ 0,0:
+    71844.923828
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52837== Profiling application: ./gconv3
+==52837== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 86.26%  71.380ms         3  23.793ms  4.0763ms  33.969ms  [CUDA memcpy DtoH]
+ 13.74%  11.372ms         2  5.6859ms  1.7280us  11.370ms  [CUDA memcpy HtoD]
+
+==52837== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 87.67%  622.91ms         5  124.58ms  276.83us  616.59ms  cudaMalloc
+ 12.05%  85.626ms         5  17.125ms  28.299us  35.039ms  cudaMemcpy
+  0.16%  1.1429ms         5  228.57us  174.36us  266.06us  cudaFree
+  0.08%  554.93us        95  5.8410us     253ns  217.48us  cuDeviceGetAttribute
+  0.02%  175.23us         1  175.23us  175.23us  175.23us  cuDeviceTotalMem
+  0.01%  45.998us         1  45.998us  45.998us  45.998us  cuDeviceGetName
+  0.00%  26.586us        69     385ns     222ns  6.3070us  cudaSetupArgument
+  0.00%  6.0910us         3  2.0300us  1.0540us  3.5250us  cudaLaunch
+  0.00%  5.5630us         3  1.8540us     417ns  4.4750us  cuDeviceGetCount
+  0.00%  3.9630us         3  1.3210us  1.0030us  1.5330us  cudaConfigureCall
+  0.00%  1.8750us         3     625ns     399ns     785ns  cuDeviceGet
+--------------------------------
+### run 99
+==52849== NVPROF is profiling process 52849, command: ./gconv3
+### begin intervals
+[ 0,0:
+    69253.821289
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52849== Profiling application: ./gconv3
+==52849== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.16%  65.624ms         3  21.875ms  3.3433ms  31.391ms  [CUDA memcpy DtoH]
+ 14.84%  11.432ms         2  5.7159ms  1.7600us  11.430ms  [CUDA memcpy HtoD]
+
+==52849== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 91.00%  825.30ms         5  165.06ms  300.05us  818.94ms  cudaMalloc
+  8.80%  79.788ms         5  15.958ms  26.700us  32.464ms  cudaMemcpy
+  0.12%  1.1305ms         5  226.10us  166.58us  266.77us  cudaFree
+  0.05%  485.34us        95  5.1080us     252ns  182.14us  cuDeviceGetAttribute
+  0.01%  119.19us         1  119.19us  119.19us  119.19us  cuDeviceTotalMem
+  0.01%  48.349us         1  48.349us  48.349us  48.349us  cuDeviceGetName
+  0.00%  25.474us        69     369ns     225ns  6.1230us  cudaSetupArgument
+  0.00%  6.3290us         3  2.1090us  1.1540us  3.7320us  cudaLaunch
+  0.00%  5.8050us         3  1.9350us     417ns  4.8220us  cuDeviceGetCount
+  0.00%  4.1630us         3  1.3870us     846ns  2.0440us  cudaConfigureCall
+  0.00%  1.4400us         3     480ns     305ns     630ns  cuDeviceGet
+--------------------------------
+### run 100
+==52861== NVPROF is profiling process 52861, command: ./gconv3
+### begin intervals
+[ 0,0:
+    68895.987305
+]
+### begin intervals
+### begin descriptions
+[ 0,0:
+ "0 work us"
+]
+### end descriptions
+==52861== Profiling application: ./gconv3
+==52861== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 85.22%  65.395ms         3  21.798ms  3.3842ms  31.036ms  [CUDA memcpy DtoH]
+ 14.78%  11.343ms         2  5.6713ms  1.8240us  11.341ms  [CUDA memcpy HtoD]
+
+==52861== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 89.62%  701.72ms         5  140.34ms  303.98us  695.37ms  cudaMalloc
+ 10.15%  79.474ms         5  15.895ms  26.210us  32.098ms  cudaMemcpy
+  0.15%  1.1551ms         5  231.02us  170.65us  273.42us  cudaFree
+  0.06%  460.42us        95  4.8460us     261ns  178.08us  cuDeviceGetAttribute
+  0.02%  118.98us         1  118.98us  118.98us  118.98us  cuDeviceTotalMem
+  0.01%  49.021us         1  49.021us  49.021us  49.021us  cuDeviceGetName
+  0.00%  25.210us        69     365ns     227ns  6.2220us  cudaSetupArgument
+  0.00%  9.7920us         3  3.2640us     336ns  8.8420us  cuDeviceGetCount
+  0.00%  5.6370us         3  1.8790us  1.1010us  3.0820us  cudaLaunch
+  0.00%  4.7180us         3  1.5720us  1.1520us  2.1660us  cudaConfigureCall
+  0.00%  1.3640us         3     454ns     300ns     665ns  cuDeviceGet
+--------------------------------

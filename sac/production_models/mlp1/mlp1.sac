@@ -1,0 +1,49 @@
+/*
+name:	 mlp1.sac
+author:	 Kevin Klein
+compile: sac2c -o mlp3 mlp3.sac
+run:	 ./mlp3
+descr.:	 SaC implementation of Tensor Comprehension kernels
+*/
+
+use Array: all;
+use StdIO: all;
+use CommandLine: {argc, argv};
+use String: {string};
+use Benchmarking: all;
+use Random: all;
+
+#define RAND_MAX 2147483647
+
+noinline
+float[.,.] MLP1(float[.,.] I, float[.,.] W1, float[.] B1)
+{
+  B = shape(I)[[0]];
+  O1 = genarray([B], B1);
+  O1 += {[b,n] -> sum({[m] -> I[[b,m]] * W1[[n,m]]})};
+  O1 = max(O1, 0f);
+  return(O1);
+}
+
+
+int main()
+{
+#define K 128
+#define N 32
+#define M 256
+
+  // call MLP1
+  I = genarray([N,M], tof(random(0, RAND_MAX))/tof(RAND_MAX));
+  W1 = genarray([M,K], tof(random(0, RAND_MAX))/tof(RAND_MAX));
+  B1 = genarray([K], tof(random(0, RAND_MAX))/tof(RAND_MAX));
+
+  interval = getInterval("work", 0, 2);
+  start(interval);
+
+  O1 = MLP1(I,W1,B1);
+
+  end(interval);
+  printResult(interval);
+
+  return toi(O1[0,0]);
+}

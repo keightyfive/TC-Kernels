@@ -1,0 +1,47 @@
+/*
+name:	 tbmm.sac
+author:	 Kevin Klein
+compile: sac2c -o tbmm tbmm.sac
+run:	 ./tbmm
+descr.:	 SaC implementation of batch matrix multiply
+*/
+
+use Array: all;
+use StdIO: all;
+use CommandLine: {argc, argv};
+use String: {string};
+use Benchmarking: all;
+use Random: all;
+
+#define RAND_MAX 2147483647
+
+// transposed batch matrix multiply in SaC
+noinline
+float[.,.,.] tbmm(float[.,.,.] X, float[.,.,.] Y)
+{
+	Z = {[b,n,k] -> sum(X[[b,n,.]] * Y[[b,k,.]])};
+	return(Z);
+}
+
+
+int main()
+{
+	// test1: B=500, M=72, K=26, N=26
+	#define B 500
+	#define M 72
+	#define K 26
+	#define N 26
+
+	X = genarray([B,N,M], tof(random(0, RAND_MAX))/tof(RAND_MAX));
+	Y = genarray([B,K,M], tof(random(0, RAND_MAX))/tof(RAND_MAX));
+
+	interval = getInterval("work", 0, 2);
+	start(interval);
+
+  Z = tbmm(X,Y);
+
+	end(interval);
+	printResult(interval);
+
+  return toi(Z[0,0,0]);
+}

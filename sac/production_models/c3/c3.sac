@@ -1,0 +1,47 @@
+/*
+name:	   tmm.sac
+author:	 Kevin Klein
+compile: sac2c -o tmm tmm.sac
+run:	   ./tmm
+descr.:	 SaC implementation of tmm (transposed matrix multiply)
+				 each test should be ran about 1000 times
+*/
+
+use Array: all;
+use StdIO: all;
+use CommandLine: {argc, argv};
+use String: {string};
+use Benchmarking: all;
+use Random: all;
+
+#define RAND_MAX 2147483647
+
+noinline
+float[.,.] C3(float[.,.] A, float[.,.] B)
+{
+	C = {[m,n] -> sum(A[[m,.]] * B[[n,.]])};
+	return(C);
+}
+
+int main()
+{
+	// test1: M=128, K=32, N=256
+	// test2: M=128, K=1024, N=1024
+	// test3: M=128, K=4096, N=16384
+	#define M 1000
+	#define K 1024
+	#define N 1024
+
+	A = genarray([M,K], tof(random(0, RAND_MAX))/tof(RAND_MAX));
+	B = genarray([N,K], tof(random(0, RAND_MAX))/tof(RAND_MAX));
+
+	interval = getInterval("work", 0, 2);
+  start(interval);
+
+	C = C3(A,B);
+
+	end(interval);
+	printResult(interval);
+
+	return toi(C[0,0]);
+}

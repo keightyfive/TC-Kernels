@@ -1,0 +1,63 @@
+/*
+name:	 mlp3.sac
+author:	 Kevin Klein
+compile: sac2c -o mlp3 mlp3.sac
+run:	 ./mlp3
+descr.:	 SaC implementation of Tensor Comprehension kernels
+*/
+
+use Array: all;
+use StdIO: all;
+use CommandLine: {argc, argv};
+use String: {string};
+use Benchmarking: all;
+use Random: all;
+
+#define RAND_MAX 2147483647
+
+noinline
+float[.,.], float[.,.], float[.,.] MLP3(float[.,.] I, float[.,.] W2, float[.] B2,
+float[.,.] O1, float[.,.] W3, float[.] B3, float[.,.] W4, float[.] B4)
+{
+  B = shape(I)[[0]];
+  O2 = genarray([B], B2);
+  O2 += {[b,o] -> sum({[n] -> O1[[b,n]] * W2[[o,n]]})};
+  O2 = max(O2, 0f);
+  O3 = genarray([B], B3);
+  O3 += {[b,p] -> sum({[o] -> O2[[b,o]] * W3[[p,o]]})};
+  O3 = max(O3, 0f);
+  O4 = genarray([B], B4);
+  O4 += {[b,q] -> sum({[p] -> O3[[b,p]] * W4[[q,p]]})};
+  O4 = max(O4, 0f);
+  return(O2, O3, O4);
+}
+
+int main()
+{
+#define B 128 //128
+#define M 32 //32
+#define O 256 //256
+#define N 128 //128
+#define P 1024 //1024
+#define Q 500 //500
+
+  // call MLP3
+  I = genarray([B,M], tof(random(0, RAND_MAX))/tof(RAND_MAX));
+  W2 = genarray([O,N], tof(random(0, RAND_MAX))/tof(RAND_MAX));
+  B2 = genarray([O], tof(random(0, RAND_MAX))/tof(RAND_MAX));
+  O1 = genarray([B,N], tof(random(0, RAND_MAX))/tof(RAND_MAX));
+  W3 = genarray([P,O], tof(random(0, RAND_MAX))/tof(RAND_MAX));
+  B3 = genarray([P], tof(random(0, RAND_MAX))/tof(RAND_MAX));
+  W4 = genarray([Q,P], tof(random(0, RAND_MAX))/tof(RAND_MAX));
+  B4 = genarray([Q], tof(random(0, RAND_MAX))/tof(RAND_MAX));
+
+  interval = getInterval("work", 0, 2);
+  start(interval);
+
+  O1,O2,O3 = MLP3(I,W2,B2,O1,W3,B3,W4,B4);
+
+  end(interval);
+  printResult(interval);
+
+  return toi(O1[0,0] + O2[0,0] + O3[0,0]);
+}
